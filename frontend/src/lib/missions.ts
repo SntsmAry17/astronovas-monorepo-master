@@ -1,5 +1,7 @@
-import type { Assessment, Planet, SubVariable, TerSite } from "./types";
-import { getAssessment } from "./sites";
+import type { MissionAssessment, MissionSite, Planet } from "./types";
+import { getAssessment } from "./format";
+
+type DataVariable = MissionAssessment["categories"][number]["variables"][number];
 
 /**
  * Mission definitions and the exploratory mission-fit scoring.
@@ -144,7 +146,7 @@ export function getMission(id: string): Mission | undefined {
 
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
 
-function flatVariables(assessment: Assessment): SubVariable[] {
+function flatVariables(assessment: MissionAssessment): DataVariable[] {
   return assessment.categories.flatMap((c) => c.variables);
 }
 
@@ -158,7 +160,7 @@ export interface VariableContribution {
 }
 
 export interface MissionResult {
-  site: TerSite;
+  site: MissionSite;
   /** Exploratory mission-fit score 0–100, or null when data is insufficient. */
   score: number | null;
   /** Share of expected mission variables that produced a numeric score (0–1). */
@@ -173,7 +175,7 @@ export interface MissionResult {
  * Computes the exploratory mission-fit ranking for all sites on one planet.
  * Deterministic and reproducible; uses only the documented variable scores.
  */
-export function rankForMission(sites: TerSite[], planet: Planet, mission: Mission): MissionResult[] {
+export function rankForMission(sites: MissionSite[], planet: Planet, mission: Mission): MissionResult[] {
   const results = sites.map((site): MissionResult => {
     const assessment = getAssessment(site, planet);
     const dataVars = flatVariables(assessment);

@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import type { TerSite } from "@/lib/types";
+import { DEFAULT_COLOR } from "@/lib/format";
+import type { GlobeSite } from "@/lib/types";
 
 interface Props {
-  sites: TerSite[];
+  sites: GlobeSite[];
   activeId: string | null;
   onSelect: (id: string) => void;
   /** Accent color for markers. */
@@ -18,16 +19,20 @@ const INITIAL_POV = { lat: 15, lng: -20, altitude: 2.3 };
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type GlobeInstance = any;
 
-export default function Globe({ sites, activeId, onSelect, color = "#38bdf8", zoom = true }: Props) {
+export default function Globe({ sites, activeId, onSelect, color = DEFAULT_COLOR, zoom = true }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const globeRef = useRef<GlobeInstance>(null);
   const onSelectRef = useRef(onSelect);
   const activeRef = useRef(activeId);
+  const colorRef = useRef(color);
+  const zoomRef = useRef(zoom);
   const resumeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   useEffect(() => {
     onSelectRef.current = onSelect;
     activeRef.current = activeId;
-  }, [onSelect, activeId]);
+    colorRef.current = color;
+    zoomRef.current = zoom;
+  }, [onSelect, activeId, color, zoom]);
 
   useEffect(() => {
     const el = containerRef.current;
@@ -47,7 +52,7 @@ export default function Globe({ sites, activeId, onSelect, color = "#38bdf8", zo
         .htmlElementsData(sites)
         .htmlLat("lat")
         .htmlLng("lng")
-        .htmlElement((d: TerSite) => {
+        .htmlElement((d: GlobeSite) => {
           const wrap = document.createElement("div");
           wrap.className = "analog-marker-wrap";
           const btn = document.createElement("button");
@@ -55,7 +60,7 @@ export default function Globe({ sites, activeId, onSelect, color = "#38bdf8", zo
           btn.title = `${d.name} · ${d.country}`;
           btn.setAttribute("aria-label", `${d.name}, ${d.country}`);
           btn.className = "analog-marker";
-          btn.style.setProperty("--c", color);
+          btn.style.setProperty("--c", colorRef.current);
           btn.onclick = () => onSelectRef.current(d.id);
           const label = document.createElement("span");
           label.className = "analog-marker-label";
@@ -67,7 +72,7 @@ export default function Globe({ sites, activeId, onSelect, color = "#38bdf8", zo
           return wrap;
         })
         .ringsData(sites)
-        .ringColor(() => () => color)
+        .ringColor(() => () => colorRef.current)
         .ringMaxRadius(3)
         .ringPropagationSpeed(1.5)
         .ringRepeatPeriod(2200);
@@ -75,7 +80,7 @@ export default function Globe({ sites, activeId, onSelect, color = "#38bdf8", zo
       const controls = globe.controls();
       controls.autoRotate = true;
       controls.autoRotateSpeed = 0.35;
-      controls.enableZoom = zoom;
+      controls.enableZoom = zoomRef.current;
       controls.minDistance = 160;
       controls.maxDistance = 520;
       controls.enablePan = false;
@@ -99,7 +104,7 @@ export default function Globe({ sites, activeId, onSelect, color = "#38bdf8", zo
       if (pending) {
         controls.autoRotate = false;
         globe.pointOfView({ lat: pending.lat, lng: pending.lng, altitude: 1.7 }, 1200);
-        highlightMarker(pending.id);
+        highlightMarker(el, pending.id);
       }
     });
 
@@ -116,24 +121,38 @@ export default function Globe({ sites, activeId, onSelect, color = "#38bdf8", zo
       globeRef.current = null;
       el.innerHTML = "";
     };
-    // sites is a stable module-level array; color changes are cosmetic-only.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // Color and zoom are read through refs and kept in sync by the effects below.
   }, [sites]);
+
+  // Marker and ring color follow the selected planet without rebuilding the globe.
+  useEffect(() => {
+    const globe = globeRef.current;
+    const el = containerRef.current;
+    if (!globe || !el) return;
+    el.querySelectorAll<HTMLElement>(".analog-marker").forEach((m) => m.style.setProperty("--c", color));
+    globe.ringColor(() => () => color);
+  }, [color]);
+
+  useEffect(() => {
+    const globe = globeRef.current;
+    if (globe) globe.controls().enableZoom = zoom;
+  }, [zoom]);
 
   // When a site is activated (marker, list or mission card) the camera travels to it.
   useEffect(() => {
     const globe = globeRef.current;
-    if (!globe) return;
+    const el = containerRef.current;
+    if (!globe || !el) return;
     const site = sites.find((x) => x.id === activeId);
     if (!site) {
       globe.controls().autoRotate = true;
       globe.pointOfView(INITIAL_POV, 1500);
-      highlightMarker(null);
+      highlightMarker(el, null);
       return;
     }
     globe.controls().autoRotate = false;
     globe.pointOfView({ lat: site.lat, lng: site.lng, altitude: 1.7 }, 1200);
-    highlightMarker(activeId);
+    highlightMarker(el, activeId);
   }, [activeId, sites]);
 
   return (
@@ -143,8 +162,8 @@ export default function Globe({ sites, activeId, onSelect, color = "#38bdf8", zo
   );
 }
 
-function highlightMarker(id: string | null) {
-  document.querySelectorAll<HTMLElement>(".analog-marker-wrap").forEach((m) => {
+function highlightMarker(root: HTMLElement, id: string | null) {
+  root.querySelectorAll<HTMLElement>(".analog-marker-wrap").forEach((m) => {
     m.classList.toggle("is-active", m.dataset.id === id);
   });
 }

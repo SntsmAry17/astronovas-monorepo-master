@@ -1,3 +1,4 @@
+import { CATEGORY_JUDGMENT_NOTE } from "@/lib/format";
 import { MIN_COVERAGE, MIN_VARS, MISSIONS } from "@/lib/missions";
 
 export const metadata = {
@@ -58,6 +59,10 @@ export default function MethodologyPage() {
           suitability. Values marked N/A mean “not applicable” — never 0% — and are excluded from
           calculations.
         </p>
+        <p className="mt-3">
+          <strong className="text-white/85">Category scores are expert judgment.</strong>{" "}
+          {CATEGORY_JUDGMENT_NOTE}
+        </p>
         <div className="mt-3 overflow-hidden rounded-xl border border-white/10 text-sm">
           <table className="w-full">
             <tbody>
@@ -105,7 +110,7 @@ export default function MethodologyPage() {
         <div className="mt-4 overflow-hidden rounded-xl border border-white/10 text-sm">
           <table className="w-full">
             <thead>
-              <tr className="bg-white/5 text-left text-xs uppercase tracking-wider text-white/50">
+              <tr className="bg-white/5 text-left text-xs uppercase tracking-wider text-white/60">
                 <th className="px-4 py-2 font-medium">Mission</th>
                 <th className="px-4 py-2 font-medium">Variables</th>
               </tr>
@@ -168,7 +173,7 @@ export default function MethodologyPage() {
             ]}
           />
         </div>
-        <p className="mt-3 text-[13px] text-white/50">
+        <p className="mt-3 text-[13px] text-white/60">
           USGS and Copernicus Data Space are also cited as terrestrial sources in the reports.
           Compiled bibliographic references appear inside each scientific report; scores attributed
           to the project are never presented as NASA measurements.

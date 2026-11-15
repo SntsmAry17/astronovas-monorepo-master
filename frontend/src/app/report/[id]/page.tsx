@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { ClassificationBadge, ScoreBar } from "@/components/ui";
-import { PLANETS, SITES, fmtScore, getAssessmentById, reportId } from "@/lib/sites";
+import type { Metadata } from "next";
+import { CategoryJudgmentNote, ClassificationBadge, ScoreBar, ScoreDisclaimer } from "@/components/ui";
+import { fmtScore, planetColor, reportId } from "@/lib/format";
+import { SITES, getAssessmentById } from "@/lib/sites";
 import type { Planet } from "@/lib/types";
 
 interface Params {
@@ -13,10 +15,22 @@ export function generateStaticParams(): Params[] {
   return SITES.flatMap((s) => [s.moon, s.mars].map((a) => ({ id: reportId(a) })));
 }
 
+export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+  const { id } = await params;
+  const found = getAssessmentById(id);
+  if (!found) return { title: "Report not found — AstroNovas TerraAnalog" };
+  const { site, assessment } = found;
+  const body = assessment.planet === "moon" ? "Lunar" : "Martian";
+  return {
+    title: `${site.name} as a ${body} analog — AstroNovas TerraAnalog`,
+    description: assessment.summary.slice(0, 200),
+  };
+}
+
 export default function ReportPage({ params }: { params: Promise<Params> }) {
   return (
     <Suspense
-      fallback={<div className="grid min-h-screen place-items-center text-white/40">Loading report…</div>}
+      fallback={<div className="grid min-h-screen place-items-center text-white/60">Loading report…</div>}
     >
       <Report params={params} />
     </Suspense>
@@ -29,7 +43,7 @@ async function Report({ params }: { params: Promise<Params> }) {
   if (!found) notFound();
   const { site, assessment: a } = found;
   const planet: Planet = a.planet;
-  const color = PLANETS.find((p) => p.id === planet)?.color ?? "#38bdf8";
+  const color = planetColor(planet);
   const planetName = planet === "moon" ? "Moon" : "Mars";
 
   return (
@@ -58,7 +72,7 @@ async function Report({ params }: { params: Promise<Params> }) {
           </p>
           <div>
             <ClassificationBadge score={a.overallScore} label={a.classification} />
-            <p className="mt-1 text-[11px] text-white/40">Exploratory general similarity</p>
+            <p className="mt-1 text-[11px] text-white/60">Exploratory general similarity</p>
           </div>
         </div>
       </header>
@@ -80,7 +94,7 @@ async function Report({ params }: { params: Promise<Params> }) {
         <div className="overflow-hidden rounded-xl border border-white/10">
           <table className="w-full text-sm">
             <thead>
-              <tr className="bg-white/5 text-left text-xs uppercase tracking-wider text-white/50">
+              <tr className="bg-white/5 text-left text-xs uppercase tracking-wider text-white/60">
                 <th className="px-4 py-2.5 font-medium">Category</th>
                 <th className="w-32 px-4 py-2.5 font-medium">Similarity</th>
                 <th className="hidden w-28 px-4 py-2.5 font-medium sm:table-cell">Class</th>
@@ -110,6 +124,7 @@ async function Report({ params }: { params: Promise<Params> }) {
             </tbody>
           </table>
         </div>
+        <CategoryJudgmentNote className="text-xs" />
       </ReportSection>
 
       {/* 4. Detailed scientific analysis */}
@@ -143,7 +158,7 @@ async function Report({ params }: { params: Promise<Params> }) {
                       <ScoreBar score={v.score} color={color} />
                     </div>
                     <p className="mt-1.5 text-[13px] leading-relaxed text-white/65">{v.explanation}</p>
-                    <p className="mt-1 text-xs text-white/45">
+                    <p className="mt-1 text-xs text-white/60">
                       <span className="font-medium text-white/55">Scientific utility: </span>
                       {v.utility}
                     </p>
@@ -201,11 +216,7 @@ async function Report({ params }: { params: Promise<Params> }) {
         ))}
       </ReportSection>
 
-      <div className="mt-10 rounded-xl border border-amber-400/20 bg-amber-400/5 p-4 text-xs leading-relaxed text-amber-200/70">
-        Similarity percentages are preliminary AI-assisted assessments based on compiled scientific
-        descriptions. They are not independently validated measurements or certified indicators of
-        mission suitability.
-      </div>
+      <ScoreDisclaimer className="mt-10 p-4 text-xs" />
     </main>
   );
 }
