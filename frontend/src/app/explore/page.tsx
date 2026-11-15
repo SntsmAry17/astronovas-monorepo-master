@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import ExploreApp from "@/components/ExploreApp";
+import { ExploreSkeleton } from "@/components/ui";
 import { SITE_SUMMARIES, getSite } from "@/lib/sites";
 import type { Planet } from "@/lib/types";
 
@@ -16,9 +17,7 @@ interface SP {
 
 export default function ExplorePage({ searchParams }: { searchParams: Promise<SP> }) {
   return (
-    <Suspense
-      fallback={<div className="grid h-screen place-items-center text-white/60">Loading…</div>}
-    >
+    <Suspense fallback={<ExploreSkeleton />}>
       <Loader searchParams={searchParams} />
     </Suspense>
   );

@@ -230,3 +230,177 @@ export function Tabs<T extends string>({
     </div>
   );
 }
+
+/* ---------- Skeleton loading states ---------- */
+
+const SKELETON_RADIUS = { md: "0.5rem", xl: "0.75rem", "2xl": "1rem", full: "9999px" } as const;
+
+/** Shimmering placeholder block. Size comes from `className`; the radius is inline so it always wins. */
+export function Skeleton({
+  className = "",
+  radius = "md",
+}: {
+  className?: string;
+  radius?: keyof typeof SKELETON_RADIUS;
+}) {
+  return <div className={`skeleton ${className}`} style={{ borderRadius: SKELETON_RADIUS[radius] }} aria-hidden />;
+}
+
+/** Wraps skeleton markup so assistive tech hears one polite "loading" message. */
+export function SkeletonRegion({
+  label,
+  className = "",
+  children,
+}: {
+  label: string;
+  className?: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div role="status" aria-busy="true" aria-live="polite" className={className}>
+      <span className="sr-only">{label}</span>
+      {children}
+    </div>
+  );
+}
+
+/** A pulsing sphere used while the 3D globe loads. */
+export function GlobeSkeleton() {
+  return (
+    <div className="pointer-events-none grid h-full w-full place-items-center">
+      <div
+        className="skeleton-pulse size-40 rounded-full md:size-56"
+        style={{
+          background: "radial-gradient(circle at 35% 30%, #1e3a5f 0%, #0b1a30 55%, #050a14 100%)",
+          boxShadow: "0 0 60px -10px rgba(125,211,252,0.35)",
+        }}
+        aria-hidden
+      />
+    </div>
+  );
+}
+
+/** One row of the site list. */
+export function SiteRowSkeleton() {
+  return (
+    <div className="card px-4 py-3">
+      <div className="flex items-center justify-between gap-3">
+        <div className="space-y-2">
+          <Skeleton className="h-4 w-40" />
+          <Skeleton className="h-3 w-24" />
+        </div>
+        <Skeleton className="h-6 w-14" />
+      </div>
+      <Skeleton className="mt-3 h-1 w-full" />
+    </div>
+  );
+}
+
+export function SiteListSkeleton({ rows = 8 }: { rows?: number }) {
+  return (
+    <div className="grid gap-2">
+      {Array.from({ length: rows }, (_, i) => (
+        <SiteRowSkeleton key={i} />
+      ))}
+    </div>
+  );
+}
+
+/** Mirrors the selected-site header + tabs + first card. */
+export function SiteDetailSkeleton() {
+  return (
+    <div className="space-y-4">
+      <div className="card p-5">
+        <div className="flex items-start justify-between gap-4">
+          <div className="space-y-2.5">
+            <Skeleton className="h-3 w-32" />
+            <Skeleton className="h-7 w-48" />
+            <Skeleton className="h-4 w-40" />
+            <Skeleton className="h-5 w-16" radius="full" />
+          </div>
+          <Skeleton className="size-22 shrink-0" radius="full" />
+        </div>
+        <Skeleton className="mt-4 h-10 w-full" radius="xl" />
+      </div>
+      <div className="flex gap-3 border-b border-white/10 pb-3">
+        <Skeleton className="h-4 w-16" />
+        <Skeleton className="h-4 w-20" />
+        <Skeleton className="h-4 w-14" />
+      </div>
+      <div className="card space-y-3 p-5">
+        <div className="grid grid-cols-2 gap-3">
+          <Skeleton className="h-8 w-full" />
+          <Skeleton className="h-8 w-full" />
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {["w-20", "w-24", "w-28", "w-20", "w-24"].map((w, i) => (
+            <Skeleton key={i} className={`h-6 ${w}`} radius="full" />
+          ))}
+        </div>
+        <Skeleton className="h-3 w-full" />
+        <Skeleton className="h-3 w-full" />
+        <Skeleton className="h-3 w-4/5" />
+      </div>
+    </div>
+  );
+}
+
+/** The four NASA POWER metric tiles. */
+export function ClimateMetricsSkeleton() {
+  return (
+    <div className="mt-3 grid grid-cols-2 gap-2 md:grid-cols-4">
+      {[0, 1, 2, 3].map((i) => (
+        <div key={i} className="rounded-lg bg-black/30 px-3 py-2">
+          <Skeleton className="h-2.5 w-16" />
+          <Skeleton className="mt-2 h-5 w-14" />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/** Full-page skeleton for the Explore route (globe area + panel). */
+export function ExploreSkeleton() {
+  return (
+    <SkeletonRegion label="Loading explorer…" className="flex flex-col md:h-screen md:flex-row">
+      <div className="relative h-[46vh] shrink-0 md:h-auto md:flex-1">
+        <GlobeSkeleton />
+      </div>
+      <div className="min-h-0 flex-1 space-y-4 border-t border-white/10 bg-black/35 px-5 pb-10 pt-16 md:w-[46%] md:flex-none md:border-l md:border-t-0 md:pt-20">
+        <Skeleton className="h-11 w-48" radius="full" />
+        <Skeleton className="h-10 w-full rounded-lg" />
+        <Skeleton className="h-3 w-3/4" />
+        <SiteListSkeleton />
+      </div>
+    </SkeletonRegion>
+  );
+}
+
+/** Skeleton for the long-form scientific report page. */
+export function ReportSkeleton() {
+  return (
+    <SkeletonRegion label="Loading report…" className="mx-auto w-full max-w-4xl px-5 pb-24 pt-24">
+      <Skeleton className="h-4 w-48" />
+      <div className="card mt-4 space-y-3 p-6 md:p-8">
+        <Skeleton className="h-3 w-40" />
+        <Skeleton className="h-9 w-3/4" />
+        <Skeleton className="h-4 w-2/3" />
+        <div className="flex items-center gap-4 pt-2">
+          <Skeleton className="h-9 w-20" />
+          <Skeleton className="h-5 w-16" radius="full" />
+        </div>
+      </div>
+      {[0, 1, 2].map((i) => (
+        <div key={i} className="mt-8">
+          <Skeleton className="h-6 w-64" />
+          <div className="mt-4 space-y-2.5">
+            <Skeleton className="h-3 w-full" />
+            <Skeleton className="h-3 w-full" />
+            <Skeleton className="h-3 w-11/12" />
+            <Skeleton className="h-3 w-3/5" />
+          </div>
+        </div>
+      ))}
+    </SkeletonRegion>
+  );
+}

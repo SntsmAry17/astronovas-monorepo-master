@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { DEFAULT_COLOR } from "@/lib/format";
+import { GlobeSkeleton } from "./ui";
 import type { GlobeSite } from "@/lib/types";
 
 interface Props {
@@ -20,6 +21,7 @@ const INITIAL_POV = { lat: 15, lng: -20, altitude: 2.3 };
 type GlobeInstance = any;
 
 export default function Globe({ sites, activeId, onSelect, color = DEFAULT_COLOR, zoom = true }: Props) {
+  const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const containerRef = useRef<HTMLDivElement>(null);
   const globeRef = useRef<GlobeInstance>(null);
   const onSelectRef = useRef(onSelect);
@@ -38,6 +40,14 @@ export default function Globe({ sites, activeId, onSelect, color = DEFAULT_COLOR
     const el = containerRef.current;
     if (!el) return;
     let disposed = false;
+
+    if (!hasWebGL()) {
+      // Deferred so the state update does not run synchronously inside the effect.
+      queueMicrotask(() => !disposed && setStatus("error"));
+      return () => {
+        disposed = true;
+      };
+    }
 
     // globe.gl uses WebGL: imported only on the client.
     import("globe.gl").then(({ default: GlobeGL }) => {
@@ -106,6 +116,15 @@ export default function Globe({ sites, activeId, onSelect, color = DEFAULT_COLOR
         globe.pointOfView({ lat: pending.lat, lng: pending.lng, altitude: 1.7 }, 1200);
         highlightMarker(el, pending.id);
       }
+
+      // Reveal once the Earth texture is in (it is cached from globe.gl's own request).
+      const img = new Image();
+      img.onload = img.onerror = () => {
+        if (!disposed) setStatus("ready");
+      };
+      img.src = "/textures/earth-blue-marble.jpg";
+    }).catch(() => {
+      if (!disposed) setStatus("error");
     });
 
     const observer = new ResizeObserver(() =>
@@ -157,7 +176,26 @@ export default function Globe({ sites, activeId, onSelect, color = DEFAULT_COLOR
 
   return (
     <div className="relative h-full w-full overflow-hidden">
-      <div ref={containerRef} className="absolute inset-0" />
+      <div
+        ref={containerRef}
+        className={`absolute inset-0 transition-opacity duration-700 ${status === "ready" ? "opacity-100" : "opacity-0"}`}
+      />
+      {status === "loading" && (
+        <div className="absolute inset-0" role="status">
+          <span className="sr-only">Loading globe…</span>
+          <GlobeSkeleton />
+        </div>
+      )}
+      {status === "error" && (
+        <div className="absolute inset-0 grid place-items-center px-6 text-center" role="alert">
+          <div>
+            <p className="text-sm font-medium text-white/80">The 3D globe could not start.</p>
+            <p className="mt-1 text-xs text-white/60">
+              Your browser may not support WebGL. The site list still works.
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -166,4 +204,13 @@ function highlightMarker(root: HTMLElement, id: string | null) {
   root.querySelectorAll<HTMLElement>(".analog-marker-wrap").forEach((m) => {
     m.classList.toggle("is-active", m.dataset.id === id);
   });
+}
+
+function hasWebGL(): boolean {
+  try {
+    const c = document.createElement("canvas");
+    return !!(c.getContext("webgl2") || c.getContext("webgl"));
+  } catch {
+    return false;
+  }
 }

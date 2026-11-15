@@ -6,11 +6,22 @@ import { useEffect, useMemo, useState } from "react";
 import { CATEGORY_ORDER, fmtScore, getAssessment, planetColor as colorFor, reportId } from "@/lib/format";
 import type { Category, CategoryId, Planet, SiteSummary, TerSite } from "@/lib/types";
 import ClimatePanel from "./ClimatePanel";
-import { CategoryJudgmentNote, ClassificationBadge, PlanetToggle, ScoreBar, ScoreDisclaimer, ScoreRing, Tabs } from "./ui";
+import {
+  CategoryJudgmentNote,
+  ClassificationBadge,
+  GlobeSkeleton,
+  PlanetToggle,
+  ScoreBar,
+  ScoreDisclaimer,
+  ScoreRing,
+  SiteDetailSkeleton,
+  SkeletonRegion,
+  Tabs,
+} from "./ui";
 
 const Globe = dynamic(() => import("./Globe"), {
   ssr: false,
-  loading: () => <div className="grid h-full place-items-center text-sm text-white/60">Loading globe…</div>,
+  loading: () => <GlobeSkeleton />,
 });
 
 interface Props {
@@ -210,19 +221,19 @@ export default function ExploreApp({ sites, initialSite, initialPlanet = "moon",
             </>
           )}
 
-          {summary && detail?.status !== "ok" && (
-            <p className="text-sm text-white/60" role="status">
-              {detail?.status === "error" ? (
-                <>
-                  Could not load {summary.name}.{" "}
-                  <button className="underline" onClick={() => loadDetail(summary.slug)}>
-                    Retry
-                  </button>
-                </>
-              ) : (
-                `Loading ${summary.name}…`
-              )}
+          {summary && detail?.status === "error" && (
+            <p className="text-sm text-white/60" role="alert">
+              Could not load {summary.name}.{" "}
+              <button className="underline" onClick={() => loadDetail(summary.slug)}>
+                Retry
+              </button>
             </p>
+          )}
+
+          {summary && detail?.status !== "ok" && detail?.status !== "error" && (
+            <SkeletonRegion label={`Loading ${summary.name}…`}>
+              <SiteDetailSkeleton />
+            </SkeletonRegion>
           )}
 
           {detail?.status === "ok" && (

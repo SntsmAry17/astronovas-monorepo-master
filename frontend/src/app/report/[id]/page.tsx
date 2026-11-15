@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import type { Metadata } from "next";
-import { CategoryJudgmentNote, ClassificationBadge, ScoreBar, ScoreDisclaimer } from "@/components/ui";
+import { CategoryJudgmentNote, ClassificationBadge, ReportSkeleton, ScoreBar, ScoreDisclaimer } from "@/components/ui";
 import { fmtScore, planetColor, reportId } from "@/lib/format";
 import { SITES, getAssessmentById } from "@/lib/sites";
 import type { Planet } from "@/lib/types";
@@ -29,9 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 
 export default function ReportPage({ params }: { params: Promise<Params> }) {
   return (
-    <Suspense
-      fallback={<div className="grid min-h-screen place-items-center text-white/60">Loading report…</div>}
-    >
+    <Suspense fallback={<ReportSkeleton />}>
       <Report params={params} />
     </Suspense>
   );

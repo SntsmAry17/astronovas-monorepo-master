@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { elevationMismatch, fmtMeters } from "@/lib/climate";
 import type { PowerClimatology } from "@/lib/nasa";
 import type { TerSite } from "@/lib/types";
+import { ClimateMetricsSkeleton, SkeletonRegion } from "./ui";
 
 interface ApiResponse {
   data: PowerClimatology | null;
@@ -51,7 +52,11 @@ export default function ClimatePanel({ site, color = "#38bdf8" }: { site: TerSit
           {site.lat.toFixed(2)}°, {site.lng.toFixed(2)}°
         </span>
       </p>
-      {state === "loading" && <p className="mt-3 text-sm text-white/60">Querying NASA POWER…</p>}
+      {state === "loading" && (
+        <SkeletonRegion label="Querying NASA POWER…">
+          <ClimateMetricsSkeleton />
+        </SkeletonRegion>
+      )}
       {state === "empty" && (
         <p className="mt-3 text-sm text-white/60">NASA POWER returned no data for this point right now.</p>
       )}

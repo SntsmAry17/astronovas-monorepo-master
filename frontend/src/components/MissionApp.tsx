@@ -6,11 +6,11 @@ import { useEffect, useMemo, useState } from "react";
 import { MISSIONS, rankForMission, type Mission, type MissionResult } from "@/lib/missions";
 import { classifyScore, fmtScore, getAssessment, planetColor as colorFor, reportId } from "@/lib/format";
 import type { MissionSite, Planet } from "@/lib/types";
-import { ClassificationBadge, PlanetToggle, ScoreBar, ScoreDisclaimer } from "./ui";
+import { ClassificationBadge, GlobeSkeleton, PlanetToggle, ScoreBar, ScoreDisclaimer } from "./ui";
 
 const Globe = dynamic(() => import("./Globe"), {
   ssr: false,
-  loading: () => <div className="grid h-full place-items-center text-sm text-white/60">Loading globe…</div>,
+  loading: () => <GlobeSkeleton />,
 });
 
 const MISSION_ICONS: Record<string, string> = {

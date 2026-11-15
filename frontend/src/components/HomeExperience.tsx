@@ -5,11 +5,11 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { fmtScore } from "@/lib/format";
 import type { SiteSummary } from "@/lib/types";
-import { ScoreBar } from "./ui";
+import { GlobeSkeleton, ScoreBar } from "./ui";
 
 const Globe = dynamic(() => import("./Globe"), {
   ssr: false,
-  loading: () => <div className="grid h-full place-items-center text-sm text-white/60">Loading globe…</div>,
+  loading: () => <GlobeSkeleton />,
 });
 
 const STATS = [
