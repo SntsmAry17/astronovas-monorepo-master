@@ -1,0 +1,884 @@
+{
+  "id": "TER-03",
+  "slug": "iceland",
+  "name": "Iceland",
+  "country": "Iceland",
+  "regions": "North Atlantic Ocean",
+  "lat": 64.9631,
+  "lng": -19.0208,
+  "elevation": "Sea level to approximately 2,110 m",
+  "environmentType": "Volcanic, glacial, periglacial",
+  "features": [
+    "Basaltic lava fields",
+    "Volcanic fissures",
+    "Geothermal systems",
+    "Glaciers",
+    "Glacial outwash plains",
+    "Black volcanic sands",
+    "Lava tubes",
+    "Areas of discontinuous mountain permafrost"
+  ],
+  "description": "Iceland is a geologically active North Atlantic island characterized by extensive basaltic volcanism, tectonic rifting, glaciers, glacial outwash plains, geothermal systems, black volcanic sediments, and documented lava-tube caves. These environments are geographically diverse. Cold highlands, glaciated terrain, geothermal systems, and exposed volcanic fields must be evaluated separately when selecting a specific planetary analog site.",
+  "relevance": "Volcanic geology, subglacial volcanic processes, mineral alteration, glacial and periglacial investigations, robotic mobility, lava-tube exploration, aeolian sediment transport, and astrobiological field research.",
+  "geoNote": "The displayed coordinates represent Iceland geographically and do not correspond to a single field measurement location.",
+  "moon": {
+    "id": "TER-03-MOON",
+    "planet": "moon",
+    "overallScore": 54.5,
+    "classification": "Moderate",
+    "summary": "Iceland's basaltic lava fields, volcanic depressions, fractured terrain, and lava tubes provide useful geological and structural analogs for selected lunar volcanic environments. However, glacial erosion, atmospheric processes, and water-related alteration differ substantially from lunar surface conditions.",
+    "applications": [
+      "Lava-tube exploration: Testing underground navigation and mapping technologies.",
+      "Rover mobility: Evaluating robotic movement across rough basaltic terrain.",
+      "Volcanic geological mapping: Recognizing basaltic formations and structural features.",
+      "Mineralogical instrument testing: Identifying volcanic minerals using remote-sensing and field instruments.",
+      "Preliminary ice-related testing: Evaluating detection and sampling technologies in accessible terrestrial ice environments.",
+      "Subsurface reconnaissance: Investigating fractures, cavities, and layered volcanic deposits."
+    ],
+    "objective": "This assessment examines Iceland's suitability as a terrestrial analog for selected lunar geological environments and exploration operations. It focuses on basaltic volcanic terrain, surface roughness, natural underground structures, frozen-ground environments, and the practical testing of robotic exploration technologies.",
+    "characterization": [
+      "Iceland is a volcanic island along the Mid-Atlantic Ridge. Its terrain includes extensive basaltic lava fields, volcanic fissures, calderas, glacial valleys, black volcanic sands, and lava-tube systems.",
+      "Its highest point, Hvannadalshnúkur, reaches approximately 2,110 m above sea level. The island also contains major ice caps, including Vatnajökull, Langjökull, and Hofsjökull.",
+      "The landscape is shaped by active volcanism, tectonic extension, glacial erosion, hydrothermal alteration, and atmospheric processes.",
+      "These conditions make Iceland valuable for specific geological and operational studies, but they also distinguish it from the dry, nearly airless lunar surface."
+    ],
+    "limitations": [
+      "Iceland does not reproduce lunar gravity, near-vacuum conditions, extreme lunar thermal cycles, space radiation, or the complete mechanical and chemical properties of lunar regolith.",
+      "Its glacial erosion, active hydrological systems, and hydrothermal alteration also differ from the dominant geological processes of the present lunar surface.",
+      "The site is therefore most useful for targeted volcanic, robotic, and subsurface experiments rather than complete lunar environmental simulation."
+    ],
+    "conclusion": [
+      "Iceland receives a provisional lunar similarity score of 54.5%, classified as Moderate.",
+      "Its strongest assessed categories are Subsurface and Natural Structures (87.0%), Geology and Mineralogy (74.0%), and Topography and Geomorphology (66.0%).",
+      "The most valuable lunar analog applications involve lava-tube exploration, basaltic terrain navigation, and geological instrument testing."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "Icelandic Meteorological Office: https://en.vedur.is/",
+          "Iceland GeoSurvey (ÍSOR): https://www.isor.is/",
+          "National Land Survey of Iceland: https://www.lmi.is/",
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/"
+        ]
+      },
+      {
+        "label": "Lunar sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "NASA Moon Science: https://science.nasa.gov/moon/",
+          "LROC Data Portal: https://wms.lroc.asu.edu/lroc",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Reference missions and instruments",
+        "items": [
+          "Lunar Reconnaissance Orbiter (LOLA, LROC, Diviner, Mini-RF, LEND)",
+          "Chandrayaan-1 (Moon Mineralogy Mapper)",
+          "Kaguya",
+          "Lunar Prospector",
+          "LCROSS",
+          "Apollo sample investigations",
+          "These links identify reference repositories and institutional resources; they are not a claim that every underlying dataset has been individually downloaded and analyzed."
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment compares the Icelandic terrestrial characteristics supplied for the project with lunar geological and environmental reference information.",
+      "The percentages are provisional qualitative judgments designed to demonstrate the comparison interface. They are not official NASA measurements or the output of a validated quantitative similarity algorithm.",
+      "The scoring scale is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A values are not equivalent to zero and must not be included as zero-valued observations in calculations.",
+      "A reproducible model would require site-specific datasets, consistent measurement scales, documented normalization, and explicit weighting of variables and categories.",
+      "Similarity percentages are preliminary AI-assisted assessments derived from compiled scientific descriptions. They are not independently validated quantitative measures of planetary similarity or certified indicators of mission suitability."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 66.0,
+        "classification": "Moderate",
+        "description": "Iceland's basaltic highlands, rugged lava fields, volcanic depressions, and rocky obstacles provide useful comparisons with selected lunar volcanic landscapes. However, glacial erosion and terrestrial tectonics have produced many landforms without direct lunar equivalents.",
+        "utility": "Rover mobility, surface hazard recognition, terrain classification, and volcanic geological mapping.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 55,
+            "explanation": "Iceland ranges from sea level to approximately 2,110 m, while lunar elevations extend across a much larger planetary relief range and are referenced to a lunar datum. Iceland's mountainous volcanic terrain offers elevation gradients for exploration testing but does not reproduce lunar topography quantitatively.",
+            "utility": "Evaluating navigation and field operations across changing elevations."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 78,
+            "explanation": "Iceland includes gentle lava plains, steep glacial valley walls, volcanic fissures, and caldera slopes. The Moon also contains relatively flat basaltic maria and steep crater walls, although the landforms have different geological origins.",
+            "utility": "Testing rover traction, stability, and slope-navigation systems."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 88,
+            "explanation": "Recent Icelandic lava fields contain fractured basalt, angular blocks, and irregular surfaces. These can reproduce selected mechanical challenges encountered in rocky lunar terrain, although lunar regolith has different particle properties.",
+            "utility": "Evaluating robotic mobility, suspension systems, and terrain-recognition algorithms."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 72,
+            "explanation": "Iceland contains basaltic plateaus, volcanic mountains, glacial valleys, and calderas. Lunar relief includes volcanic plains and mountains but is strongly dominated by impact processes rather than glaciers or plate tectonics.",
+            "utility": "Testing topographic mapping and geological landform classification."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 42,
+            "explanation": "Icelandic volcanic craters, calderas, and collapse depressions can resemble lunar depressions in shape. However, most lunar craters originate from impacts, which produce different geological structures and surrounding deposits.",
+            "utility": "Training image-analysis systems to distinguish volcanic and impact-related landforms."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 85,
+            "explanation": "Icelandic terrain includes basaltic blocks, loose tephra, tectonic fissures, and irregular lava surfaces. Similar physical obstacles may complicate robotic movement on the Moon.",
+            "utility": "Testing autonomous obstacle detection and safe route planning."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 32.0,
+        "classification": "Low",
+        "description": "Iceland's cold highlands and strong seasonal illumination changes provide limited environmental analog opportunities. Its atmospheric conditions and thermal cycles differ substantially from the Moon.",
+        "utility": "Preliminary thermal testing, illumination studies, and optical navigation.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 35,
+            "explanation": "Reported Icelandic climate averages primarily describe atmospheric conditions. They must not automatically be interpreted as measured land-surface temperatures. Surface thermal conditions vary with elevation, snow and ice cover, volcanic substrates, geothermal activity, and observation time. Lunar surface temperatures vary far more dramatically.",
+            "utility": "Preliminary testing of thermal instruments and environmental monitoring systems in selected terrestrial environments."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 28,
+            "explanation": "The Icelandic dataset reports local summer maxima around 15–20°C and extreme interior winter minima approaching -25 to -30°C. Lunar temperatures can exceed 120°C in sunlight and approach -247°C in permanently shadowed polar regions.",
+            "utility": "Identifying equipment limitations that require specialized thermal facilities."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 32,
+            "explanation": "Iceland experiences seasonal and daily temperature changes, whereas the Moon has a much longer day-night cycle and extreme thermal variations in many regions.",
+            "utility": "Testing preliminary responses to environmental temperature changes."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 65,
+            "explanation": "Iceland's high latitude produces very long summer daylight periods and short winter days. These conditions can provide partial operational comparisons with low-angle solar illumination near lunar polar terrain, although the geometry and timing differ.",
+            "utility": "Testing optical navigation and solar-power performance under low-angle illumination."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Conditions / Exosphere",
+            "score": 0,
+            "explanation": "Iceland has a substantial terrestrial atmosphere, while the Moon possesses an extremely tenuous exosphere. Icelandic wind, humidity, and atmospheric heat transfer do not reproduce lunar vacuum conditions.",
+            "utility": "Identifying tests that must instead be performed in vacuum chambers."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 74.0,
+        "classification": "Moderate",
+        "description": "Iceland's basaltic volcanic rocks share several mineralogical and structural characteristics with lunar mare basalts. However, its hydrated minerals and extensive water-driven alteration differ strongly from lunar geological processes.",
+        "utility": "Basalt identification, spectral instrument testing, geological mapping, and sampling experiments.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 85,
+            "explanation": "Iceland contains tholeiitic and alkaline basalts, together with rhyolites and palagonitic volcanic deposits. Lunar maria are also dominated by basaltic rocks, although lunar highlands are predominantly anorthositic and lunar basalt chemistry differs.",
+            "utility": "Testing robotic rock classification and basalt recognition."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 82,
+            "explanation": "Icelandic basalts contain plagioclase, pyroxene, and olivine, mineral groups also found in lunar basaltic rocks. Iceland additionally contains hydrated volcanic glass and hydrothermal clays that are not typical of unaltered lunar mare materials.",
+            "utility": "Evaluating mineralogical instruments and spectral classification algorithms."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 76,
+            "explanation": "Icelandic basalts contain silicon, iron, magnesium, aluminum, and other elements relevant to lunar basalt comparisons. Their oxidation states, titanium abundances, and alteration histories differ from many lunar materials.",
+            "utility": "Testing elemental analysis and geochemical classification."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 72,
+            "explanation": "Iceland contains basaltic sands, tephra, fractured volcanic rock, and glacial sediments. Lunar regolith is primarily produced by impact fragmentation and space weathering, creating different grain textures and physical properties.",
+            "utility": "Testing sampling tools and equipment interaction with granular volcanic materials."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 28,
+            "explanation": "Icelandic rocks undergo freeze-thaw weathering, oxidation, and hydrothermal alteration. Lunar rocks experience space weathering from micrometeorite impacts, solar-wind particles, and radiation.",
+            "utility": "Developing methods to distinguish primary mineral signatures from alteration products."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 83,
+            "explanation": "Icelandic lava fields, volcanic plateaus, fissures, and layered basaltic deposits offer comparisons with lunar volcanic provinces. Iceland's active rifting and glacially modified formations have no exact lunar equivalents.",
+            "utility": "Mapping volcanic structures and interpreting geological imagery."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 43.0,
+        "classification": "Low",
+        "description": "Iceland contains extensive glaciers and localized frozen ground, while lunar ice is concentrated in extremely cold polar environments. Iceland provides practical opportunities for testing ice-related instruments but not a complete lunar polar analog.",
+        "utility": "Ice-detection technology, frozen-ground mobility, and volcanic resource studies.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 5,
+            "explanation": "Iceland has rivers, lakes, wetlands, and abundant surface water. The Moon does not support stable liquid water on its exposed surface.",
+            "utility": "Defining the limitations of terrestrial hydrological analogs."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 64,
+            "explanation": "Iceland's large ice caps provide accessible ice-bearing environments. Lunar polar ice is distributed within cold, often permanently shadowed deposits and has different thermal and geological conditions.",
+            "utility": "Testing ice-recognition instruments and sampling procedures."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 53,
+            "explanation": "Iceland includes seasonal ground ice and localized frozen subsurface environments. Lunar subsurface ice is associated with different temperatures, pressure conditions, and volatile stability mechanisms.",
+            "utility": "Preliminary testing of subsurface ice-detection systems."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 55,
+            "explanation": "Iceland contains discontinuous mountain permafrost in some high-elevation areas. Lunar polar frozen regolith can remain at far lower temperatures and does not experience ordinary terrestrial freeze-thaw cycles.",
+            "utility": "Testing robotic movement and sampling in frozen ground."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 34,
+            "explanation": "Iceland contains abundant hydrogen in water, ice, geothermal steam, and hydrated minerals. Lunar hydrogen may occur in polar ice, hydroxyl-bearing materials, and solar-wind-implanted surface grains.",
+            "utility": "Evaluating methods for detecting hydrogen-bearing substances."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 70,
+            "explanation": "Iceland offers basaltic aggregates, volcanic glass, pumice, and sulfur-bearing materials. Lunar resource utilization also considers silicate and oxide minerals, although extraction environments differ.",
+            "utility": "Preliminary testing of basalt processing and geological resource identification."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 25.0,
+        "classification": "Low",
+        "description": "Iceland's black volcanic dust and sediments provide mechanical particle analogs, but its wind-driven transport and atmospheric aerosols have no direct equivalent on the nearly airless Moon.",
+        "utility": "Abrasion testing, particle-handling research, and dust-protection development.",
+        "variables": [
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 0,
+            "explanation": "Iceland experiences strong atmospheric winds, while the Moon lacks a dense atmosphere capable of comparable wind transport.",
+            "utility": "Separating terrestrial wind effects from lunar surface particle behavior."
+          },
+          {
+            "id": "abrasive_dust",
+            "name": "Abrasive Dust",
+            "score": 68,
+            "explanation": "Icelandic basaltic dust and volcanic ash can expose equipment to fine mineral particles. Lunar dust differs in its formation history, surface chemistry, and electrical behavior.",
+            "utility": "Testing seals, joints, optical surfaces, and dust-resistant components."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion",
+            "score": null,
+            "explanation": "Icelandic wind erosion has no direct lunar counterpart because the Moon does not experience conventional atmospheric wind erosion.",
+            "utility": "Identifying the limits of terrestrial aeolian terrain comparisons."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": null,
+            "explanation": "Icelandic dust storms depend on atmospheric winds, whereas lunar dust movement is controlled by different mechanisms.",
+            "utility": "Preventing inappropriate interpretation of atmospheric dust-storm tests as direct lunar simulations."
+          },
+          {
+            "id": "sediments_and_dunes",
+            "name": "Sediments and Granular Deposits",
+            "score": 57,
+            "explanation": "Icelandic black sands and volcanic sediments provide granular surfaces suitable for mechanical testing. Lunar regolith has different particle origins, cohesion, and exposure history.",
+            "utility": "Testing excavation, granular sampling, and mobility systems."
+          },
+          {
+            "id": "volcanic_aerosols",
+            "name": "Volcanic Aerosols",
+            "score": null,
+            "explanation": "Icelandic volcanic aerosols are transported through Earth's atmosphere. They do not represent an equivalent present-day lunar atmospheric process.",
+            "utility": "Distinguishing terrestrial aerosol exposure from lunar environmental hazards."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 87.0,
+        "classification": "High",
+        "description": "Iceland's lava tubes, volcanic cavities, fissures, and layered basaltic deposits offer strong structural analogs for possible lunar underground environments.",
+        "utility": "Underground robotic navigation, cave mapping, structural reconnaissance, and subsurface imaging.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves",
+            "score": 88,
+            "explanation": "Iceland contains basaltic caves and temporary glacial ice caves. Lava caves are particularly relevant to potential lunar volcanic cavities, whereas glacial caves have no direct lunar geological equivalent.",
+            "utility": "Testing robotic exploration in confined underground environments."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 94,
+            "explanation": "Icelandic lava tubes form through the transport and drainage of lava beneath solidified surfaces. Similar volcanic processes may have produced underground lava-tube structures on the Moon.",
+            "utility": "Developing robotic navigation, mapping, and remote-sensing methods for lava tubes."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Cavities and Fractures",
+            "score": 92,
+            "explanation": "Iceland's tectonic rift zones contain extensive fractures and volcanic fissures. Lunar volcanic terrain may also contain fractures, collapse pits, and underground cavities, although the tectonic mechanisms differ.",
+            "utility": "Testing fracture detection and structural hazard assessment."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 84,
+            "explanation": "Icelandic subsurface formations include alternating basaltic lava flows and subglacial volcanic deposits. Lunar volcanic deposits may also form layered structures, but without the same water-ice interactions.",
+            "utility": "Testing ground-penetrating imaging and geological layer recognition."
+          },
+          {
+            "id": "regolith_thickness",
+            "name": "Material Thickness",
+            "score": 75,
+            "explanation": "Iceland's volcanic crust contains thick accumulations of lava and associated deposits. These can support studies of layered volcanic structures, but they should not be treated as direct equivalents of lunar regolith thickness.",
+            "utility": "Evaluating subsurface mapping and geological thickness estimation."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": null,
+        "classification": "Not Applicable",
+        "description": "No confirmed indigenous lunar life exists for direct biological comparison. Icelandic organisms remain useful for terrestrial instrument and contamination-control studies.",
+        "utility": "Biological detection technology and planetary-protection research.",
+        "variables": [
+          {
+            "id": "direct_biological_similarity",
+            "name": "Direct Biological Similarity",
+            "score": null,
+            "explanation": "There is no confirmed indigenous lunar biological population against which Icelandic organisms can be compared.",
+            "utility": "Defining the limits of direct biological similarity assessment."
+          },
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": null,
+            "explanation": "Iceland contains cold-adapted and geothermal microorganisms, but these do not represent known lunar organisms.",
+            "utility": "Testing biological instruments using terrestrial organisms."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": null,
+            "explanation": "Iceland contains environments capable of supporting terrestrial life. The exposed lunar surface lacks comparable natural habitability conditions.",
+            "utility": "Informing life-support and environmental-control studies."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Biosignatures",
+            "score": null,
+            "explanation": "Icelandic microbial evidence cannot be compared with confirmed indigenous lunar biosignatures.",
+            "utility": "Developing contamination-detection and sample-analysis procedures."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": null,
+            "explanation": "Icelandic microorganisms exhibit adaptations to cold and geothermal environments, but there is no confirmed lunar biology for direct comparison.",
+            "utility": "Investigating terrestrial microbial resilience."
+          }
+        ]
+      }
+    ]
+  },
+  "mars": {
+    "id": "TER-03-MARS",
+    "planet": "mars",
+    "overallScore": 80.6,
+    "classification": "High",
+    "summary": "Iceland provides terrestrial analogs for selected Martian volcanic, glacial, sedimentary, and hydrothermally altered environments. Its basaltic formations, subglacial volcanic deposits, and lava fields are especially relevant to studies of volcanic processes and ancient water-rock interactions.",
+    "applications": [
+      "Volcanic geology: Investigating basaltic rocks, volcanic formations, and geological evolution.",
+      "Glacial and periglacial research: Studying ice-bearing terrain, frozen ground, and interactions between ice and volcanic materials.",
+      "Rover mobility: Testing navigation across fractured lava, black sands, and irregular volcanic surfaces.",
+      "Dust transport studies: Evaluating particle sensors, dust exposure, and wind-driven sediment movement.",
+      "Hydrothermal alteration research: Identifying minerals and geological signatures associated with water-rock interactions.",
+      "Lava-tube exploration: Developing robotic methods for underground reconnaissance.",
+      "Astrobiology: Testing biosignature detection and investigating terrestrial extremophile communities."
+    ],
+    "objective": "This assessment evaluates Iceland as a terrestrial analog for selected Martian volcanic, glacial, periglacial, sedimentary, and potentially habitable environments. The analysis emphasizes basaltic geology, cold-region processes, ice-bearing terrain, wind-driven sediment transport, subsurface structures, and the investigation of microbial survival in extreme terrestrial environments.",
+    "characterization": [
+      "Iceland is a geologically active volcanic island influenced by the Mid-Atlantic Ridge and interactions between volcanism, glaciers, groundwater, and atmospheric processes.",
+      "Its landscapes include basaltic lava fields, volcanic fissures, calderas, glacial valleys, black-sand deserts, geothermal systems, lava tubes, and localized mountain permafrost.",
+      "Major glaciers, including Vatnajökull, Langjökull, and Hofsjökull, provide extensive ice-bearing environments. Iceland also contains subglacial volcanic deposits, palagonitic rocks, hydrothermally altered minerals, and microbial communities adapted to cold or geothermal conditions.",
+      "These characteristics are relevant to selected Martian volcanic terrains, ancient water-related geological processes, subsurface ice investigations, and astrobiological research.",
+      "However, Iceland's dense atmosphere, abundant liquid water, active terrestrial ecosystems, and relatively mild climate differ substantially from present-day Mars."
+    ],
+    "limitations": [
+      "Iceland does not reproduce Martian gravity, low atmospheric pressure, carbon dioxide-dominated atmosphere, global thermal conditions, or radiation environment.",
+      "Its abundant liquid water, active hydrological cycle, and extensive biological activity differ from the present Martian surface.",
+      "Icelandic glaciers and geothermal systems are useful process analogs, but they are not direct physical replicas of Martian ice deposits or ancient hydrothermal environments.",
+      "The site should therefore be used for targeted geological, operational, and astrobiological experiments rather than comprehensive environmental simulation."
+    ],
+    "conclusion": [
+      "Iceland receives a provisional Martian similarity score of 80.6%, classified as High.",
+      "Its strongest assessed categories are Geology and Mineralogy (88.0%), Subsurface and Natural Structures (88.0%), Atmosphere, Dust and Surface Dynamics (83.0%), and Topography and Geomorphology (80.0%).",
+      "The most valuable applications involve basaltic geology, glacial and periglacial processes, dust transport, subsurface exploration, and astrobiological instrument testing.",
+      "Iceland provides a diverse collection of terrestrial environments relevant to selected Martian exploration challenges, although the suitability of any individual field site must be assessed separately."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "Icelandic Meteorological Office: https://en.vedur.is/",
+          "Iceland GeoSurvey (ÍSOR): https://www.isor.is/",
+          "National Land Survey of Iceland: https://www.lmi.is/",
+          "University of Iceland Earth Sciences: https://earthice.hi.is/",
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/"
+        ]
+      },
+      {
+        "label": "Martian sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "Mars Orbital Data Explorer: https://ode.rsl.wustl.edu/mars",
+          "NASA Mars Science: https://science.nasa.gov/mars/",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Reference missions and instruments",
+        "items": [
+          "Mars Global Surveyor (MOLA, TES)",
+          "Mars Reconnaissance Orbiter (HiRISE, CTX, CRISM, SHARAD, MARCI, MCS)",
+          "Mars Odyssey (THEMIS, GRS)",
+          "Mars Express (OMEGA, MARSIS)",
+          "Curiosity (CheMin, SAM, REMS)",
+          "InSight",
+          "Perseverance (MEDA, PIXL, SHERLOC)",
+          "Subglacial volcanism on Earth and Mars (USGS): https://www.usgs.gov/centers/astrogeology-science-center/science/sub-ice-volcanism-earth-and-mars",
+          "Specific Iceland–Mars volcanic comparison: https://doi.org/10.3847/PSJ/adb5f1",
+          "These sources identify relevant scientific repositories, missions, and institutional resources. Individual datasets should be linked directly when incorporated into the quantitative analysis."
+        ]
+      }
+    ],
+    "methodology": [
+      "This assessment compares the terrestrial characteristics described in the supplied Icelandic research with the Martian environmental and geological reference information.",
+      "The percentages represent provisional qualitative judgments for demonstrating the website's comparison system. They are not official NASA measurements or the output of a validated numerical scoring algorithm.",
+      "The classification scale is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A values must remain distinct from zero-valued observations.",
+      "A reproducible quantitative assessment would require defined Icelandic study areas, corresponding Martian regions, comparable physical measurements, consistent spatial scales, documented normalization, and explicit weighting of variables and categories.",
+      "Similarity percentages are preliminary AI-assisted assessments derived from compiled scientific descriptions. They are not independently validated quantitative measures of planetary similarity or certified indicators of mission suitability."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 80.0,
+        "classification": "High",
+        "description": "Iceland's volcanic highlands, fissures, rugged basaltic surfaces, and glacially modified terrain provide useful comparisons with selected Martian volcanic and cold-region landscapes.",
+        "utility": "Rover mobility, geological mapping, terrain recognition, and exploration hazard assessment.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 55,
+            "explanation": "Iceland extends from sea level to approximately 2,110 m. Mars contains much larger topographic variations, including major volcanic edifices and deep impact basins. The elevation reference systems also differ.",
+            "utility": "Testing navigation and mapping across terrestrial elevation gradients."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 83,
+            "explanation": "Iceland contains gentle volcanic plains, steep valley walls, caldera slopes, and tectonic fissures. Mars also exhibits varied slopes across volcanic regions, impact craters, and canyon systems.",
+            "utility": "Evaluating rover stability, traction, and slope-navigation algorithms."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 90,
+            "explanation": "Icelandic lava fields contain angular basaltic blocks, fractured surfaces, and irregular volcanic deposits. These reproduce selected mechanical challenges associated with rocky Martian terrain.",
+            "utility": "Testing rover suspension, wheel-terrain interaction, and autonomous surface classification."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 85,
+            "explanation": "Icelandic volcanic plateaus, calderas, glacial valleys, and mountain systems provide diverse terrain forms. Mars contains volcanic, tectonic, impact-related, and ancient water-modified landscapes, although their dimensions and origins differ.",
+            "utility": "Testing digital terrain models and geomorphological interpretation."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 55,
+            "explanation": "Iceland contains volcanic craters, fissure-crater chains, and collapse calderas. Mars contains both volcanic depressions and impact craters, making geological origin an important distinction.",
+            "utility": "Training instruments and image-analysis systems to distinguish crater types."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 91,
+            "explanation": "Icelandic terrain contains basaltic blocks, loose tephra, tectonic fractures, and irregular lava fields. These present navigation hazards comparable to some rocky Martian environments.",
+            "utility": "Testing obstacle detection, route planning, and autonomous robotic navigation."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 69.0,
+        "classification": "Moderate",
+        "description": "Iceland's cold highlands, strong seasonality, and low-angle winter illumination provide partial environmental comparisons with Mars. Atmospheric pressure remains a major difference.",
+        "utility": "Cold-weather equipment testing, seasonal environmental monitoring, and optical navigation.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 72,
+            "explanation": "Reported Icelandic climate averages primarily describe atmospheric conditions. They must not automatically be interpreted as measured land-surface temperatures. Surface thermal conditions vary with elevation, snow and ice cover, volcanic substrates, geothermal activity, and observation time. Mars experiences much colder surface conditions overall.",
+            "utility": "Preliminary testing of thermal instruments and environmental monitoring systems in selected terrestrial environments."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 65,
+            "explanation": "Icelandic interior winter temperatures may approach -25 to -30°C, while Martian surface temperatures can fall considerably lower. Iceland therefore offers a partial cold-environment analog but cannot reproduce the full Martian thermal range.",
+            "utility": "Evaluating equipment performance under freezing conditions."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 62,
+            "explanation": "Iceland experiences daily and seasonal temperature changes, particularly in highland environments. Mars also experiences strong thermal variation, although its atmospheric density and surface-energy balance are different.",
+            "utility": "Testing instrument responses to repeated heating and cooling."
+          },
+          {
+            "id": "seasonality",
+            "name": "Seasonality",
+            "score": 77,
+            "explanation": "Iceland has pronounced seasonal changes in temperature, daylight, snow, and ice conditions. Mars also experiences seasonal variations, including changes in polar carbon dioxide ice and atmospheric pressure.",
+            "utility": "Developing environmental monitoring strategies across changing seasons."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 76,
+            "explanation": "Iceland's high latitude produces extended summer daylight and short winter days. Martian illumination also varies with latitude and season, although Mars has different orbital characteristics and atmospheric dust effects.",
+            "utility": "Testing optical navigation, illumination-dependent imaging, and solar-power systems."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 12,
+            "explanation": "Iceland has a dense terrestrial atmosphere, even during low-pressure weather systems. The Martian atmosphere has a mean surface pressure of approximately 600 Pa, vastly lower than terrestrial pressure.",
+            "utility": "Identifying equipment tests that require controlled low-pressure chambers."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 88.0,
+        "classification": "High",
+        "description": "Iceland's basaltic volcanism, palagonitic deposits, hydrothermal alteration, and subglacial volcanic formations provide strong geological analog opportunities for selected Martian environments.",
+        "utility": "Mineralogical analysis, volcanic geology, spectral instrument testing, and investigation of water-related alteration.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 94,
+            "explanation": "Iceland contains tholeiitic and alkaline basalts, rhyolites, and palagonitic volcanic deposits. Basaltic rocks are also widespread on Mars, although Martian lithology varies across regions and geological periods.",
+            "utility": "Testing robotic rock classification and geological sampling systems."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 92,
+            "explanation": "Icelandic volcanic rocks contain plagioclase, pyroxene, olivine, volcanic glass, and alteration minerals. Several of these mineral groups are also relevant to Martian basaltic and water-altered rocks.",
+            "utility": "Testing mineral spectroscopy and mineral-identification algorithms."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 83,
+            "explanation": "Icelandic rocks contain silicon, iron, magnesium, aluminum, and sulfur-bearing compounds. Martian rocks contain comparable major elements, but their proportions and alteration histories vary.",
+            "utility": "Evaluating geochemical instruments and elemental classification techniques."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 90,
+            "explanation": "Iceland contains basaltic sands, volcanic ash, fractured rock, and glacially transported sediments. These provide useful mechanical and geological comparisons with selected Martian granular and rocky surfaces.",
+            "utility": "Testing sampling systems, rover mobility, and sediment analysis."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 88,
+            "explanation": "Iceland's hydrothermal systems produce hydrated volcanic glass, clay minerals, and other alteration products. Mars contains evidence of ancient aqueous alteration, including clay-bearing and hydrated mineral deposits.",
+            "utility": "Testing instruments designed to identify water-related geological alteration."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 93,
+            "explanation": "Iceland contains volcanic formations produced by subaerial and subglacial eruptions, including shield volcanoes, lava flows, volcanic fissures, hyaloclastite deposits, and glaciovolcanic landforms. These structures can support comparisons with selected volcanic and volcano-ice interaction processes proposed for Mars. Mars contains extensive volcanic provinces and geological evidence of interactions between volcanic materials and water or ice.",
+            "utility": "Interpreting volcanic morphology, geological stratigraphy, and the effects of lava-ice interactions on planetary landscapes."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 77.0,
+        "classification": "High",
+        "description": "Iceland's glaciers, localized frozen ground, subglacial volcanism, and water-altered minerals offer valuable analog opportunities for Martian ice-related terrain and ancient aqueous processes.",
+        "utility": "Ice detection, frozen-ground exploration, geological water-history interpretation, and resource reconnaissance.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 35,
+            "explanation": "Iceland contains abundant rivers, lakes, wetlands, and glacial meltwater. Stable liquid water is generally absent from the present Martian surface, although Mars preserves extensive evidence of ancient water activity.",
+            "utility": "Studying water-related landforms while recognizing their environmental differences."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 90,
+            "explanation": "Iceland contains extensive glaciers and ice caps. Mars contains polar ice deposits and ice-rich terrain, although the thermal conditions, ice composition, and geological settings differ.",
+            "utility": "Testing ice-detection instruments and robotic operations on ice-bearing terrain."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 82,
+            "explanation": "Iceland includes seasonal ground ice and localized frozen subsurface environments. Mars contains substantial subsurface ice deposits in several regions, including buried ice-rich geological units.",
+            "utility": "Testing subsurface ice detection and ground-penetrating instruments."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 80,
+            "explanation": "Iceland contains discontinuous mountain permafrost in some high-elevation areas. Mars has extensive cold ground conditions favorable to the long-term preservation of subsurface ice.",
+            "utility": "Studying frozen-ground properties and robotic exploration of ice-bearing terrain."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 76,
+            "explanation": "Iceland contains hydrogen in water, ice, geothermal steam, and hydrated minerals. Martian hydrogen measurements can indicate water ice or hydrated minerals, although hydrogen detection alone does not establish the chemical form.",
+            "utility": "Testing instruments designed to recognize hydrogen-bearing geological materials."
+          },
+          {
+            "id": "evidence_of_past_water",
+            "name": "Evidence of Past Water",
+            "score": 91,
+            "explanation": "Iceland's glacial valleys, volcanic-water interactions, and hydrothermally altered deposits provide examples of geological processes involving liquid water and ice. Mars preserves evidence of ancient rivers, lakes, and water-related mineral alteration.",
+            "utility": "Testing methods for interpreting ancient aqueous geological environments."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 83,
+            "explanation": "Iceland contains basaltic construction materials, volcanic minerals, sulfur-bearing deposits, and geothermal resources. Mars contains basaltic materials, hydrated minerals, and ice deposits of potential exploration interest, although resource availability and extraction methods differ.",
+            "utility": "Evaluating geological resource detection and preliminary material-processing methods."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 83.0,
+        "classification": "High",
+        "description": "Iceland's black volcanic sands, dust storms, wind erosion, and suspended mineral particles provide strong operational analogs for selected Martian dust-related challenges. Atmospheric density and composition remain major differences.",
+        "utility": "Dust-sensor testing, sediment-transport research, abrasion studies, and environmental monitoring.",
+        "variables": [
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 12,
+            "explanation": "Iceland's atmospheric pressure is vastly greater than that of Mars. Terrestrial low-pressure weather systems do not reproduce Martian atmospheric conditions.",
+            "utility": "Identifying the need for controlled low-pressure testing environments."
+          },
+          {
+            "id": "atmospheric_composition",
+            "name": "Atmospheric Composition",
+            "score": 8,
+            "explanation": "Iceland has Earth's nitrogen- and oxygen-rich atmosphere, while Mars has a carbon dioxide-dominated atmosphere.",
+            "utility": "Establishing the limitations of open-air testing for Martian atmospheric instruments."
+          },
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 80,
+            "explanation": "Iceland experiences strong winds capable of transporting volcanic dust and sand. Mars also experiences wind-driven sediment transport, but under much lower atmospheric density.",
+            "utility": "Testing wind sensors and observing sediment movement."
+          },
+          {
+            "id": "dust",
+            "name": "Dust",
+            "score": 94,
+            "explanation": "Icelandic black-sand deserts produce fine basaltic dust that can expose equipment to mineral particles. Martian dust differs in chemistry, grain-size distribution, and environmental behavior.",
+            "utility": "Testing dust-resistant components, optical instruments, and particle sensors."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": 93,
+            "explanation": "Iceland experiences volcanic dust storms generated by strong winds over exposed sediment deposits. Mars experiences local, regional, and occasionally planet-encircling dust storms. Their atmospheric physics differ substantially.",
+            "utility": "Evaluating dust monitoring, visibility sensors, and equipment exposure."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion and Sediments",
+            "score": 94,
+            "explanation": "Icelandic winds redistribute basaltic sands, volcanic dust, and glacial outwash sediments. Mars contains dunes and other wind-shaped deposits, although the atmospheric transport conditions differ.",
+            "utility": "Investigating sediment transport, erosion, and dune-related geological processes."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": 82,
+            "explanation": "Iceland contains suspended volcanic particles, sulfate aerosols, and marine aerosols. Mars contains atmospheric dust and other aerosols, but their sources, composition, and atmospheric interactions differ.",
+            "utility": "Testing atmospheric monitoring instruments and studying particle-related sensor interference."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 88.0,
+        "classification": "High",
+        "description": "Iceland's basaltic lava tubes, volcanic caves, rift fractures, and layered underground deposits provide valuable structural analogs for potential Martian subsurface environments.",
+        "utility": "Underground robotic exploration, lava-tube mapping, geological imaging, and structural reconnaissance.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves and Cavities",
+            "score": 91,
+            "explanation": "Iceland contains basaltic caves and glacial ice caves. Its volcanic cavities are especially relevant to potential Martian underground structures, while glacial caves represent different formation processes.",
+            "utility": "Testing robotic navigation, imaging, and communication systems underground."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 95,
+            "explanation": "Icelandic lava tubes form as flowing lava drains beneath a solidified crust. Similar volcanic processes may have produced lava tubes in Martian volcanic regions.",
+            "utility": "Developing techniques for detecting, mapping, and exploring potential Martian lava tubes."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Fractures and Faults",
+            "score": 92,
+            "explanation": "Iceland's active rift zones contain tectonic fissures and faults. Mars also contains fractures and tectonic structures, although its tectonic history differs from Earth's plate-boundary processes.",
+            "utility": "Testing fracture recognition and geological hazard assessment."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 88,
+            "explanation": "Icelandic subsurface deposits contain layered basaltic flows and subglacial volcanic materials. Mars contains layered volcanic and sedimentary deposits with different geological histories.",
+            "utility": "Testing subsurface imaging and stratigraphic interpretation."
+          },
+          {
+            "id": "regolith_thickness",
+            "name": "Material Thickness",
+            "score": 74,
+            "explanation": "Iceland's volcanic crust contains thick accumulations of volcanic and sedimentary materials. Martian volcanic deposits can also be extensive, but their thicknesses and physical properties vary by region.",
+            "utility": "Evaluating subsurface geological models and layer-thickness estimation."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": 79.0,
+        "classification": "High",
+        "description": "Iceland's psychrophilic, thermophilic, and acidophilic microorganisms provide terrestrial models for investigating potential habitability and biosignature preservation in cold or volcanic Martian environments.",
+        "utility": "Astrobiology, extremophile research, biosignature detection, and planetary protection.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": 86,
+            "explanation": "Iceland contains microorganisms adapted to cold glaciers, geothermal systems, and chemically challenging volcanic environments. Mars has no confirmed indigenous life, so the comparison concerns terrestrial models of possible survival strategies rather than biological equivalence.",
+            "utility": "Testing biological detection instruments and studying microbial survival mechanisms."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": 68,
+            "explanation": "Iceland includes cold highlands, geothermal environments, and water-rock interaction zones. These provide models for investigating some environmental factors relevant to potential past Martian habitability, although Iceland remains substantially more favorable to terrestrial life.",
+            "utility": "Studying environmental limits and potential habitability indicators."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Potential Biosignatures",
+            "score": 81,
+            "explanation": "Icelandic microbial communities can produce biological structures and chemical signatures in volcanic and hydrothermal environments. These provide test materials for methods intended to distinguish potential biosignatures from nonbiological geological features.",
+            "utility": "Developing and evaluating biosignature-detection techniques."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": 85,
+            "explanation": "Icelandic microorganisms exhibit cold-adapted enzymes and metabolic processes associated with geothermal and geochemical gradients. These adaptations provide terrestrial examples for investigating possible survival mechanisms under challenging planetary conditions.",
+            "utility": "Studying microbial metabolism, environmental adaptation, and biological detection strategies."
+          }
+        ]
+      }
+    ]
+  }
+}

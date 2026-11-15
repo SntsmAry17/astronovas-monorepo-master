@@ -1,0 +1,856 @@
+{
+  "id": "TER-02",
+  "slug": "hawaii",
+  "name": "Hawaii Volcanic Complex",
+  "country": "United States",
+  "regions": "Mauna Kea and Kīlauea, Island of Hawaii",
+  "lat": 19.82,
+  "lng": -155.47,
+  "extraMarkers": [
+    { "name": "Mauna Kea", "lat": 19.82, "lng": -155.47 },
+    { "name": "Kīlauea", "lat": 19.42, "lng": -155.29 }
+  ],
+  "elevation": "Maximum elevation 4,207 m (Mauna Kea summit)",
+  "environmentType": "Volcanic / Basaltic",
+  "features": [
+    "Basaltic shield volcanism",
+    "High-altitude volcanic slopes",
+    "Cinder deposits",
+    "Volcanic craters and fractures",
+    "Lava-tube systems",
+    "Historical glacial deposits and seasonal snow on Mauna Kea",
+    "Localized permafrost near the Mauna Kea summit",
+    "Volcanic gas emissions at Kīlauea"
+  ],
+  "description": "The Hawaii Volcanic Complex assessment combines selected environments from Mauna Kea and Kīlauea. Mauna Kea provides high-altitude volcanic terrain, historical glacial deposits, seasonal snow, and localized permafrost. Kīlauea provides basaltic lava fields, volcanic craters, fractures, lava tubes, and volcanic gas emissions. Observations from these volcanoes must be attributed to their respective locations.",
+  "relevance": "Planetary rover mobility, volcanic terrain mapping, basaltic mineral identification, subsurface exploration, and testing technologies for lava-tube reconnaissance.",
+  "geoNote": "The displayed coordinates are representative reference points for Mauna Kea and Kīlauea and do not identify a single measurement or sampling location. Observations from these volcanoes must be attributed to their respective locations.",
+  "moon": {
+    "id": "TER-02-MOON",
+    "planet": "moon",
+    "overallScore": 55.0,
+    "classification": "Moderate",
+    "summary": "Hawaii's basaltic landscapes, rugged volcanic surfaces, craters, and lava tubes share geological and structural characteristics with certain lunar volcanic environments, making them useful for exploration simulations.",
+    "applications": [
+      "Lunar rover mobility testing",
+      "Basaltic mineral analysis",
+      "Lava-tube exploration",
+      "Subsurface mapping",
+      "Volcanic terrain recognition"
+    ],
+    "objective": "This assessment examines the suitability of the Mauna Kea–Kīlauea volcanic environments for terrestrial tests relevant to lunar exploration. It emphasizes basaltic geology, surface mobility, volcanic landforms, and subsurface structures.",
+    "characterization": [
+      "The Hawaiian volcanic complex contains basaltic shield volcanoes, lava fields, cinder deposits, volcanic craters, fractures, and lava tubes. Mauna Kea reaches approximately 4,207 m above sea level and experiences cold summit conditions. Kīlauea includes active volcanic processes and relatively young basaltic surfaces.",
+      "The complex is not environmentally uniform. Humid lowland terrain, high-altitude volcanic slopes, and relatively dry lava fields must be evaluated separately when designing experiments."
+    ],
+    "limitations": [
+      "The Hawaiian environment does not reproduce lunar gravity, near-vacuum conditions, prolonged lunar thermal cycles, space radiation, micrometeorite exposure, or the complete properties of lunar regolith.",
+      "Its usefulness is therefore greatest for targeted geological and operational tests rather than full environmental simulation."
+    ],
+    "conclusion": [
+      "The Hawaii Volcanic Complex receives a provisional lunar similarity score of 55.0%, classified as Moderate.",
+      "Its strongest assessed categories are Subsurface and Natural Structures (91.0%), Geology and Mineralogy (87.0%), and Topography and Geomorphology (76.0%).",
+      "The most valuable application is the investigation of basaltic volcanic terrain and underground structures potentially relevant to lunar exploration."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial references",
+        "items": [
+          "USGS Hawaiian Volcano Observatory",
+          "NASA Earthdata Search",
+          "NASA Worldview",
+          "NOAA National Centers for Environmental Information",
+          "USGS Mauna Kea geology and history: https://www.usgs.gov/volcanoes/mauna-kea/science/geology-and-history-mauna-kea",
+          "USGS Kīlauea: https://www.usgs.gov/volcanoes/kilauea",
+          "Mauna Kea permafrost research: https://doi.org/10.1080/15230430.2023.2186485"
+        ]
+      },
+      {
+        "label": "Lunar references",
+        "items": [
+          "NASA PDS Geosciences Node",
+          "NASA Moon Science",
+          "Lunar Reconnaissance Orbiter Camera",
+          "NASA Lunar Rocks"
+        ]
+      },
+      {
+        "label": "Relevant missions and instruments",
+        "items": [
+          "Lunar Reconnaissance Orbiter (LOLA, LROC, Diviner)",
+          "Chandrayaan-1 (Moon Mineralogy Mapper)",
+          "Lunar Prospector",
+          "Apollo sample investigations",
+          "GRAIL"
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment uses the supplied terrestrial and lunar research to identify geological, environmental, and operational similarities. The displayed scores are provisional qualitative judgments for the prototype, not direct measurements from the referenced missions or the output of a validated quantitative similarity model.",
+      "Similarity percentages are preliminary AI-assisted assessments based on compiled scientific descriptions. They have not been independently validated as quantitative measures of planetary similarity or mission suitability.",
+      "The classification scale is Very high (90–100%), High (75–less than 90%), Moderate (50–less than 75%), Low (25–less than 50%), Very low (0–less than 25%), and Not applicable (N/A).",
+      "A reproducible scientific score would require defined geographic sampling areas, comparable physical measurements, explicit variable weights, and documented normalization procedures."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 76.0,
+        "classification": "High",
+        "description": "Hawaiian volcanic topography contains a range of slopes, rough basaltic surfaces, crater-like depressions, and rocky obstacles that can support lunar terrain simulations.",
+        "utility": "Testing rover mobility, autonomous navigation, obstacle detection, and route planning.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 48,
+            "explanation": "Mauna Kea reaches 4,207 m above terrestrial sea level, while lunar elevations are referenced to a lunar datum. The elevations are not directly equivalent, but the Hawaiian mountain provides an extensive vertical terrain profile.",
+            "utility": "Evaluating navigation and field operations across large elevation changes."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 78,
+            "explanation": "Shield volcano summits can contain relatively gentle slopes, while caldera walls and other volcanic structures may be much steeper. Lunar maria also contain relatively level terrain, whereas crater walls can present challenging gradients.",
+            "utility": "Testing rover stability, traction, ascent, and descent."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 92,
+            "explanation": "Angular ʻaʻā lava surfaces and fractured basaltic blocks create highly irregular terrain. Pāhoehoe surfaces provide contrasting, often smoother textures. Lunar surfaces also exhibit significant roughness, particularly around rocky impact deposits.",
+            "utility": "Evaluating wheel performance, suspension systems, and autonomous terrain classification."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 85,
+            "explanation": "Hawaiian shield volcanoes, calderas, cinder cones, and volcanic depressions offer terrain forms relevant to lunar volcanic provinces. However, lunar large-scale relief is strongly influenced by impacts.",
+            "utility": "Testing geomorphological mapping and terrain interpretation."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 45,
+            "explanation": "Hawaiian volcanic craters and collapse pits may resemble certain lunar depressions geometrically. They differ from impact craters in formation processes, surrounding deposits, and structural characteristics.",
+            "utility": "Training visual recognition systems while distinguishing volcanic and impact features."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 90,
+            "explanation": "Fractured basaltic blocks, scoria, open fissures, and collapsed lava-tube roofs create significant surface hazards.",
+            "utility": "Testing obstacle avoidance, hazard detection, and safe rover traversal."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 30.0,
+        "classification": "Low",
+        "description": "The Mauna Kea summit provides relatively cold conditions and strong solar exposure, but Hawaii does not reproduce lunar vacuum or extreme lunar thermal cycles.",
+        "utility": "Preliminary environmental testing of sensors and equipment.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 35,
+            "explanation": "The terrestrial dataset describes warm coastal conditions and freezing summit temperatures. These are primarily environmental or air-temperature descriptions rather than standardized measurements of ground-surface temperature. Lunar surface temperatures vary over a much wider range.",
+            "utility": "Preliminary assessment of temperature-sensitive equipment."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 22,
+            "explanation": "The supplied Hawaiian data describe coastal maxima near 32°C and summit minima around -8°C. Lunar extremes can exceed 120°C in illuminated regions and approach -247°C in exceptionally cold polar locations.",
+            "utility": "Identifying equipment requirements that cannot be tested under ordinary Hawaiian field conditions."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 32,
+            "explanation": "The Hawaiian summit can experience substantial day–night temperature differences, but the lunar surface experiences a much longer illumination cycle and greater thermal amplitudes.",
+            "utility": "Testing preliminary responses to heating and cooling."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 55,
+            "explanation": "High-altitude Hawaiian slopes can receive intense sunlight above cloud layers. Lunar illumination is controlled by a different day–night cycle and by local topography, particularly near the poles.",
+            "utility": "Testing solar-powered instruments and optical sensors."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Conditions / Vacuum",
+            "score": 0,
+            "explanation": "Hawaii possesses a substantial terrestrial atmosphere, whereas the Moon has an extremely tenuous exosphere.",
+            "utility": "Establishing which equipment tests require laboratory vacuum chambers."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 87.0,
+        "classification": "High",
+        "description": "Hawaiian basaltic volcanic rocks provide a strong geological comparison with lunar mare basalts and some lunar volcanic deposits.",
+        "utility": "Mineralogical characterization, geological mapping, and testing planetary instruments.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 94,
+            "explanation": "Hawaii contains tholeiitic and alkaline basalts, together with related volcanic materials. Lunar maria also contain basaltic rocks, although their chemistry, cooling histories, and eruption environments differ.",
+            "utility": "Testing automated basalt classification and rock-identification instruments."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 92,
+            "explanation": "Hawaiian volcanic rocks contain olivine, pyroxene, plagioclase, iron-titanium oxides, and volcanic glass. Several of these mineral groups are also important constituents of lunar basalts.",
+            "utility": "Testing spectrometers and mineral-identification algorithms."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 84,
+            "explanation": "Hawaiian basalts contain iron, magnesium, silicon, aluminum, and other elements relevant to comparisons with lunar basaltic materials. Elemental proportions and oxidation states are not identical.",
+            "utility": "Evaluating geochemical instruments and elemental classification methods."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 88,
+            "explanation": "Hawaiian tephra, basaltic fragments, scoria, and volcanic ash can support experiments involving granular and rocky terrain. Lunar regolith additionally contains impact-produced particles and glassy agglutinates.",
+            "utility": "Testing excavation, sampling, and mechanical interaction with granular materials."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 60,
+            "explanation": "Hawaiian volcanic rocks undergo alteration through atmospheric exposure and interaction with water. Lunar surface alteration is instead dominated by micrometeorite impacts, solar-wind exposure, and other space-weathering processes.",
+            "utility": "Differentiating primary mineral signatures from alteration effects."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 94,
+            "explanation": "Shield volcanoes, basaltic lava flows, and layered volcanic deposits provide useful structural comparisons with lunar volcanic terrain.",
+            "utility": "Recognizing volcanic landforms and interpreting planetary geological imagery."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 24.0,
+        "classification": "Very Low",
+        "description": "Hawaii does not reproduce lunar polar ice environments, but basaltic materials provide opportunities for resource-related experiments.",
+        "utility": "Mineral resource assessment and preliminary testing of basalt processing.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 5,
+            "explanation": "Hawaii contains abundant water in many areas, whereas stable liquid water is absent from the present lunar surface.",
+            "utility": "Identifying limitations of terrestrial water-related analog experiments."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 8,
+            "explanation": "Mauna Kea may experience temporary snowfall, but the supplied dataset reports no present active glaciers. Lunar polar ice occurs under radically different environmental conditions.",
+            "utility": "Distinguishing transient terrestrial snow from stable lunar cold-trap deposits."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 5,
+            "explanation": "Localized ice-rich frozen ground has been documented in protected areas near the Mauna Kea summit. This finding does not indicate widespread subsurface ice throughout Hawaii and must not be interpreted as equivalent to lunar or Martian ice deposits.",
+            "utility": "Investigating localized frozen-ground conditions and studying differences between terrestrial mountain permafrost and planetary ice-bearing regolith."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 5,
+            "explanation": "Localized mountain permafrost has been confirmed near the Mauna Kea summit, including protected crater environments associated with Puuwekiu and Puuhaukea. Research indicates that the extent of this permafrost has decreased over recent decades.",
+            "utility": "Studying localized permafrost preservation, ground thermal dynamics, seasonal frost, and the limitations of terrestrial frozen-ground analogs for lunar and Martian exploration."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 28,
+            "explanation": "Hawaiian water and hydrated alteration minerals contain hydrogen, but they do not reproduce the processes responsible for lunar hydrogen distributions.",
+            "utility": "Testing preliminary methods for recognizing hydrogen-bearing minerals."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 70,
+            "explanation": "Hawaiian basalt and volcanic aggregates offer materials for experimental processing. Lunar resource utilization focuses on different environmental and extraction conditions.",
+            "utility": "Investigating basalt-based construction materials and preliminary resource-processing concepts."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 22.0,
+        "classification": "Very Low",
+        "description": "Hawaiian volcanic particles can be useful for mechanical dust studies, but atmospheric transport processes are fundamentally different from those on the Moon.",
+        "utility": "Preliminary dust-protection and particle-interaction testing.",
+        "variables": [
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 0,
+            "explanation": "Hawaiian trade winds transport particles through a dense atmosphere. The Moon lacks comparable aerodynamic wind.",
+            "utility": "Separating terrestrial wind-driven effects from lunar particle behavior."
+          },
+          {
+            "id": "abrasive_dust",
+            "name": "Abrasive Dust",
+            "score": 62,
+            "explanation": "Volcanic ash and angular tephra can challenge seals, joints, optical surfaces, and other equipment. Lunar dust differs in composition, electrical behavior, and formation history.",
+            "utility": "Evaluating abrasion resistance and particle-exclusion mechanisms."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion",
+            "score": null,
+            "explanation": "Terrestrial wind erosion has no direct lunar equivalent.",
+            "utility": "Defining the limitations of wind-shaped landforms as lunar analogs."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": null,
+            "explanation": "Terrestrial dust or ash storms do not reproduce atmospheric dust storms on the Moon, because the Moon has no substantial atmosphere.",
+            "utility": "Preventing inappropriate transfer of atmospheric test results."
+          },
+          {
+            "id": "sediments_and_dunes",
+            "name": "Sediments and Granular Deposits",
+            "score": 48,
+            "explanation": "Hawaiian volcanic sands and tephra provide granular materials for experiments, although lunar deposits are predominantly modified by impacts and space weathering.",
+            "utility": "Testing granular mobility and mechanical sampling."
+          },
+          {
+            "id": "volcanic_aerosols",
+            "name": "Volcanic Aerosols",
+            "score": null,
+            "explanation": "Sulfur-bearing volcanic gases and aerosols in Hawaii have no direct counterpart as an ongoing atmospheric process on the present Moon.",
+            "utility": "Distinguishing volcanic gas exposure from lunar environmental hazards."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 91.0,
+        "classification": "Very High",
+        "description": "Hawaiian lava tubes and associated volcanic structures are particularly valuable analogs for exploring potential lunar underground environments.",
+        "utility": "Underground robotic exploration, structural mapping, and preliminary habitat-site research.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves",
+            "score": 90,
+            "explanation": "Hawaiian volcanic terrain contains natural cavities that can be used for navigation and exploration experiments. Their environmental conditions differ from those expected underground on the Moon.",
+            "utility": "Testing autonomous robots in confined underground spaces."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 97,
+            "explanation": "Hawaiian lava tubes form as fluid lava drains beneath a solidified crust. Similar volcanic mechanisms are considered relevant to possible lunar lava tubes, although the dimensions and stability of lunar structures remain incompletely characterized.",
+            "utility": "Developing techniques for lava-tube mapping and robotic reconnaissance."
+          },
+          {
+            "id": "cavities_and_fractures",
+            "name": "Cavities and Fractures",
+            "score": 92,
+            "explanation": "Hawaiian rift zones, fissures, and collapsed volcanic cavities provide structural features useful for hazard identification.",
+            "utility": "Testing fracture detection and collapse-risk reconnaissance."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 90,
+            "explanation": "Stacked basaltic lava flows and buried soil horizons produce layered underground structures. Lunar subsurface volcanic deposits can also be layered, but their depositional histories differ.",
+            "utility": "Testing ground-penetrating instruments and stratigraphic interpretation."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 86,
+            "explanation": "Hawaiian volcanic edifices contain thick accumulations of lava flows. These are not equivalent to lunar regolith thickness but can provide relevant volcanic structural contexts.",
+            "utility": "Investigating subsurface imaging and geological layer recognition."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": null,
+        "classification": "Not Applicable",
+        "description": "There is no confirmed indigenous lunar life against which Hawaiian biological communities can be directly compared.",
+        "utility": "Terrestrial contamination-control research and the study of operational requirements for human exploration.",
+        "variables": [
+          {
+            "id": "direct_biological_similarity",
+            "name": "Direct Biological Similarity",
+            "score": null,
+            "explanation": "No confirmed lunar biological reference population exists.",
+            "utility": "Defining the scientific boundary of direct biological comparison."
+          },
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": null,
+            "explanation": "Hawaiian thermophilic and acidophilic microorganisms are terrestrial organisms, not direct lunar biological analogs.",
+            "utility": "Supporting laboratory studies of terrestrial microbial survival."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": null,
+            "explanation": "Hawaii supports terrestrial ecosystems, while the lunar surface lacks conditions necessary for unprotected terrestrial life.",
+            "utility": "Informing habitat-support and environmental-protection planning."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Biosignatures",
+            "score": null,
+            "explanation": "Hawaiian microbial evidence cannot be compared with confirmed indigenous lunar biosignatures.",
+            "utility": "Testing contamination detection and sample-handling methods."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": null,
+            "explanation": "Hawaiian microorganisms exhibit adaptations to terrestrial environmental extremes, but there is no known lunar biology for direct comparison.",
+            "utility": "Supporting research on terrestrial biological resilience."
+          }
+        ]
+      }
+    ]
+  },
+  "mars": {
+    "id": "TER-02-MARS",
+    "planet": "mars",
+    "overallScore": 63.3,
+    "classification": "Moderate",
+    "summary": "Hawaii's shield volcanoes, basaltic lava flows, rocky terrain, and underground cavities resemble features found in Martian volcanic regions. Its volcanic environments also support selected astrobiological studies.",
+    "applications": [
+      "Martian rover navigation",
+      "Volcanic geology research",
+      "Mineralogical analysis",
+      "Lava-tube exploration",
+      "Subsurface reconnaissance",
+      "Astrobiological instrument testing"
+    ],
+    "objective": "This assessment evaluates the suitability of Mauna Kea and Kīlauea as terrestrial analog environments for Martian volcanic terrain, geological exploration, subsurface reconnaissance, and selected astrobiological investigations.",
+    "characterization": [
+      "The Hawaiian volcanic complex is dominated by basaltic shield volcanism. Its landscapes include lava flows, volcanic craters, cinder deposits, fractures, and lava tubes.",
+      "Mauna Kea provides high-altitude volcanic terrain and cold summit conditions. Kīlauea provides active volcanic processes and relatively young basaltic surfaces.",
+      "These features offer useful comparisons with Martian volcanic regions, including the large shield volcanoes of Tharsis and other basaltic terrains.",
+      "However, Hawaiian atmospheric conditions, biological activity, and water availability differ substantially from present-day Mars."
+    ],
+    "limitations": [
+      "Hawaii does not reproduce Martian gravity, atmospheric composition, low atmospheric pressure, widespread cold conditions, space radiation, or the distribution of Martian subsurface ice.",
+      "Its humid and biologically active environments also differ from much of the present Martian surface."
+    ],
+    "conclusion": [
+      "The Hawaii Volcanic Complex receives a provisional Martian similarity score of 63.3%, classified as Moderate.",
+      "The highest assessed categories are Subsurface and Natural Structures (87.0%), Geology and Mineralogy (85.0%), and Topography and Geomorphology (82.0%).",
+      "Hawaii is especially valuable for testing geological and robotic exploration methods in basaltic volcanic environments. Its suitability for atmospheric, cryogenic, and comprehensive environmental simulations is more limited."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial references",
+        "items": [
+          "USGS Hawaiian Volcano Observatory",
+          "NASA Earthdata Search",
+          "NOAA Environmental Data",
+          "Copernicus Data Space",
+          "USGS Mauna Kea geology and history: https://www.usgs.gov/volcanoes/mauna-kea/science/geology-and-history-mauna-kea",
+          "USGS Kīlauea: https://www.usgs.gov/volcanoes/kilauea"
+        ]
+      },
+      {
+        "label": "Martian references",
+        "items": [
+          "NASA Planetary Data System",
+          "PDS Geosciences Node",
+          "Mars Orbital Data Explorer",
+          "USGS Astrogeology Science Center"
+        ]
+      },
+      {
+        "label": "Relevant missions and instruments",
+        "items": [
+          "Mars Global Surveyor (MOLA, TES)",
+          "Mars Reconnaissance Orbiter (HiRISE, CTX, CRISM, SHARAD)",
+          "Mars Odyssey (THEMIS)",
+          "Curiosity (APXS, CheMin, SAM, REMS)",
+          "Perseverance"
+        ]
+      }
+    ],
+    "methodology": [
+      "This evaluation compares the terrestrial characteristics described in the supplied Hawaiian research with global and regional Martian observations.",
+      "The prototype percentages represent provisional qualitative similarity judgments. They are not direct NASA measurements or the result of a validated numerical scoring algorithm.",
+      "Similarity percentages are preliminary AI-assisted assessments based on compiled scientific descriptions. They have not been independently validated as quantitative measures of planetary similarity or mission suitability.",
+      "A scientifically reproducible model would require comparable site-specific measurements, explicit scoring rules, and documented variable weighting.",
+      "The classification scale is: 90–100% Very high; 75–less than 90% High; 50–less than 75% Moderate; 25–less than 50% Low; 0–less than 25% Very low; N/A Not applicable.",
+      "N/A variables must not be treated as zero-valued observations."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 82.0,
+        "classification": "High",
+        "description": "Hawaiian shield volcanoes and basaltic surfaces provide useful geological and operational comparisons with selected volcanic regions of Mars.",
+        "utility": "Rover mobility, terrain mapping, volcanic landform identification, and autonomous navigation.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 58,
+            "explanation": "Mauna Kea rises approximately 4,207 m above terrestrial sea level. Mars contains volcanic edifices reaching far greater elevations, including Olympus Mons. Their elevations use different planetary reference systems.",
+            "utility": "Testing navigation and mapping across volcanic elevation gradients."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 84,
+            "explanation": "Hawaiian shield volcanoes contain relatively gentle slopes, while caldera walls and volcanic fractures can present steep terrain. Martian volcanic landscapes also contain diverse slope conditions.",
+            "utility": "Evaluating rover stability, traction, and safe route selection."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 92,
+            "explanation": "Hawaiian ʻaʻā lava flows contain angular blocks and irregular surfaces, while pāhoehoe flows offer smoother textures. Both provide useful contrasts for robotic mobility testing.",
+            "utility": "Testing suspension systems, terrain classification, and wheel–surface interaction."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 94,
+            "explanation": "Hawaiian shield volcanoes, calderas, and volcanic cones provide strong morphological comparisons with selected Martian volcanic landforms.",
+            "utility": "Interpreting volcanic landscapes using orbital imagery and terrain models."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 55,
+            "explanation": "Hawaiian volcanic craters and collapse depressions may resemble certain Martian volcanic features. They do not directly represent Martian impact craters.",
+            "utility": "Distinguishing volcanic collapse structures from impact-generated depressions."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 91,
+            "explanation": "Fractured basalt, scoria, fissures, and collapsed lava-tube roofs present hazards relevant to planetary exploration.",
+            "utility": "Testing autonomous obstacle recognition and avoidance."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 44.0,
+        "classification": "Low",
+        "description": "High-altitude Hawaiian environments provide limited analog opportunities for thermal testing, although their temperatures and atmospheric conditions differ significantly from Mars.",
+        "utility": "Preliminary environmental instrument testing and thermal-response evaluation.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 45,
+            "explanation": "Mauna Kea experiences cold summit conditions, while Kīlauea includes warm lowlands and potentially very hot volcanic surfaces. Martian surface temperatures are generally much colder and depend on location, season, and local time.",
+            "utility": "Evaluating temperature sensors across contrasting terrain conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 38,
+            "explanation": "Hawaiian temperature extremes do not reproduce the full range of Martian temperatures, particularly the intense cold observed in polar and nighttime environments.",
+            "utility": "Identifying thermal-protection requirements for instruments."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 54,
+            "explanation": "Hawaiian summit conditions can exhibit significant daily temperature changes. Mars also experiences pronounced daily temperature variation, although the atmospheric and surface-energy processes differ.",
+            "utility": "Testing responses to repeated thermal changes."
+          },
+          {
+            "id": "seasonality",
+            "name": "Seasonality",
+            "score": 45,
+            "explanation": "Hawaii experiences seasonal environmental variations, but Martian seasons depend on different orbital conditions and include major changes in atmospheric carbon dioxide distribution.",
+            "utility": "Testing environmental monitoring across changing conditions."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 60,
+            "explanation": "High-altitude Hawaiian terrain offers strong solar exposure and relatively clear skies in certain locations. Mars receives less solar energy overall and experiences atmospheric dust effects.",
+            "utility": "Testing optical sensors and preliminary solar-energy systems."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 15,
+            "explanation": "Mauna Kea's summit pressure is lower than sea-level pressure but remains vastly greater than the thin Martian atmosphere, whose global mean is approximately 600 Pa.",
+            "utility": "Identifying the need for specialized low-pressure testing chambers."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 85.0,
+        "classification": "High",
+        "description": "Hawaiian volcanic rocks offer strong mineralogical and lithological analog opportunities for Martian basaltic terrains.",
+        "utility": "Geological sampling, mineral identification, spectral analysis, and volcanic mapping.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 95,
+            "explanation": "Hawaiian volcanic environments contain basaltic rocks that are broadly relevant to Martian igneous geology. Martian basaltic compositions and geological histories vary between regions.",
+            "utility": "Testing robotic rock recognition and classification."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 93,
+            "explanation": "Hawaiian basalts commonly contain olivine, pyroxene, plagioclase, and iron-bearing minerals. These mineral groups are also relevant to Martian volcanic rocks.",
+            "utility": "Testing mineralogical instruments and spectral identification algorithms."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 85,
+            "explanation": "Hawaiian basalts contain iron, magnesium, silicon, aluminum, and other elements relevant to Martian basalt comparisons. Differences remain in oxidation state, elemental proportions, and alteration products.",
+            "utility": "Evaluating geochemical sensors and analytical procedures."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 90,
+            "explanation": "Hawaiian lava fragments, volcanic sands, scoria, and ash provide rocky and granular materials relevant to selected Martian surface conditions.",
+            "utility": "Testing rover mobility, sampling tools, and material-handling systems."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 64,
+            "explanation": "Hawaiian rocks undergo weathering influenced by water, oxygen, and biological processes. Martian alteration includes evidence of ancient aqueous activity and present-day environmental processes under different conditions.",
+            "utility": "Investigating how alteration affects mineral signatures."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 94,
+            "explanation": "Hawaiian shield volcanoes, lava flows, and layered volcanic deposits offer strong structural comparisons with Martian volcanic provinces.",
+            "utility": "Interpreting volcanic formations and reconstructing geological processes."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 35.0,
+        "classification": "Low",
+        "description": "Hawaii's water-rich environments differ substantially from present-day Martian surface conditions, although volcanic materials can support selected resource-characterization experiments.",
+        "utility": "Mineral analysis, subsurface reconnaissance, and resource-detection method development.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 18,
+            "explanation": "Hawaii contains rivers, groundwater, rainfall, and humid environments. Stable liquid water is generally absent from the present Martian surface.",
+            "utility": "Understanding the limits of water-related terrestrial comparisons."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface or Polar Ice",
+            "score": 12,
+            "explanation": "The supplied Hawaiian research identifies no present active glaciers. Mars contains substantial polar and subsurface ice deposits.",
+            "utility": "Identifying where ice-bearing test materials or alternative analog sites are required."
+          },
+          {
+            "id": "subsurface_ice_and_permafrost",
+            "name": "Subsurface Ice and Permafrost",
+            "score": 5,
+            "explanation": "The submitted terrestrial dataset does not establish a suitable Hawaiian subsurface ice analog. Martian ice-rich ground is documented in several regions.",
+            "utility": "Defining the limitations of Hawaiian field testing for frozen-ground exploration."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen",
+            "score": 42,
+            "explanation": "Hawaiian groundwater and hydrated minerals contain hydrogen. Martian hydrogen measurements may indicate ice or hydrated minerals, but the geological settings are different.",
+            "utility": "Testing preliminary methods for recognizing hydrogen-bearing materials."
+          },
+          {
+            "id": "evidence_of_past_water",
+            "name": "Evidence of Past Water",
+            "score": 38,
+            "explanation": "Hawaiian volcanic deposits record interactions with water, but their environmental and geological histories differ from ancient Martian fluvial and lacustrine deposits.",
+            "utility": "Studying mineral alteration and recognizing water-related geological features."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Minerals and Resources",
+            "score": 70,
+            "explanation": "Hawaiian basaltic materials provide opportunities to study mineral resources and experimental construction materials. Martian resource extraction would require different processing conditions.",
+            "utility": "Testing mineral identification and preliminary resource-processing concepts."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Aeolian Dynamics",
+        "score": 49.0,
+        "classification": "Low",
+        "description": "Hawaiian winds, volcanic particles, and atmospheric aerosols offer limited opportunities to study dust exposure and sediment movement. Mars has a much thinner atmosphere and different dust dynamics.",
+        "utility": "Dust-sensor testing, particle exposure studies, and environmental monitoring.",
+        "variables": [
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 15,
+            "explanation": "Hawaii's atmosphere remains much denser than the Martian atmosphere, including at high elevations.",
+            "utility": "Identifying atmospheric-pressure differences that affect equipment testing."
+          },
+          {
+            "id": "atmospheric_composition",
+            "name": "Atmospheric Composition",
+            "score": 8,
+            "explanation": "Hawaii has an oxygen- and nitrogen-rich terrestrial atmosphere. The Martian atmosphere is dominated by carbon dioxide.",
+            "utility": "Establishing the need for controlled Martian atmospheric simulations."
+          },
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 55,
+            "explanation": "Hawaiian trade winds and local slope winds transport particles through the atmosphere. Martian winds operate under much lower atmospheric density.",
+            "utility": "Testing wind sensors and preliminary sediment-transport observations."
+          },
+          {
+            "id": "dust",
+            "name": "Dust",
+            "score": 66,
+            "explanation": "Hawaiian volcanic ash and fine tephra can be used for certain particle-exposure experiments. Martian dust has different mineralogical, atmospheric, and electrostatic characteristics.",
+            "utility": "Evaluating dust resistance, sensor performance, and mechanical contamination."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": 35,
+            "explanation": "Local Hawaiian ash or dust events may reduce visibility and expose equipment to particles. They do not reproduce the large-scale behavior of Martian dust storms.",
+            "utility": "Testing visibility sensors and dust-monitoring systems."
+          },
+          {
+            "id": "aeolian_erosion_and_sediments",
+            "name": "Aeolian Erosion and Sediments",
+            "score": 62,
+            "explanation": "Hawaiian volcanic sands and exposed tephra can undergo wind-driven movement and abrasion. Martian sediment transport occurs under different atmospheric conditions.",
+            "utility": "Investigating sediment movement and granular terrain."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": 55,
+            "explanation": "Kīlauea can emit volcanic gases and sulfur-bearing aerosols. Mars contains atmospheric dust and aerosols with different sources and chemical characteristics.",
+            "utility": "Testing environmental monitoring instruments and studying aerosol-related sensor interference."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 87.0,
+        "classification": "High",
+        "description": "Hawaiian lava tubes, volcanic fractures, and layered basaltic structures provide valuable analogs for potential Martian underground environments.",
+        "utility": "Underground robotic exploration, geological imaging, and structural reconnaissance.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves and Cavities",
+            "score": 90,
+            "explanation": "Hawaii contains volcanic cavities and cave systems that offer accessible environments for underground robotic tests.",
+            "utility": "Testing navigation, imaging, and communication systems in confined spaces."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 96,
+            "explanation": "Hawaiian lava tubes form through processes associated with basaltic lava flow and drainage. Similar volcanic mechanisms may have produced lava-tube structures on Mars.",
+            "utility": "Developing methods for mapping and exploring potential Martian lava tubes."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 88,
+            "explanation": "Hawaiian volcanic terrain includes fractures, buried lava flows, and layered geological structures. Martian volcanic terrains may contain related structural arrangements.",
+            "utility": "Testing subsurface imaging and geological interpretation techniques."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 78,
+            "explanation": "Hawaiian volcanic edifices contain extensive accumulations of basaltic material. These provide a geological comparison for layered volcanic deposits, although Martian thicknesses and subsurface properties vary.",
+            "utility": "Evaluating methods for characterizing layered subsurface materials."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": 61.0,
+        "classification": "Moderate",
+        "description": "Hawaiian volcanic microorganisms provide terrestrial models for studying biological survival in geothermal, acidic, and subsurface environments. These studies do not establish the existence of Martian life.",
+        "utility": "Astrobiology, biosignature detection, microbial survival research, and planetary protection.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": 78,
+            "explanation": "Hawaiian volcanic environments can support thermophilic, acidophilic, and other microorganisms adapted to challenging conditions. Mars has no confirmed indigenous organisms.",
+            "utility": "Investigating terrestrial survival mechanisms and testing biological detection instruments."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": 48,
+            "explanation": "Hawaii contains environments ranging from humid tropical areas to cold high-altitude volcanic terrain. Present-day Martian surface conditions are substantially less favorable for known terrestrial life.",
+            "utility": "Studying environmental limits and habitability indicators."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Potential Biosignatures",
+            "score": 65,
+            "explanation": "Microbial films and other biological evidence in Hawaiian volcanic settings can provide materials for testing biosignature-recognition techniques.",
+            "utility": "Developing methods to distinguish biological signals from nonbiological geological features."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": 72,
+            "explanation": "Hawaiian microorganisms can use metabolic processes associated with sulfur and iron compounds in volcanic environments. These processes provide terrestrial examples for astrobiological research.",
+            "utility": "Investigating microbial metabolism and potential biological detection strategies."
+          }
+        ]
+      }
+    ]
+  }
+}

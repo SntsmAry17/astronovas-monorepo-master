@@ -1,0 +1,766 @@
+{
+  "id": "TER-01",
+  "slug": "atacama",
+  "name": "Atacama Desert",
+  "country": "Chile",
+  "regions": "Antofagasta, Tarapacá and Atacama",
+  "lat": -23.8633,
+  "lng": -69.17,
+  "elevation": "Approximately 2,000–4,500 m in the sectors considered, with volcanic edifices exceeding 5,500 m",
+  "environmentType": "Hyperarid, saline-evaporitic and volcanic desert",
+  "features": [
+    "Extreme aridity",
+    "Rocky and stony surfaces",
+    "Sedimentary basins",
+    "Saline and evaporitic deposits",
+    "Volcanic terrain",
+    "Aeolian processes",
+    "Microorganisms adapted to extreme environments"
+  ],
+  "description": "The Atacama Desert contains diverse terrestrial environments, including hyperarid plains, evaporite-rich basins, rocky surfaces, sedimentary deposits, and volcanic terrain. These characteristics vary geographically, making specific locations suitable for different planetary analog investigations.",
+  "relevance": "These characteristics allow the study of certain geological and environmental processes related to planetary exploration, as well as robotic mobility tests, terrain reconnaissance and scientific instrument trials.",
+  "geoNote": "The displayed coordinates are representative of the region and do not identify a single measurement or sampling location.",
+  "moon": {
+    "id": "TER-01-MOON",
+    "planet": "moon",
+    "overallScore": 31.2,
+    "classification": "Low",
+    "summary": "Atacama provides rocky, hyperarid, sedimentary, and volcanic environments that support selected lunar robotic field tests. Although the region contains a documented impact crater, most of its geological and environmental conditions do not reproduce the lunar surface.",
+    "applications": [
+      "Rover mobility testing",
+      "Terrain classification",
+      "Obstacle detection",
+      "Geological reconnaissance",
+      "Selected investigations of natural cavities"
+    ],
+    "objective": "Analyze the topographic, thermal, geological, environmental and subsurface characteristics of the Atacama Desert to determine its usefulness as a terrestrial testing environment related to lunar exploration. The assessment considers both the similarities between the terrains and their physical and environmental differences.",
+    "characterization": [
+      "The Atacama Desert is located in northern Chile and comprises hyperarid terrain, sedimentary basins, stony surfaces, saline deposits, mountain slopes and volcanic sectors.",
+      "The interior pampas contain extensive dry and relatively flat surfaces, while the cordilleran areas present abrupt slopes and more rugged terrain.",
+      "Its geological diversity allows terrain reconnaissance trials, robotic mobility tests and exploration of natural structures."
+    ],
+    "limitations": [
+      "Atacama does not reproduce lunar gravity, vacuum, space radiation, lunar thermal cycles or the complete properties of lunar regolith.",
+      "Its usefulness therefore depends on the technology or process being studied."
+    ],
+    "conclusion": [
+      "The Atacama Desert obtains an exploratory general similarity of 31.2%, corresponding to a Low classification.",
+      "Its main opportunities lie in operational tests related to topography, mobility and reconnaissance of natural structures.",
+      "Atacama can be considered a partial lunar analog for specific applications, especially when combined with specialized trials that reproduce the physical conditions not present on Earth."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "NASA Earthdata: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "USGS: https://www.usgs.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/"
+        ]
+      },
+      {
+        "label": "Lunar sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences: https://pds-geosciences.wustl.edu/",
+          "Lunar Reconnaissance Orbiter Camera: https://wms.lroc.asu.edu/lroc"
+        ]
+      },
+      {
+        "label": "Reference missions and instruments",
+        "items": [
+          "Lunar Reconnaissance Orbiter, LOLA, LROC, Diviner and other lunar research instruments",
+          "Monturaqui impact crater age: https://doi.org/10.1016/j.quageo.2021.101217",
+          "Salt caves of the Cordillera de la Sal: https://doi.org/10.1016/j.geomorph.2020.107398"
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment compares descriptive characteristics of the terrestrial environment with reference planetary variables.",
+      "The percentages correspond to the exploratory scoring system used in the prototype. They are not direct measurements from the cited missions nor the results of a validated quantitative formula.",
+      "The scale used is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. Non-applicable scores are excluded from calculations.",
+      "To validate the results in a later phase it will be necessary to delimit specific sites, use comparable measurements and document a reproducible formula."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 43.3,
+        "classification": "Low",
+        "description": "Atacama presents plains, slopes, rocky terrain and surface obstacles that offer partial similarities with certain lunar landscapes.",
+        "utility": "Robotic mobility trials, autonomous navigation and geomorphological reconnaissance.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 38,
+            "explanation": "Atacama's terrain reaches approximately 2,000 to 4,500 meters in the sectors considered. The Moon presents elevations and depressions measured relative to a different reference system. The analogy relates mainly to the presence of elevated terrain and relief, not to direct altitude equivalence.",
+            "utility": "Studying robotic operations on terrain at different altitudes."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 62,
+            "explanation": "Alluvial plains and salars can present gentle slopes, while some mountain slopes exceed 30°. This variety makes it possible to represent certain displacement challenges on inclined surfaces.",
+            "utility": "Testing rover ascent, descent, stability and traction."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 58,
+            "explanation": "Fractured salt crusts, stony surfaces and accumulations of fragments produce irregularities that can hinder vehicle movement.",
+            "utility": "Evaluating suspension, wheels, traction and irregularity detection."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 35,
+            "explanation": "Atacama contains pampas, alluvial fans, basins and mountain ranges. These forms do not directly reproduce the diversity of lunar relief, where impact craters and other structures stand out.",
+            "utility": "Developing terrain recognition and route planning."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 12,
+            "explanation": "The Monturaqui impact crater is a confirmed meteorite-impact structure in northern Chile. It is approximately 350 m in diameter, and a published (U-Th)/He geochronological analysis estimated its formation age at 663 ± 28 thousand years. However, impact craters are not widespread throughout Atacama.",
+            "utility": "Investigating the morphology of a small terrestrial impact crater, impact-related geological materials, and the distinction between impact structures and visually similar non-impact depressions."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 55,
+            "explanation": "Rock blocks, cracks and fractured crusts represent relevant obstacles for exploration vehicles.",
+            "utility": "Testing obstacle detection, avoidance and autonomous navigation."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 24,
+        "classification": "Very Low",
+        "description": "Atacama experiences intense solar exposure and significant thermal changes, but its environmental conditions differ considerably from those of the Moon.",
+        "utility": "Partial environmental testing of equipment, sensors and optical systems.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 28,
+            "explanation": "Surface temperature varies according to land cover, material properties, elevation, time of day, and season. Previously compiled temperature ranges must not be treated as standardized land-surface measurements without identifying their observation methods.",
+            "utility": "Testing thermal instruments and evaluating temperature-related equipment performance under documented terrestrial conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 18,
+            "explanation": "Temperature extremes differ across coastal, interior, and high-altitude sectors. Exact maximum and minimum values require a defined observation site, measurement type, and time period.",
+            "utility": "Determining which conditions require specialized thermal simulators."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 22,
+            "explanation": "Aridity and low cloud cover favor significant day-night changes in Atacama. However, lunar cycles have a different duration and amplitude.",
+            "utility": "Carrying out preliminary resistance tests to temperature variations."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 32,
+            "explanation": "Atacama's clear skies favor high solar exposure. The distribution of light and shadow on the Moon depends on its relief and its illumination cycle.",
+            "utility": "Testing cameras, optical sensors and solar collection systems."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure and Vacuum",
+            "score": 0,
+            "explanation": "Atacama has a terrestrial atmosphere, while the Moon presents near-vacuum conditions.",
+            "utility": "Identifying the need for vacuum chambers for lunar environmental tests."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 39.2,
+        "classification": "Low",
+        "description": "Atacama presents volcanic rocks, fragmented materials and sedimentary deposits that can be used in geological trials, although their composition and evolution differ from those of the Moon.",
+        "utility": "Rock recognition, material analysis and instrument testing.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 40,
+            "explanation": "Atacama contains ignimbrites, andesites, basalts and evaporitic sedimentary materials. The Moon presents mainly igneous materials and deposits modified by impacts.",
+            "utility": "Testing rock identification and classification."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 35,
+            "explanation": "Atacama contains silicates, quartz, plagioclases, clays and saline minerals. Some mineral families related to lunar ones exist, but the associations and abundances are different.",
+            "utility": "Testing mineralogical recognition instruments."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 32,
+            "explanation": "Terrestrial materials present compounds associated with water, oxidation and atmospheric processes. The chemistry of lunar materials reflects a different geological history.",
+            "utility": "Carrying out preliminary geochemical analysis trials."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 52,
+            "explanation": "Sands, desert pavements and rocky fragments allow the study of equipment behavior on granular terrain. They do not completely reproduce lunar regolith.",
+            "utility": "Testing mobility, excavation and mechanical contact with the terrain."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 20,
+            "explanation": "Atacama presents physical, chemical and aeolian weathering. On the Moon, processes associated with impacts and space weathering predominate.",
+            "utility": "Comparing surface modification processes and their effects on materials."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 56,
+            "explanation": "Atacama's volcanic edifices, lava flows and rock structures allow certain comparative studies with lunar volcanic terrain.",
+            "utility": "Testing recognition of volcanic structures."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 21.7,
+        "classification": "Very Low",
+        "description": "The scarcity of surface water offers a limited environmental similarity. Lunar ice deposits and mineral resources present different characteristics.",
+        "utility": "Preliminary resource reconnaissance trials and material analysis.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 15,
+            "explanation": "The hyperarid core of Atacama presents very little surface water, although salars, aquifers and other environments with water exist in the region.",
+            "utility": "Studying operations on dry terrain."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 25,
+            "explanation": "Terrestrial high-mountain ice is found under atmospheric and thermal conditions different from those of lunar deposits.",
+            "utility": "Testing ice reconnaissance techniques."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 20,
+            "explanation": "The available research does not establish a direct correspondence between Atacama's subsurface materials and possible lunar deposits.",
+            "utility": "Evaluating subsurface detection methods."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 25,
+            "explanation": "Frozen ground and permafrost occur in selected high-altitude environments of the arid Andes. These conditions must not be generalized to the low-elevation hyperarid core of the Atacama Desert.",
+            "utility": "Investigating high-altitude frozen-ground processes and defining the geographical limitations of terrestrial ice-related analog studies."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen",
+            "score": 15,
+            "explanation": "Hydrogen-bearing minerals and hydrated clays may contain structurally bound or associated water. Their detection does not independently establish deposits of molecular hydrogen, liquid groundwater, or subsurface ice.",
+            "utility": "Evaluating mineral hydration signatures and developing methods for distinguishing different hydrogen-bearing materials."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 30,
+            "explanation": "Atacama presents deposits of lithium, nitrates, borates and other salts. Priority lunar resources and their exploitation methods are different.",
+            "utility": "Testing mineral classification and prospecting procedures."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 28,
+        "classification": "Low",
+        "description": "Atacama's fine materials allow tests related to dust and sediments, but terrestrial atmospheric processes do not reproduce lunar ones.",
+        "utility": "Evaluation of interaction between equipment and particles.",
+        "variables": [
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 0,
+            "explanation": "Wind transports particles in Atacama. The Moon presents no equivalent atmospheric circulation.",
+            "utility": "Distinguishing surface transport processes."
+          },
+          {
+            "id": "abrasive_dust",
+            "name": "Abrasive Dust",
+            "score": 55,
+            "explanation": "Atacama's fine and fragmented materials can cause mechanical wear on equipment. Lunar dust presents different physical properties.",
+            "utility": "Testing preliminary protection measures against particles."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion",
+            "score": null,
+            "explanation": "Wind-driven erosion modifies terrestrial surfaces, but does not constitute an equivalent process on the Moon.",
+            "utility": "Identifying geomorphological differences."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": null,
+            "explanation": "Terrestrial atmospheric storms have no direct equivalent in the lunar environment.",
+            "utility": "Delimiting the phenomena that cannot be simulated with this analog."
+          },
+          {
+            "id": "sediments_and_dunes",
+            "name": "Sediments and Dunes",
+            "score": 35,
+            "explanation": "Atacama's granular deposits can be used for mechanical trials, although their transport and accumulation occur through processes different from lunar ones.",
+            "utility": "Studying mobility and the behavior of granular materials."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 38,
+        "classification": "Low",
+        "description": "Certain sectors of Atacama present cavities, fractures and geological sequences useful for investigating underground exploration techniques.",
+        "utility": "Robotic exploration of cavities and reconnaissance of structures.",
+        "variables": [
+          {
+            "id": "caves_and_lava_tubes",
+            "name": "Caves and Lava Tubes",
+            "score": 65,
+            "explanation": "Halite dissolution caves are documented in the Cordillera de la Sal within the central Atacama region. Their formation involves water-related dissolution processes and differs fundamentally from the volcanic origin of lava tubes. Volcanic terrain occurs in the broader Atacama region, but the existence and location of individual lava tubes require site-specific geological documentation; documented salt dissolution caves must not be identified as lava tubes.",
+            "utility": "Testing underground mapping instruments, robotic navigation, cavity recognition, and geological analysis of salt cave systems."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Tectonic Fractures",
+            "score": 45,
+            "explanation": "Atacama's faults and fractures offer opportunities to test recognition of terrain discontinuities.",
+            "utility": "Developing structural mapping techniques."
+          },
+          {
+            "id": "stratigraphic_structure",
+            "name": "Stratigraphic Structure",
+            "score": 22,
+            "explanation": "Terrestrial sequences contain sedimentary and volcanic deposits. Lunar strata respond to different processes.",
+            "utility": "Testing geological layer analysis techniques."
+          },
+          {
+            "id": "regolith_thickness",
+            "name": "Regolith Thickness",
+            "score": 20,
+            "explanation": "The thicknesses and properties of terrestrial surface materials differ from those of lunar regolith.",
+            "utility": "Evaluating sounding and surface exploration procedures."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": null,
+        "classification": "Not Applicable",
+        "description": "No confirmed lunar life exists to establish a direct biological comparison with Atacama's terrestrial organisms.",
+        "utility": "Delimiting biological applications and studying environmental requirements of future operations.",
+        "variables": [
+          {
+            "id": "direct_biological_similarity",
+            "name": "Direct Biological Similarity",
+            "score": null,
+            "explanation": "The existence of microorganisms in Atacama does not imply a correspondence with lunar organisms.",
+            "utility": "Delimiting biological applications and studying environmental requirements of future operations."
+          }
+        ]
+      }
+    ]
+  },
+  "mars": {
+    "id": "TER-01-MARS",
+    "planet": "mars",
+    "overallScore": 68.4,
+    "classification": "Moderate",
+    "summary": "Selected Atacama environments provide useful analogs for Martian aridity, salt-rich geology, sedimentary processes, mineral alteration, and astrobiological investigations. Localized microbial habitats also support research into biosignature preservation and detection.",
+    "applications": [
+      "Mineralogical characterization",
+      "Evaporite studies",
+      "Biosignature detection",
+      "Robotic sampling",
+      "Sedimentary investigations",
+      "Testing scientific instruments in hyperarid environments"
+    ],
+    "objective": "Analyze the geological, geomorphological, thermal, environmental and astrobiological similarities between the Atacama Desert and certain Martian environments. The assessment seeks to identify scientific and technological applications for planetary exploration, especially geological reconnaissance, robotic mobility, material analysis and habitability studies.",
+    "characterization": [
+      "Atacama presents conditions of extreme aridity, volcanic terrain, sedimentary deposits, rocky surfaces, saline basins and microbial communities adapted to difficult environments.",
+      "These characteristics allow the study of certain processes related to the geological and environmental history of Mars.",
+      "The region is heterogeneous: the conditions of the hyperarid pampas, salars and volcanic zones are not identical."
+    ],
+    "limitations": [
+      "Atacama does not completely reproduce: Martian gravity, the low atmospheric pressure, the atmospheric composition of Mars, Martian thermal conditions, space radiation, or the regional distribution of ice and other resources.",
+      "Similarities must be interpreted in relation to specific processes or applications."
+    ],
+    "conclusion": [
+      "The Atacama Desert obtains an exploratory general similarity of 68.4%, corresponding to a Moderate classification.",
+      "The highest similarity category is geology and mineralogy at 78.4%, followed by biology and habitability at 72.5%, and atmosphere, dust and aeolian dynamics at 71.3%.",
+      "Atacama constitutes an environment of interest for Mars-related investigations, especially in geochemistry, mineralogy, astrobiology and testing of exploration technologies.",
+      "Its scientific usefulness is greater when specific sectors of the desert are selected according to research objectives."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "NASA Earthdata: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "USGS: https://www.usgs.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/"
+        ]
+      },
+      {
+        "label": "Martian sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences: https://pds-geosciences.wustl.edu/",
+          "Mars Orbital Data Explorer: https://ode.rsl.wustl.edu/mars",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Reference missions and instruments",
+        "items": [
+          "Mars Global Surveyor / MOLA",
+          "Mars Reconnaissance Orbiter / HiRISE and CRISM",
+          "Mars Odyssey / THEMIS",
+          "Curiosity / REMS, SAM, CheMin and APXS",
+          "Other instruments and products of Martian exploration included in the scientific repositories",
+          "Yungay subsurface microbial habitat: https://doi.org/10.1038/s41598-020-76302-z"
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment considers seven comparison categories and their subvariables.",
+      "The percentages come from the exploratory scoring system used in the prototype. They are not direct measurements from the cited missions nor the results of a validated quantitative formula.",
+      "The classification used is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%.",
+      "Later validation will require delimiting reference regions, obtaining comparable measurements and documenting a reproducible calculation formula."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 67.5,
+        "classification": "Moderate",
+        "description": "The slopes, plains, rocky surfaces and basins of Atacama allow the study of certain exploration challenges on Martian terrain.",
+        "utility": "Rover mobility, autonomous navigation and geomorphological reconnaissance.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 45,
+            "explanation": "Atacama presents elevated terrain and important altitudinal differences. Mars also possesses great topographic diversity, although its elevations are measured relative to a different planetary reference system.",
+            "utility": "Evaluating operations on terrain with different altitudes and elevation changes."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 78,
+            "explanation": "The desert's slopes, alluvial fans and inclined surfaces allow the study of challenges related to vehicle stability.",
+            "utility": "Testing rover ascent, descent, traction and stability."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 82,
+            "explanation": "Stony surfaces, fractured crusts and fragment deposits offer obstacles that can be used in mobility trials.",
+            "utility": "Evaluating suspension, wheels and autonomous navigation."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 75,
+            "explanation": "Atacama presents basins, plains, volcanic terrain and sedimentary formations. Some characteristics allow the study of geomorphological processes relevant to Mars.",
+            "utility": "Terrain recognition and route planning."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 35,
+            "explanation": "The Monturaqui impact crater is a confirmed meteorite-impact structure in northern Chile, approximately 350 m in diameter. However, the distribution of impact craters on Mars is far more significant than in Atacama, and most terrestrial depressions in the region have different origins.",
+            "utility": "Identifying the limitations of crater reconnaissance trials and distinguishing impact structures from similar non-impact depressions."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 80,
+            "explanation": "Rock blocks, cracks and fragmented deposits make it possible to represent operational difficulties that exploration vehicles could face.",
+            "utility": "Testing obstacle detection, avoidance and prevention of entrapment."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 58.2,
+        "classification": "Moderate",
+        "description": "Atacama presents thermal variations, intense solar exposure and aridity, although the Martian atmosphere and temperatures are different.",
+        "utility": "Partial testing of sensors, materials and equipment exposed to demanding environmental conditions.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 55,
+            "explanation": "Atacama surfaces can reach high temperatures during the day and descend considerably at night. Surface temperature varies according to land cover, material properties, elevation, time of day, and season; compiled temperature ranges must not be treated as standardized land-surface measurements without identifying their observation methods. Mars records generally lower temperatures.",
+            "utility": "Carrying out thermal sensor tests under documented terrestrial conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 48,
+            "explanation": "The thermal extremes of Mars and Atacama differ in amplitude and regional distribution. Temperature extremes also differ across coastal, interior, and high-altitude sectors; exact values require a defined observation site, measurement type, and time period.",
+            "utility": "Studying thermal protection needs."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 72,
+            "explanation": "Daily temperature changes in desert environments allow partial investigation of the effects of thermal cycles on materials and instruments.",
+            "utility": "Testing equipment subjected to heating and cooling."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Insolation and UV Radiation",
+            "score": 82,
+            "explanation": "Atacama's high solar exposure allows the study of certain effects of ultraviolet radiation. It does not reproduce all the space radiation present on Mars.",
+            "utility": "Testing optical sensors and materials exposed to the sun."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 34,
+            "explanation": "Mars has a much less dense atmosphere than Earth's. Atacama does not directly reproduce these low-pressure conditions.",
+            "utility": "Determining which tests require atmospheric simulation chambers."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 78.4,
+        "classification": "High",
+        "description": "Atacama's saline deposits, volcanic materials and sedimentary formations offer opportunities to study certain geological processes related to Mars.",
+        "utility": "Mineralogical and geochemical research and scientific instrument testing.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 84,
+            "explanation": "Atacama contains ignimbrites, andesites, basalts and sedimentary deposits. Mars also presents volcanic and sedimentary rocks, although its geological associations vary regionally.",
+            "utility": "Testing lithological identification and classification."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 82,
+            "explanation": "Atacama contains silicates, clays and saline deposits that allow the study of certain materials of interest for Martian geology.",
+            "utility": "Testing spectrometry and mineralogical recognition."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Perchlorate and Sulfate Chemistry",
+            "score": 92,
+            "explanation": "Atacama research identifies saline and oxidized compounds of interest for studying geochemical processes related to Mars. The concentrations and formation conditions must be analyzed separately.",
+            "utility": "Developing chemical analysis tests and compound detection."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 80,
+            "explanation": "Desert pavements, sands, crusts and rocky fragments allow trials on dry and granular terrain.",
+            "utility": "Testing mobility, excavation and sample analysis."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Hyperarid Chemical Weathering",
+            "score": 85,
+            "explanation": "The scarcity of water favors certain slow alteration processes and the conservation of materials. This makes it possible to investigate phenomena related to dry environments.",
+            "utility": "Studying geochemical evolution and surface modification."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Alluvial Fans and Paleolakes",
+            "score": 88,
+            "explanation": "Terrestrial sedimentary formations can serve to study the interpretation of deposits associated with ancient water on Mars.",
+            "utility": "Reconstructing sedimentary environments and analyzing stratigraphy."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 62,
+        "classification": "Moderate",
+        "description": "Atacama's extreme aridity and evaporitic deposits allow the study of desiccation processes, material conservation and salt formation.",
+        "utility": "Investigation of hydrated minerals and resource reconnaissance techniques.",
+        "variables": [
+          {
+            "id": "dryness_absence_water",
+            "name": "Dryness and Absence of Free Water",
+            "score": 94,
+            "explanation": "In Atacama's hyperarid core there is an extremely low availability of surface water. This characteristic allows the study of certain effects of water scarcity.",
+            "utility": "Investigating desiccation, material conservation and operations on dry terrain."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 45,
+            "explanation": "Terrestrial high-mountain ice deposits present conditions different from those of Martian ice.",
+            "utility": "Partially testing ice reconnaissance techniques."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 52,
+            "explanation": "Terrestrial cold materials and environments allow subsurface exploration studies to be proposed, but they do not directly represent the distribution of Martian ice.",
+            "utility": "Evaluating subsurface prospecting methods."
+          },
+          {
+            "id": "hydrated_minerals",
+            "name": "Hydrated Minerals and Clays",
+            "score": 70,
+            "explanation": "Terrestrial minerals containing structural water or hydroxyl groups allow the investigation of hydration and alteration processes. Their detection does not independently establish deposits of molecular hydrogen, liquid groundwater, or subsurface ice.",
+            "utility": "Testing spectral detection of hydrated minerals and distinguishing different hydrogen-bearing materials."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Equivalent Hydrogen",
+            "score": 51,
+            "explanation": "Atacama's hydrated materials allow studies related to hydrogen signals to be proposed, although no direct quantitative equivalence has been established.",
+            "utility": "Developing resource reconnaissance concepts."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Salt and Brine Resources",
+            "score": 80,
+            "explanation": "The evaporitic deposits and brines of certain Atacama sectors offer opportunities to study processes related to saline materials.",
+            "utility": "Investigating salt deposits and geochemical analysis methods."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Aeolian Dynamics",
+        "score": 71.3,
+        "classification": "Moderate",
+        "description": "Atacama presents sediment transport, aeolian erosion and dune formation. These processes allow the investigation of certain geomorphological characteristics observed on Mars.",
+        "utility": "Sediment and erosion studies and equipment protection against dust.",
+        "variables": [
+          {
+            "id": "wind",
+            "name": "Wind Regime and Winds",
+            "score": 82,
+            "explanation": "Wind modifies surfaces and transports particles in Atacama. Mars also presents aeolian activity, although under much lower atmospheric pressure.",
+            "utility": "Studying sediment transport and accumulation mechanisms."
+          },
+          {
+            "id": "dust",
+            "name": "Suspended Dust Particles",
+            "score": 75,
+            "explanation": "Dust-lifting events allow the investigation of visibility problems and equipment exposure to fine particles.",
+            "utility": "Testing sensors and dust protection systems."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion",
+            "score": 86,
+            "explanation": "Surfaces eroded by wind-transported particles are observed in Atacama. Mars presents geomorphological forms associated with aeolian processes.",
+            "utility": "Interpreting landscapes and surface wear processes."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Local Dust Storms",
+            "score": 70,
+            "explanation": "Terrestrial dust-lifting events allow partial operational trials. Martian storms present different physical conditions.",
+            "utility": "Evaluating dust detection and instrument operation."
+          },
+          {
+            "id": "sediments_and_dunes",
+            "name": "Dunes and Sediments",
+            "score": 85,
+            "explanation": "Atacama's dune fields and aeolian deposits offer materials and forms useful for comparative studies.",
+            "utility": "Analyzing dunes and testing mobility on sand."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 69,
+        "classification": "Moderate",
+        "description": "Atacama's fractures, sedimentary layers and certain cavities allow the investigation of geological reconnaissance and underground exploration techniques.",
+        "utility": "Testing subsurface sensors, stratigraphic analysis and robotic exploration.",
+        "variables": [
+          {
+            "id": "caves_and_lava_tubes",
+            "name": "Cavities and Tubes",
+            "score": 72,
+            "explanation": "Halite dissolution caves are documented in the Cordillera de la Sal within the central Atacama region; their formation involves water-related dissolution and differs fundamentally from the volcanic origin of lava tubes. Volcanic terrain occurs in the broader Atacama region, but the existence and location of individual lava tubes require site-specific geological documentation.",
+            "utility": "Testing robots, cameras and sensors intended for cavities and underground mapping."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Tectonic Fractures",
+            "score": 68,
+            "explanation": "Terrestrial faults and fractures allow the investigation of geological discontinuity recognition techniques.",
+            "utility": "Developing structural mapping and exploration planning."
+          },
+          {
+            "id": "stratigraphic_structure",
+            "name": "Sedimentary Stratigraphy",
+            "score": 67,
+            "explanation": "Terrestrial sediment sequences allow the study of layer interpretation methods and the reconstruction of ancient environments.",
+            "utility": "Analyzing deposition processes and testing stratigraphic instruments."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": 72.5,
+        "classification": "Moderate",
+        "description": "Microbial communities have been documented within selected salt-associated and subsurface clay environments in Atacama. These localized habitats support astrobiological research but do not demonstrate uniform habitability across the desert.",
+        "utility": "Biosignature detection, microbial survival studies, subsurface sampling, and astrobiological instrument evaluation.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Terrestrial Extremophile Microorganisms as a Model",
+            "score": 85,
+            "explanation": "Research has documented microorganisms in halite-associated environments and in localized wet, smectite-rich subsurface layers within the hyperarid core of Atacama. These findings demonstrate the importance of protected terrestrial microhabitats.",
+            "utility": "Investigating microbial survival in arid environments and evaluating astrobiological sampling and detection methods."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Limits",
+            "score": 90,
+            "explanation": "Atacama's habitability varies substantially between locations. Research in the Yungay region identified a wet smectite-rich layer approximately 30 cm below the surface, containing metabolically active microorganisms and associated biosignatures.",
+            "utility": "Studying potential biosignature preservation in clay-rich environments and investigating protected subsurface habitats relevant to astrobiology."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Biosignature Preservation in Salts",
+            "score": 88,
+            "explanation": "Saline deposits can protect certain molecules and signals related to terrestrial biological activity. Clay-rich subsurface environments such as the Yungay smectite layer also preserve biosignatures associated with metabolically active microorganisms.",
+            "utility": "Studying biosignature conservation and methods for identifying biological signals."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,904 @@
+{
+  "id": "TER-08",
+  "slug": "stillwater",
+  "name": "Stillwater Anorthosite Complex",
+  "country": "United States",
+  "regions": "Montana",
+  "lat": 45.40,
+  "lng": -109.90,
+  "elevation": "1,500–3,000 m",
+  "environmentType": "Layered mafic and ultramafic intrusion",
+  "features": [
+    "Precambrian layered igneous complex",
+    "Anorthosite-bearing rock exposures",
+    "Mafic and ultramafic intrusive formations",
+    "Mountainous slopes",
+    "Fractured bedrock",
+    "Glacially modified valleys"
+  ],
+  "description": "The Stillwater Igneous Complex is a Neoarchean layered mafic and ultramafic intrusion exposed in southern Montana. It contains plagioclase-rich anorthositic units, noritic and ultramafic rocks, layered geological formations, and economically significant mineral deposits. Selected Stillwater anorthosites provide valuable terrestrial material for investigating lunar highland mineralogy and igneous differentiation. However, their chemical composition, geological formation history, and terrestrial weathering processes differ from those of lunar anorthositic crust.",
+  "relevance": "Lunar highland mineralogy, plagioclase spectroscopy, crustal differentiation, lunar regolith simulant development, geological sampling, and analysis of layered igneous formations.",
+  "geoNote": "The coordinates and elevation represent the broader Stillwater region. Individual anorthosite samples and geological measurements must be attributed to their specific outcrops or stratigraphic units.",
+  "moon": {
+    "id": "TER-08-MOON",
+    "planet": "moon",
+    "overallScore": 48.5,
+    "classification": "Low",
+    "summary": "Stillwater's plagioclase-rich anorthositic rocks provide a strong mineralogical analog for the lunar highlands. Its fractured bedrock and rugged terrain offer additional geological comparisons, although its atmosphere, vegetation, water, and weathering processes differ greatly from lunar conditions.",
+    "applications": [
+      "Lunar highland mineral identification: testing the recognition of plagioclase-rich anorthositic rocks",
+      "Spectroscopic calibration: evaluating mineral detection methods using terrestrial anorthosite samples",
+      "Crustal differentiation research: investigating magmatic processes that concentrate plagioclase-rich materials",
+      "Geological sampling: testing robotic and manual sampling methods on anorthositic bedrock",
+      "Lunar resource studies: characterizing aluminum-, calcium-, silicon-, and oxygen-bearing minerals",
+      "Highland rover navigation: testing mobility on fractured rock surfaces and angular talus",
+      "Subsurface geological interpretation: mapping layered igneous rocks and fractures"
+    ],
+    "objective": "This assessment evaluates the Stillwater Igneous Complex as a terrestrial analog for the mineralogical and geological characteristics of the lunar highlands. The primary focus is the presence of plagioclase-rich anorthositic rocks and their relevance to the feldspathic crust of the Moon. Additional comparisons include mountainous terrain, fractured bedrock, igneous layering, mineral resources, and geological sampling conditions. The assessment distinguishes strong lithological similarity from the substantially different environmental and geological processes operating on Earth and the Moon.",
+    "characterization": [
+      "The Stillwater Complex is a Precambrian layered mafic-ultramafic intrusion exposed in the mountains of southern Montana.",
+      "The complex contains differentiated igneous rock units, including plagioclase-rich anorthositic rocks and associated mafic and ultramafic lithologies.",
+      "The surrounding terrain includes rocky ridges, steep slopes, angular talus deposits, forested areas, and valleys modified by fluvial and glacial processes.",
+      "The supplied terrestrial research describes elevations of approximately 1,500–3,000 m, a temperate-to-cold continental mountain climate, seasonal snow, streams, fractured bedrock, and economically significant mineral deposits.",
+      "Its principal lunar relevance comes from the presence of anorthositic rocks dominated by calcium-rich plagioclase.",
+      "The lunar highlands contain abundant anorthositic material interpreted as part of the Moon's ancient feldspathic crust.",
+      "However, the Stillwater intrusion and the lunar crust formed under different geological conditions. Similar mineralogy does not establish identical chemical composition, crystallization history, or geological structure."
+    ],
+    "limitations": [
+      "Stillwater does not reproduce lunar vacuum, gravity, radiation exposure, or prolonged lunar day-night cycles.",
+      "Its surface contains terrestrial soils, vegetation, water, and chemically weathered rocks.",
+      "Its mountainous terrain was shaped partly by tectonic, fluvial, and glacial processes rather than lunar impact bombardment.",
+      "The Stillwater intrusion and lunar anorthositic crust formed under different geological conditions.",
+      "The mineralogical similarity applies most strongly to selected plagioclase-rich Stillwater rock units, not to every rock within the complex.",
+      "Claims of exact chemical equivalence require laboratory confirmation using representative samples and lunar reference materials.",
+      "The site does not provide a direct analog for lunar polar ice, lunar dust, or lava tubes."
+    ],
+    "conclusion": [
+      "The Stillwater Anorthosite Complex receives a provisional lunar similarity estimate of 48.5%, classified as Low.",
+      "Its strongest category is Geology and Mineralogy (94.0%, Very High), reflecting the importance of plagioclase-rich anorthositic rocks for studies of the lunar highlands.",
+      "The region also offers useful terrain and subsurface comparisons, but its atmospheric, thermal, hydrological, and biological conditions differ substantially from those of the Moon.",
+      "Stillwater should therefore be prioritized as a specialized lunar highland mineralogical and petrological analog, rather than a comprehensive lunar environmental analog."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "USGS Publications: https://www.usgs.gov/",
+          "USGS Publications Warehouse: https://pubs.usgs.gov/",
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "NOAA Climate Data: https://www.ncei.noaa.gov/",
+          "USGS Water Resources: https://www.usgs.gov/"
+        ]
+      },
+      {
+        "label": "Lunar sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "NASA Lunar Rocks: https://science.nasa.gov/moon/lunar-rocks/",
+          "NASA Lunar Regolith: https://science.nasa.gov/moon/lunar-regolith/",
+          "NASA Moon Water and Ices: https://science.nasa.gov/moon/moon-water-and-ices/",
+          "LROC Data Portal: https://wms.lroc.asu.edu/lroc"
+        ]
+      },
+      {
+        "label": "Relevant datasets and instruments",
+        "items": [
+          "Lunar Orbiter Laser Altimeter (LOLA): lunar elevation, slopes, and topographic roughness",
+          "Lunar Reconnaissance Orbiter Camera (LROC): lunar highland imagery, rocky surfaces, and geological features",
+          "Moon Mineralogy Mapper (M³): mineralogical reflectance and plagioclase-related spectral studies",
+          "Diviner Lunar Radiometer: lunar thermal observations and silicate mineralogical information",
+          "Apollo lunar samples: laboratory comparisons of anorthositic highland materials",
+          "Lunar Prospector Gamma Ray Spectrometer: regional elemental abundance maps",
+          "IUGS geological heritage recognition of the Stillwater Complex: https://iugs-geoheritage.org/geoheritage_sites/the-stillwater-complex/",
+          "Stillwater anorthosites as lunar analog materials: https://ntrs.nasa.gov/citations/19840035668",
+          "Mineralogy and origin of Stillwater anorthosites: https://doi.org/10.1093/petrology/35.6.1623",
+          "Precious and base metal mineralization within the lower stratigraphy of the Stillwater Complex: https://www.usgs.gov/publications/precious-and-base-metal-mineralization-within-lower-stratigraphy-stillwater-complex",
+          "Stillwater Complex mineral resources: https://doi.org/10.3133/cir624",
+          "NASA lunar highland regolith simulants (NU-LHT): https://ares.jsc.nasa.gov/projects/simulants/nu-lht.html",
+          "Lunar highland simulant characterization: https://ntrs.nasa.gov/citations/20240007991",
+          "The terrestrial sources listed above are repository-level references. They do not independently verify every site-specific value supplied for Stillwater."
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment compares the supplied Stillwater terrestrial research with lunar reference information from orbital observations, geological studies, and returned lunar samples.",
+      "The individual variable and category scores are provisional qualitative estimates. They are not official NASA similarity measurements.",
+      "The overall score is the arithmetic mean of the six applicable category scores: (66 + 29 + 94 + 22 + 19 + 61) / 6 = 48.5%.",
+      "The scale used is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A.",
+      "N/A values are excluded from the overall mean. Category scores are not calculated from their individual subvariable percentages.",
+      "The equal-weight overall mean is a transparent prototype convention rather than a validated scientific weighting model.",
+      "Future validation should use georeferenced Stillwater samples, measured mineral abundances, laboratory spectroscopy, normalized geochemical variables, and a reproducible scoring methodology.",
+      "The exceptionally high geological similarity score should be interpreted as specialized mineralogical relevance, not as proof of exact lunar equivalence.",
+      "Similarity percentages are preliminary AI-assisted assessments based on compiled scientific descriptions. They are not independently validated quantitative measurements or certified indicators of mission suitability."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 66.0,
+        "classification": "Moderate",
+        "description": "Stillwater contains mountainous slopes, exposed intrusive rock, fractured bedrock, angular debris, and valleys modified by terrestrial erosion and glaciation. These conditions provide selected rocky-terrain analogs but differ from impact-dominated lunar highland landscapes.",
+        "utility": "Terrain mapping, slope navigation, rover obstacle detection, and geological reconnaissance.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 62,
+            "explanation": "Stillwater's mountainous terrain reaches elevations of approximately 1,500–3,000 m above terrestrial sea level. Lunar highlands can also occur at positive elevations relative to the lunar reference sphere. However, the two elevation datums are fundamentally different, so numerical altitude alone does not establish similarity.",
+            "utility": "Evaluating relative-elevation models, digital terrain analysis, and topographic visualization."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 76,
+            "explanation": "Stillwater contains moderate to steep slopes associated with mountain ridges, exposed intrusive rocks, and valleys. Lunar highlands also contain significant slopes, including crater walls and rugged highland terrain. The slope-generating processes differ, but comparable gradients can create similar exploration challenges.",
+            "utility": "Testing rover slope navigation, route planning, and terrain accessibility models."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 80,
+            "explanation": "Angular talus, fractured anorthositic bedrock, and rocky ridges produce substantial surface roughness. Lunar highlands are also rough because of impact ejecta, fractured crust, and accumulated rocky debris. Roughness must be compared at equivalent spatial scales.",
+            "utility": "Testing obstacle detection, robotic suspension, and high-resolution roughness mapping."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 70,
+            "explanation": "Stillwater's mountainous relief reflects tectonic uplift, erosion, and exposure of ancient intrusive rocks. Lunar highland relief is strongly influenced by impact basins, craters, and ancient crustal processes. Although both contain rugged elevated terrain, their geological histories differ.",
+            "utility": "Comparing landform morphology and interpreting planetary topographic data."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 0,
+            "explanation": "The supplied terrestrial research identifies no significant recent impact craters at the selected site. Lunar highlands are extensively cratered, making impact structures a defining geomorphological feature absent from Stillwater.",
+            "utility": "Demonstrating why mineralogical similarity cannot be used as a substitute for impact-crater morphology."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 79,
+            "explanation": "Fractured anorthosite blocks, angular talus, and stable rocky outcrops create obstacles similar in general form to some lunar highland boulders. Lunar rocks and regolith differ in cohesion, exposure history, and gravitational behavior.",
+            "utility": "Testing autonomous obstacle recognition, sampling approaches, and rocky-terrain mobility."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 29.0,
+        "classification": "Low",
+        "description": "Stillwater experiences seasonal mountain-climate variations, including cold winters and temporary snow cover. Its terrestrial atmosphere, vegetation, and hydrological conditions prevent direct environmental equivalence with the Moon or Mars.",
+        "utility": "Environmental monitoring, terrain illumination studies, and limited thermal instrument testing.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 35,
+            "explanation": "Stillwater has a temperate-to-cold mountain climate with seasonally variable ground temperatures. Lunar surface temperatures can range from extremely hot sunlit conditions to exceptionally cold shadowed environments. The terrestrial atmosphere moderates temperature changes and produces different heat-transfer behavior.",
+            "utility": "Testing surface-temperature sensors under variable terrestrial conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 37,
+            "explanation": "The supplied research describes summer temperatures near 25°C and winter minimum temperatures below -20°C. Lunar equatorial surfaces can reach approximately 123°C during the day, while permanently shadowed polar regions can fall below -200°C.",
+            "utility": "Evaluating selected cold-weather instrumentation while identifying the need for more extreme thermal qualification."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 25,
+            "explanation": "Stillwater experiences a terrestrial day-night cycle and seasonal temperature variation. The lunar synodic day lasts approximately 29.5 Earth days, creating much longer periods of heating and cooling.",
+            "utility": "Testing temperature logging and thermal-response models, with explicit limits on lunar equivalence."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 48,
+            "explanation": "Mountain slopes and ridges create shadows that can be studied through terrain-based illumination modeling. Lunar polar exploration also depends on local topographic shading, although the Moon's solar geometry and atmospheric conditions differ.",
+            "utility": "Testing horizon calculations, slope illumination models, and solar-exposure mapping."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Conditions / Exosphere",
+            "score": 0,
+            "explanation": "Stillwater has a dense terrestrial atmosphere containing nitrogen, oxygen, water vapor, and other gases. The Moon has an extremely tenuous exosphere and no comparable atmospheric pressure.",
+            "utility": "Establishing the need for vacuum-based equipment testing and lunar-specific environmental simulation."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 94.0,
+        "classification": "Very High",
+        "description": "Selected Stillwater anorthositic rocks are enriched in plagioclase and provide valuable mineralogical comparisons with lunar highland materials. However, mineral abundances, trace-element chemistry, geological origin, and alteration history are not identical.",
+        "utility": "Plagioclase spectroscopy, lunar highland mineral analysis, igneous differentiation studies, and geological sample characterization.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 97,
+            "explanation": "The Stillwater Igneous Complex contains layered mafic and ultramafic rocks, including anorthositic units, norites, gabbronorites, troctolites, and other intrusive lithologies. Its strongest lunar highland analogy applies to selected plagioclase-rich units rather than the entire complex.",
+            "utility": "Rock-type classification, geological sampling, and identification of suitable reference materials for lunar mineralogical investigations."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 98,
+            "explanation": "Calcium-rich plagioclase is a major constituent of Stillwater anorthositic units and lunar highland anorthosites. Associated minerals such as pyroxene and olivine can also occur in both geological settings. Exact modal abundances and mineral compositions must be confirmed for individual samples.",
+            "utility": "Calibrating visible, near-infrared, and other mineralogical instruments for plagioclase-rich rocks."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 93,
+            "explanation": "Anorthositic rocks are commonly enriched in aluminum, calcium, and silicon relative to many mafic rock types. Lunar highland anorthosites also contain elevated AlO and CaO. However, matching major-element chemistry does not imply identical trace-element abundances, oxidation states, or isotopic compositions.",
+            "utility": "Testing elemental analysis, geochemical classification, and aluminum-rich material identification."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 75,
+            "explanation": "Stillwater contains exposed anorthositic bedrock and angular rock fragments, providing access to relevant source lithologies. However, its soils include products of terrestrial chemical weathering and organic activity. Lunar regolith is produced mainly by impact fragmentation and space weathering.",
+            "utility": "Testing rock sampling, fragment classification, and mineral identification in mixed surface materials."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 32,
+            "explanation": "Stillwater rocks experience terrestrial weathering involving water, oxygen, freeze-thaw processes, and biological activity. Lunar highland materials are modified mainly by micrometeorite impacts, solar-wind exposure, and radiation-driven space weathering.",
+            "utility": "Distinguishing primary anorthosite mineral signatures from weathering-related spectral changes."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 91,
+            "explanation": "Stillwater preserves a layered igneous intrusion with plagioclase-rich units produced by magmatic differentiation. Lunar anorthosites are associated with early crustal differentiation, commonly interpreted through lunar magma-ocean models. Both involve igneous differentiation, but Stillwater is a terrestrial intrusive complex rather than a direct miniature of the lunar crust.",
+            "utility": "Investigating crystal accumulation, magmatic differentiation, and the interpretation of ancient planetary crusts."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 22.0,
+        "classification": "Very Low",
+        "description": "Stillwater contains ordinary terrestrial water systems, seasonal snow, and mineralized igneous rocks. Its mineral deposits are scientifically relevant, but terrestrial ore concentrations do not establish equivalent lunar or Martian resource availability.",
+        "utility": "Mineral identification, geological resource characterization, and studies of materials relevant to planetary resource-processing research.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 0,
+            "explanation": "The supplied research describes streams, springs, and water from seasonal snowmelt. Stable liquid water is absent from the lunar surface under natural present-day conditions.",
+            "utility": "Identifying environmental differences that must be excluded from lunar surface simulations."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 20,
+            "explanation": "Stillwater experiences seasonal snow and frozen surface conditions, but these deposits are temporary and formed under terrestrial atmospheric conditions. Lunar polar ice occurs in extremely cold environments with different stability mechanisms.",
+            "utility": "Limited testing of snow and ice detection while distinguishing terrestrial seasonal deposits from lunar cold-trap ice."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 0,
+            "explanation": "The supplied research does not identify persistent subsurface ice in the selected complex. Lunar polar regions may contain buried ice deposits.",
+            "utility": "Excluding the site from primary lunar subsurface-ice analog investigations."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 0,
+            "explanation": "Permafrost is not documented for the selected exposed Stillwater setting. Permanently cold lunar polar regolith differs fundamentally from ordinary terrestrial seasonal freezing.",
+            "utility": "Identifying the need for specialized cryogenic analog sites."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 28,
+            "explanation": "Stillwater contains hydrogen in water, organic material, and weathering products. Lunar hydrogen can occur in polar volatiles, hydroxyl-bearing surface materials, and solar-wind-related reservoirs.",
+            "utility": "Testing hydrogen detection while distinguishing chemically different sources."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 84,
+            "explanation": "Stillwater contains plagioclase-rich rocks with significant aluminum, calcium, silicon, and oxygen-bearing minerals. Lunar highland anorthosites are also relevant to possible in-situ resource utilization, particularly extraction of oxygen and other elements from mineral structures. Stillwater's platinum-group deposits are not evidence of equivalent lunar ore deposits.",
+            "utility": "Investigating aluminum-rich rock characterization, mineral extraction concepts, and lunar resource prospecting."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 19.0,
+        "classification": "Very Low",
+        "description": "Stillwater experiences terrestrial wind, weathering, vegetation, and sediment movement. Its exposed rock fragments can support limited particle-interaction tests, but its atmospheric and dust conditions do not reproduce the lunar or Martian environment.",
+        "utility": "Rock-fragment characterization, abrasion studies, environmental monitoring, and evaluation of analog limitations.",
+        "variables": [
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 0,
+            "explanation": "Stillwater experiences terrestrial mountain winds, while the Moon lacks an atmosphere capable of sustaining conventional aerodynamic wind.",
+            "utility": "Distinguishing terrestrial wind-driven processes from lunar surface dynamics."
+          },
+          {
+            "id": "abrasive_dust",
+            "name": "Abrasive Dust",
+            "score": 20,
+            "explanation": "Fine mineral particles may occur in exposed rock areas, but Stillwater generally lacks extensive dry, impact-generated lunar-style dust deposits. Lunar dust is highly angular, abrasive, and affected by electrostatic charging.",
+            "utility": "Preliminary particle-abrasion tests with clear material limitations."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": null,
+            "explanation": "Atmospheric dust storms have no direct lunar counterpart.",
+            "utility": "Preventing inappropriate comparisons with lunar environmental conditions."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion",
+            "score": null,
+            "explanation": "Terrestrial wind erosion is not a direct lunar geological process. The Moon's surface is modified primarily by impacts and space weathering.",
+            "utility": "Distinguishing atmospheric erosion from impact-driven regolith evolution."
+          },
+          {
+            "id": "sediments_and_dunes",
+            "name": "Sediments and Granular Deposits",
+            "score": 35,
+            "explanation": "Stillwater contains talus, alluvial sediments, and older glacial deposits. Lunar granular materials originate primarily from impacts and volcanic activity rather than rivers and glaciers.",
+            "utility": "Testing rock-fragment sorting, granular sampling, and surface-material classification."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": null,
+            "explanation": "Stillwater's atmospheric aerosols have no direct equivalent in the lunar exosphere.",
+            "utility": "Defining limitations for atmospheric sensor testing."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 61.0,
+        "classification": "Moderate",
+        "description": "Stillwater preserves a layered intrusive geological structure with mineralogical variations, joints, and fractures. These formations are useful for geological mapping and subsurface interpretation but must not be confused with volcanic lava tubes.",
+        "utility": "Geological stratigraphy, fracture mapping, rock-layer identification, and subsurface structural analysis.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves",
+            "score": 28,
+            "explanation": "The supplied research mentions small caves and possible minor tectonic or karstic cavities in associated formations. Their presence, exact location, and geological origin require verification. Lunar cavities may form through volcanic or collapse processes.",
+            "utility": "Preliminary cavity-detection testing where verified cavities exist."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 0,
+            "explanation": "The Stillwater Complex formed through the crystallization of magma beneath Earth's surface. It is not an extrusive lava-flow system and does not provide a direct lava-tube analog.",
+            "utility": "Distinguishing intrusive geological structures from volcanic conduits."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Cavities and Fractures",
+            "score": 78,
+            "explanation": "The complex contains tectonic fractures and joints within competent igneous rocks. Lunar highland bedrock may also contain fractures associated with impacts and tectonic deformation, although the stress histories differ.",
+            "utility": "Testing fracture mapping, geological hazard assessment, and structural reconnaissance."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 88,
+            "explanation": "Stillwater preserves distinct layered igneous units, including anorthositic and mafic-ultramafic rocks. The lunar crust also contains differentiated igneous materials, although its stratigraphy and formation history are different.",
+            "utility": "Testing geological-layer interpretation, radar imaging, and crustal structure models."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 83,
+            "explanation": "Stillwater exposes substantial igneous rock sequences with variable layer thicknesses. Lunar crustal units and subsurface rock bodies also have measurable thicknesses, but their geometry and origin cannot be inferred directly from terrestrial intrusive layering.",
+            "utility": "Evaluating stratigraphic thickness estimation and subsurface geological modeling."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": null,
+        "classification": "Not Applicable",
+        "description": "Stillwater supports a terrestrial mountain ecosystem. No indigenous lunar life has been confirmed, so direct biological similarity is not applicable.",
+        "utility": "Biological contamination control and mineralogical sample integrity.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": null,
+            "explanation": "The supplied research does not identify a specialized extremophile environment relevant to lunar biology, and no indigenous lunar organisms have been confirmed.",
+            "utility": "Testing contamination monitoring during sample collection."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": null,
+            "explanation": "Stillwater's terrestrial conditions support ordinary biological activity, whereas the lunar surface lacks comparable natural environmental conditions.",
+            "utility": "Distinguishing terrestrial habitability from lunar environmental requirements."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Biosignatures",
+            "score": null,
+            "explanation": "Organic material from terrestrial vegetation and soils has no confirmed indigenous lunar biological counterpart.",
+            "utility": "Preventing biological contamination from affecting mineralogical interpretations."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": null,
+            "explanation": "Terrestrial mountain organisms do not provide a direct comparison with confirmed lunar biological adaptations.",
+            "utility": "Establishing appropriate biological controls for geological field experiments."
+          }
+        ]
+      }
+    ]
+  },
+  "mars": {
+    "id": "TER-08-MARS",
+    "planet": "mars",
+    "overallScore": 39.7,
+    "classification": "Low",
+    "summary": "Stillwater's mafic igneous rocks, layered formations, fractured bedrock, and rocky slopes provide partial analogs for selected Martian crustal environments. Its anorthosite-rich units are less representative of Mars's predominantly basaltic surface.",
+    "applications": [
+      "Igneous rock classification: identifying mafic, ultramafic, and plagioclase-rich materials",
+      "Mineral spectroscopy: testing instruments that distinguish feldspar, pyroxene, olivine, and associated minerals",
+      "Crustal differentiation research: investigating the formation of layered igneous bodies",
+      "Robotic geological sampling: testing sampling methods on exposed hard rock and angular fragments",
+      "Subsurface geological interpretation: mapping fractures and layered intrusive structures",
+      "Terrain navigation: evaluating robotic mobility across rocky slopes and fractured bedrock",
+      "Mineral-resource characterization: investigating the detection of economically and scientifically relevant mineral assemblages"
+    ],
+    "objective": "This assessment evaluates the Stillwater Igneous Complex as a terrestrial analog for selected Martian igneous rocks, crustal differentiation processes, fractured bedrock, and subsurface geological structures. The study focuses on the complex's layered mafic and ultramafic intrusion, anorthositic units, rocky terrain, and mineral-resource potential. Although Stillwater is particularly relevant to lunar highland geology, its igneous formations can also support selected investigations of Martian crustal materials. The assessment distinguishes these geological similarities from the substantial differences between Stillwater's terrestrial environment and the present-day Martian surface.",
+    "characterization": [
+      "The Stillwater Complex is an ancient layered igneous intrusion exposed in southern Montana.",
+      "Its rocks include plagioclase-rich anorthositic units, mafic and ultramafic lithologies, and mineralized layers.",
+      "The surrounding terrain contains mountainous slopes, fractured rock exposures, angular talus, forested areas, streams, and glacially modified valleys.",
+      "The supplied research describes elevations of approximately 1,500–3,000 m and a temperate-to-cold continental mountain climate.",
+      "Mars contains widespread basaltic rocks and evidence of diverse igneous and sedimentary processes. Selected Martian crustal regions may also contain feldspar-rich materials.",
+      "However, Mars's dominant surface mineralogy is not uniformly anorthositic, and Stillwater's intrusive formation history does not reproduce every Martian igneous process.",
+      "The site is therefore most useful for selected petrological, structural, and geological exploration studies."
+    ],
+    "limitations": [
+      "Stillwater does not reproduce Martian atmospheric pressure, atmospheric composition, gravity, radiation exposure, or typical surface temperatures.",
+      "Its forested and water-rich environment differs substantially from present-day Mars.",
+      "Its anorthositic units are not representative of the dominant basaltic surface composition across much of Mars.",
+      "Its intrusive geological history differs from the formation of many Martian volcanic flows and sedimentary deposits.",
+      "The site lacks extensive Martian-style dust deposits, persistent permafrost, and confirmed lava-tube analogs.",
+      "The presence of terrestrial mineral deposits does not establish equivalent Martian ore concentrations.",
+      "The site's biological environment is not a direct analog for Martian habitability."
+    ],
+    "conclusion": [
+      "The Stillwater Anorthosite Complex receives a provisional Martian similarity estimate of 39.7%, classified as Low.",
+      "Its strongest category is Geology and Mineralogy (65.0%), followed by Topography and Geomorphology (58.0%) and Subsurface and Natural Structures (53.0%).",
+      "The region's principal Martian analog value lies in its igneous rock assemblages, layered crustal structures, and exposed fractured bedrock.",
+      "Stillwater should be considered a specialized geological analog for selected Martian crustal investigations rather than a comprehensive Martian environmental analog."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "USGS Publications: https://www.usgs.gov/",
+          "USGS Publications Warehouse: https://pubs.usgs.gov/",
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "NOAA Climate Data: https://www.ncei.noaa.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/"
+        ]
+      },
+      {
+        "label": "Martian sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "Mars Orbital Data Explorer: https://ode.rsl.wustl.edu/mars",
+          "NASA Mars Science: https://science.nasa.gov/mars/",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Relevant datasets and instruments",
+        "items": [
+          "MOLA: Martian elevation and topographic data",
+          "HiRISE and CTX: High-resolution terrain imagery and digital terrain models",
+          "CRISM and OMEGA: Mineralogical observations",
+          "THEMIS and TES: Surface thermal properties and mineralogical information",
+          "APXS, CheMin, ChemCam, and PIXL: In-situ rock and elemental characterization",
+          "SHARAD: Subsurface radar observations",
+          "IUGS geological heritage recognition of the Stillwater Complex: https://iugs-geoheritage.org/geoheritage_sites/the-stillwater-complex/",
+          "Mineralogy and origin of Stillwater anorthosites: https://doi.org/10.1093/petrology/35.6.1623",
+          "Precious and base metal mineralization within the lower stratigraphy of the Stillwater Complex: https://www.usgs.gov/publications/precious-and-base-metal-mineralization-within-lower-stratigraphy-stillwater-complex",
+          "Stillwater Complex mineral resources: https://doi.org/10.3133/cir624",
+          "The listed sources identify relevant scientific repositories. They do not independently verify all Stillwater site-specific measurements."
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment compares the supplied Stillwater terrestrial research with Martian geological and environmental reference information.",
+      "Individual variable and category scores are provisional qualitative estimates, not official NASA similarity measurements.",
+      "The overall score is the arithmetic mean of the seven applicable category scores: (58 + 36 + 65 + 29 + 25 + 53 + 12) / 7 = 39.7%, rounded to one decimal place.",
+      "The scale used is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A.",
+      "Category scores are not calculated from their subvariable percentages.",
+      "The equal-weight overall mean is a transparent prototype convention rather than a validated scientific model.",
+      "Future validation should use site-specific mineralogical measurements, geochemical analyses, georeferenced sampling locations, normalized planetary reference data, and a reproducible scoring methodology.",
+      "Similarity percentages are preliminary AI-assisted assessments based on compiled scientific descriptions. They are not independently validated quantitative measurements or certified indicators of mission suitability."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 58.0,
+        "classification": "Moderate",
+        "description": "Stillwater's rocky mountain slopes, exposed igneous bedrock, and fractured terrain provide partial comparisons with selected Martian highland and volcanic landscapes. The site's terrestrial glacial and fluvial history creates significant differences.",
+        "utility": "Rover mobility, slope analysis, geological mapping, and obstacle detection.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 45,
+            "explanation": "Stillwater's elevations range approximately from 1,500 to 3,000 m above terrestrial sea level. Martian elevation is measured relative to the areoid. The values cannot be directly compared without accounting for different planetary reference surfaces.",
+            "utility": "Testing digital elevation processing and terrain normalization."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 72,
+            "explanation": "Stillwater includes moderate and steep slopes associated with mountain ridges and exposed intrusive formations. Martian highlands and volcanic terrains also contain substantial local gradients. However, the origin and mechanical stability of these slopes can differ.",
+            "utility": "Testing slope-dependent rover route planning and terrain accessibility."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 72,
+            "explanation": "Fractured bedrock, angular talus, and rocky exposures create locally rough terrain. Martian surfaces can contain boulders, fractured outcrops, and rough volcanic materials. Comparisons require consistent spatial resolution.",
+            "utility": "Evaluating autonomous navigation, obstacle detection, and terrain roughness classification."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 64,
+            "explanation": "Stillwater's mountainous relief reflects tectonic deformation and erosion. Martian relief includes impact basins, volcanic edifices, tectonic structures, and erosion-related landforms.",
+            "utility": "Comparing topographic morphology and mapping geological terrain units."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 0,
+            "explanation": "The supplied research does not identify significant recent impact craters at Stillwater. Impact craters are widespread on Mars and are central to understanding its surface history.",
+            "utility": "Identifying the limits of using Stillwater as a Martian impact-landscape analog."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 75,
+            "explanation": "Angular blocks, fractured rock, and uneven outcrops create navigation hazards that resemble some obstacles encountered by Martian rovers. Material behavior differs because of gravity, atmospheric conditions, and surface weathering.",
+            "utility": "Testing robotic path planning, obstacle avoidance, and sampling-site selection."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 36.0,
+        "classification": "Low",
+        "description": "Stillwater experiences seasonal mountain-climate variations, including cold winters and temporary snow cover. Its terrestrial atmosphere, vegetation, and hydrological conditions prevent direct environmental equivalence with the Moon or Mars.",
+        "utility": "Environmental monitoring, terrain illumination studies, and limited thermal instrument testing.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 42,
+            "explanation": "Stillwater experiences seasonally cold ground conditions. Mars is generally much colder, and its surface temperature depends strongly on local time, latitude, season, dust, and surface thermal properties.",
+            "utility": "Testing surface-temperature sensors under selected cold terrestrial conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 50,
+            "explanation": "The supplied research describes summer temperatures near 25°C and winter minimum temperatures below -20°C. Some Martian daytime temperatures may approach or exceed 0°C, but nighttime temperatures commonly fall much lower.",
+            "utility": "Evaluating equipment response to temperature changes while identifying the need for more extreme testing."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 44,
+            "explanation": "Stillwater experiences daily and seasonal temperature cycles. Mars also has substantial thermal variation, but its thin atmosphere and surface thermal inertia produce different heating and cooling behavior.",
+            "utility": "Testing thermal monitoring systems and comparing temperature-cycle models."
+          },
+          {
+            "id": "seasonality",
+            "name": "Seasonality",
+            "score": 42,
+            "explanation": "Stillwater has pronounced terrestrial seasons, including winter snow accumulation. Mars also has seasons because of its axial tilt, but its orbital period and seasonal atmospheric processes differ.",
+            "utility": "Evaluating seasonal environmental monitoring methods."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 40,
+            "explanation": "Stillwater's northern latitude and mountainous terrain produce changing illumination and topographic shadows. Martian solar illumination differs because Mars receives less solar energy and atmospheric dust modifies surface radiation.",
+            "utility": "Testing terrain-shadow modeling and solar-exposure analysis."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 8,
+            "explanation": "Stillwater's mountain elevation reduces atmospheric pressure relative to sea level, but it remains vastly higher than typical Martian surface pressure, approximately 600 Pa.",
+            "utility": "Establishing the need for low-pressure chambers during Martian equipment qualification."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 65.0,
+        "classification": "Moderate",
+        "description": "Stillwater's mafic and ultramafic rocks provide useful comparisons with selected Martian igneous materials. Its anorthositic units also support broader investigations of planetary crustal differentiation, although they are less representative of Mars's widespread basaltic surfaces.",
+        "utility": "Igneous rock classification, mineral spectroscopy, petrological research, and geological sampling.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 76,
+            "explanation": "Stillwater contains mafic and ultramafic igneous rocks, including mineral assemblages relevant to basaltic and related planetary materials. Mars contains widespread basaltic rocks, but a layered plutonic intrusion differs from many exposed Martian lava flows and sedimentary units.",
+            "utility": "Testing classification methods for igneous rock types."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 72,
+            "explanation": "Stillwater contains plagioclase, pyroxene, olivine, and other minerals associated with igneous differentiation. These mineral groups are relevant to Martian igneous geology, although their proportions and compositions vary.",
+            "utility": "Testing mineral spectroscopy and mineral-abundance estimation."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 66,
+            "explanation": "Stillwater's mafic rocks contain major silicate-forming elements relevant to Martian igneous materials. However, its anorthositic layers may be more enriched in aluminum and calcium than many common Martian basaltic rocks.",
+            "utility": "Evaluating elemental analysis and identifying differentiated igneous compositions."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 57,
+            "explanation": "Stillwater contains exposed rock, talus, and weathered soil. Mars contains bedrock, regolith, dust, and sedimentary deposits. The site's exposed igneous rocks are more useful analogs than its vegetated and organic-rich soils.",
+            "utility": "Testing rock sampling and distinguishing bedrock from loose surface material."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 42,
+            "explanation": "Stillwater undergoes terrestrial chemical weathering, oxidation, and freeze-thaw processes. Martian rocks can preserve evidence of aqueous alteration, oxidation, and other surface modifications, but the environmental conditions and timescales differ.",
+            "utility": "Distinguishing primary igneous minerals from secondary alteration products."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 77,
+            "explanation": "Stillwater's layered intrusion records magmatic differentiation and crystal accumulation. Martian crustal evolution also involved igneous differentiation, although the structures and formation environments are not identical.",
+            "utility": "Investigating planetary crustal evolution and igneous stratigraphy."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 29.0,
+        "classification": "Low",
+        "description": "Stillwater contains ordinary terrestrial water systems, seasonal snow, and mineralized igneous rocks. Its mineral deposits are scientifically relevant, but terrestrial ore concentrations do not establish equivalent lunar or Martian resource availability.",
+        "utility": "Mineral identification, geological resource characterization, and studies of materials relevant to planetary resource-processing research.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 8,
+            "explanation": "Stillwater contains streams, springs, and seasonal runoff. Stable exposed liquid water is generally absent from present-day Mars. Ancient Martian environments contained water-related geological systems, but Stillwater's modern streams are not a direct environmental equivalent.",
+            "utility": "Distinguishing present-day terrestrial hydrology from ancient Martian aqueous processes."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 26,
+            "explanation": "Stillwater experiences seasonal snow and surface freezing. Mars contains polar ice, seasonal frost, and other ice-related deposits. The persistence, composition, and formation mechanisms differ.",
+            "utility": "Limited testing of surface frost and snow detection."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 0,
+            "explanation": "The supplied research does not document persistent subsurface ice within the selected Stillwater setting. Mars contains extensive buried ice in certain regions.",
+            "utility": "Identifying the need for specialized frozen-ground analog sites."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 0,
+            "explanation": "The supplied research identifies no permafrost in the selected exposed complex. Mars has permanently cold subsurface environments, including ice-rich ground.",
+            "utility": "Excluding Stillwater from primary Martian permafrost investigations."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 34,
+            "explanation": "Hydrogen occurs in terrestrial water, vegetation, soils, and weathering minerals. Mars contains hydrogen-bearing minerals and ice deposits, but the chemical reservoirs and environmental conditions differ.",
+            "utility": "Testing hydrogen-sensitive instruments and differentiating mineral-bound hydrogen from water-related signals."
+          },
+          {
+            "id": "evidence_of_past_water",
+            "name": "Evidence of Past Water",
+            "score": 32,
+            "explanation": "Stillwater's landscape contains evidence of terrestrial fluvial and glacial modification. Mars also preserves evidence of ancient water-related processes, but the geological environments and preservation mechanisms differ.",
+            "utility": "Training geological interpretation systems to distinguish water-related landforms from igneous structures."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 73,
+            "explanation": "Stillwater contains economically significant platinum-group, chromium, and nickel mineralization, as well as aluminum- and calcium-rich rocks. Mars contains mineral resources of scientific interest, but equivalent economic concentrations cannot be assumed.",
+            "utility": "Testing mineral-resource identification and evaluating igneous mineral assemblages."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 25.0,
+        "classification": "Low",
+        "description": "Stillwater experiences terrestrial wind, weathering, vegetation, and sediment movement. Its exposed rock fragments can support limited particle-interaction tests, but its atmospheric and dust conditions do not reproduce the lunar or Martian environment.",
+        "utility": "Rock-fragment characterization, abrasion studies, environmental monitoring, and evaluation of analog limitations.",
+        "variables": [
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 8,
+            "explanation": "Stillwater has a dense terrestrial atmosphere compared with the very low pressure of Mars.",
+            "utility": "Defining the need for low-pressure atmospheric testing."
+          },
+          {
+            "id": "atmospheric_composition",
+            "name": "Atmospheric Composition",
+            "score": 12,
+            "explanation": "Earth's atmosphere is dominated by nitrogen and oxygen, whereas the Martian atmosphere is dominated by carbon dioxide.",
+            "utility": "Identifying limitations of terrestrial atmospheric sensor testing."
+          },
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 37,
+            "explanation": "Stillwater experiences mountain winds and regional weather systems. Mars also has winds, but atmospheric density and particle-transport thresholds differ greatly.",
+            "utility": "Preliminary testing of wind monitoring instruments."
+          },
+          {
+            "id": "dust",
+            "name": "Dust",
+            "score": 25,
+            "explanation": "Stillwater generally contains limited airborne mineral dust because of vegetation and moisture. Mars has extensive fine mineral dust deposits and atmospheric dust transport.",
+            "utility": "Testing particle detection under limited terrestrial conditions."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": 0,
+            "explanation": "The supplied research does not identify dust storms as a characteristic feature of the selected mountainous environment. Martian dust storms are an important atmospheric process.",
+            "utility": "Excluding Stillwater from primary Martian dust-storm analog studies."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion and Sediments",
+            "score": 33,
+            "explanation": "Wind contributes to some terrestrial sediment movement, but water, gravity, glaciation, and mechanical weathering are more important at Stillwater. Martian aeolian processes have shaped dunes and other sedimentary features.",
+            "utility": "Distinguishing different sediment-transport mechanisms."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": 24,
+            "explanation": "Stillwater contains ordinary terrestrial atmospheric aerosols, including particles from vegetation and regional atmospheric sources. Martian aerosols are dominated by mineral dust and other particles under different atmospheric conditions.",
+            "utility": "Evaluating sensor response to terrestrial aerosols while recognizing differences from Mars."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 53.0,
+        "classification": "Moderate",
+        "description": "Stillwater preserves a layered intrusive geological structure with mineralogical variations, joints, and fractures. These formations are useful for geological mapping and subsurface interpretation but must not be confused with volcanic lava tubes.",
+        "utility": "Geological stratigraphy, fracture mapping, rock-layer identification, and subsurface structural analysis.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves and Cavities",
+            "score": 25,
+            "explanation": "The supplied research mentions small caves and minor cavities in associated geological formations. Their precise location and characteristics are not established. Martian caves and collapse pits may have different volcanic or structural origins.",
+            "utility": "Limited testing of cavity detection where site-specific structures are confirmed."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 0,
+            "explanation": "Stillwater is a plutonic intrusion that crystallized beneath the surface. It is not a lava-flow system and does not provide a direct analog for Martian lava tubes.",
+            "utility": "Distinguishing intrusive rocks from extrusive volcanic conduits."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Fractures and Faults",
+            "score": 79,
+            "explanation": "Stillwater contains joints and tectonic fractures within competent igneous rock. Mars also contains fractures, faults, and extensional structures.",
+            "utility": "Testing fracture recognition and geological hazard mapping."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 86,
+            "explanation": "Stillwater preserves layered igneous rocks with differing mineral compositions. Martian crustal investigations also seek to identify geological layering and igneous structures, although their formation histories may differ.",
+            "utility": "Testing subsurface radar interpretation and geological-layer classification."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 80,
+            "explanation": "Stillwater exposes substantial intrusive rock sequences with varying layer thicknesses. Martian crustal units also have measurable thicknesses, but direct comparison requires geophysical and geological data at comparable scales.",
+            "utility": "Evaluating geological thickness estimation and subsurface modeling."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": 12.0,
+        "classification": "Very Low",
+        "description": "Stillwater supports terrestrial mountain ecosystems and biological activity. Its biological conditions do not provide a strong direct analog for Martian environmental habitability, although they can support contamination-control investigations.",
+        "utility": "Biological contamination monitoring, recognition of terrestrial organic material, and evaluation of astrobiological sampling limitations.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": 5,
+            "explanation": "The supplied research does not identify a specialized extremophile community relevant to Martian environmental limits. Ordinary terrestrial biological activity does not establish similarity with potential Martian life.",
+            "utility": "Establishing biological contamination controls."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": 8,
+            "explanation": "Stillwater has accessible liquid water, a dense atmosphere, and relatively moderate temperatures. Present-day Mars is cold, dry, and exposed to much harsher surface conditions.",
+            "utility": "Identifying differences between terrestrial habitability and Martian environmental constraints."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Potential Biosignatures",
+            "score": 12,
+            "explanation": "Stillwater contains abundant terrestrial organic material from vegetation and soils. Mars has no confirmed indigenous biosignatures, and organic detection alone does not establish biological origin.",
+            "utility": "Testing contamination monitoring and distinguishing biological material from mineralogical signals."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": 15,
+            "explanation": "Stillwater supports organisms adapted to a terrestrial mountain environment, but these adaptations are not directly representative of the combined stresses associated with the Martian surface.",
+            "utility": "Evaluating biological contamination and instrument selectivity."
+          }
+        ]
+      }
+    ]
+  }
+}

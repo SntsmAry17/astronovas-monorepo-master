@@ -1,0 +1,897 @@
+{
+  "id": "TER-04",
+  "slug": "mcmurdo",
+  "name": "McMurdo Dry Valleys",
+  "country": "Antarctica",
+  "regions": "Victoria Land, Ross Dependency",
+  "lat": -77.5,
+  "lng": 162.5,
+  "elevation": "Sea level to over 2,000 m",
+  "environmentType": "Polar / Hyperarid / Periglacial",
+  "features": [
+    "Ice-free polar valleys",
+    "Ancient glacial deposits",
+    "Hyperarid frozen soils",
+    "Continuous permafrost",
+    "Buried ice",
+    "Ice-covered lakes",
+    "Salt accumulations",
+    "Wind-eroded rocks",
+    "Cryptoendolithic microbial communities"
+  ],
+  "description": "The McMurdo Dry Valleys are a cold polar desert region in Antarctica containing largely ice-free valley floors, exposed rocky surfaces, glaciers, ice-covered lakes, permafrost, buried ground ice, and localized seasonal meltwater streams. Environmental conditions vary between valleys, elevations, geological units, and seasons. The region provides valuable terrestrial environments for investigating selected Martian cold-desert processes and lunar or Martian polar exploration challenges.",
+  "relevance": "Polar geomorphology, frozen-ground investigations, subsurface ice detection, seasonal meltwater processes, sediment transport, geological preservation, robotic mobility, and astrobiology.",
+  "geoNote": "Coordinates are representative of the McMurdo Dry Valleys region and do not identify a single observation or sampling site.",
+  "moon": {
+    "id": "TER-04-MOON",
+    "planet": "moon",
+    "overallScore": 45.3,
+    "classification": "Low",
+    "summary": "The McMurdo Dry Valleys contain cold, dry, rocky landscapes, permafrost, buried ice, glaciers, and ice-covered lakes. Selected sites offer practical opportunities for studying frozen-ground sampling, polar navigation, and ice-detection technologies relevant to lunar exploration. However, the region does not reproduce lunar vacuum or the physical conditions of lunar polar cold traps.",
+    "applications": [
+      "Polar ice detection: Testing instruments intended to identify buried ice beneath dry surface material.",
+      "Frozen-ground exploration: Evaluating sampling and robotic mobility in permanently frozen soils.",
+      "Polar illumination: Testing imaging and navigation under extended daylight or darkness.",
+      "Surface mobility: Investigating rover movement across rocky desert pavements and glacial blocks.",
+      "Subsurface imaging: Evaluating instruments for detecting frozen layers and fractures.",
+      "Contamination control: Testing procedures for preventing biological contamination during field sampling."
+    ],
+    "objective": "This assessment evaluates the suitability of the McMurdo Dry Valleys as a terrestrial analog for selected lunar polar and rocky-surface exploration activities. The investigation focuses on frozen-ground conditions, buried ice, surface roughness, illumination, geological sampling, and robotic operations in remote polar terrain.",
+    "characterization": [
+      "The McMurdo Dry Valleys form an extensive ice-free polar desert within the Transantarctic Mountains.",
+      "The region includes broad glacial valleys, ancient moraines, rocky desert pavements, exposed sedimentary and crystalline rocks, glaciers, permanently ice-covered lakes, and exceptionally cold and dry soils.",
+      "The supplied terrestrial research describes valley-floor slopes of approximately 1–5°, steep surrounding rock walls exceeding 40°, winter temperature extremes approaching -50°C, and strong katabatic winds.",
+      "The geological assemblage includes Beacon sandstones, Ferrar dolerites, and older granitic and metamorphic rocks.",
+      "Continuous permafrost, buried ancient ice, salt accumulation, and thermal-contraction fractures are particularly relevant to polar exploration research.",
+      "However, the region retains Earth's atmosphere, gravity, biological activity, and water-related geological processes. These differences substantially limit its direct lunar similarity."
+    ],
+    "limitations": [
+      "The Dry Valleys do not reproduce lunar gravity, near-vacuum conditions, space radiation, lunar regolith chemistry, or the extreme temperatures of permanently shadowed lunar regions.",
+      "Their valleys and sediments are strongly influenced by glaciation, terrestrial winds, and geological processes involving water.",
+      "The absence of representative lava tubes and impact-crater terrain also limits their suitability for certain lunar geological investigations.",
+      "The region is therefore most useful for specific polar operational and frozen-ground experiments rather than comprehensive lunar environmental simulation."
+    ],
+    "conclusion": [
+      "The McMurdo Dry Valleys receive a provisional lunar similarity score of 45.3%, classified as Low.",
+      "The strongest assessed categories are Water, Ice and Resources (61.0%) and Topography and Geomorphology (54.0%).",
+      "The most relevant applications are buried-ice detection, frozen-ground sampling, polar navigation, and robotic exploration in cold rocky terrain.",
+      "The region's value as a lunar analog is operational and process-specific rather than a direct match to the overall lunar environment."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "McMurdo Dry Valleys Long-Term Ecological Research: https://mcm.lternet.edu/",
+          "United States Antarctic Program: https://www.usap.gov/",
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "USGS: https://www.usgs.gov/",
+          "Geological and Nuclear Sciences, New Zealand: https://www.gns.cri.nz/"
+        ]
+      },
+      {
+        "label": "Lunar sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "NASA Moon Science: https://science.nasa.gov/moon/",
+          "LROC Data Portal: https://wms.lroc.asu.edu/lroc",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Reference missions and instruments",
+        "items": [
+          "Lunar Reconnaissance Orbiter (LOLA, LROC, Diviner, LEND, Mini-RF)",
+          "Lunar Prospector",
+          "Chandrayaan-1 (Moon Mineralogy Mapper)",
+          "LCROSS",
+          "Apollo sample investigations",
+          "Regional climate of the McMurdo Dry Valleys: https://doi.org/10.1029/2019JD032180",
+          "Long-term stream hydrology and meteorology: https://doi.org/10.1002/hyp.14623",
+          "These are relevant institutional references and data repositories. Their inclusion does not establish that every underlying dataset was individually downloaded or processed."
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment compares the terrestrial conditions described in the supplied McMurdo Dry Valleys research with lunar geological and environmental reference information.",
+      "Scores are provisional qualitative estimates for the comparison prototype. They are not official NASA measurements or the results of a validated mathematical similarity algorithm.",
+      "The classification scale is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A values must remain distinct from zero-valued observations.",
+      "The overall score is a separate provisional assessment and should not be presented as a mathematically derived weighted average.",
+      "A reproducible assessment requires defined field sites, comparable physical measurements, documented normalization, spatially consistent datasets, and explicit weighting.",
+      "The Antarctic research contains broad regional descriptions and reference portals rather than a complete set of site-specific measurements. These limitations must be resolved before scientific validation.",
+      "Similarity percentages are preliminary AI-assisted assessments derived from compiled scientific descriptions. They are not independently validated quantitative measures of planetary similarity or certified indicators of mission suitability."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 54.0,
+        "classification": "Moderate",
+        "description": "The McMurdo Dry Valleys contain broad glacial valleys, steep rocky slopes, moraine deposits, exposed sediments, and patterned ground. These landforms provide selected operational comparisons with planetary terrain, although their geological origins may differ.",
+        "utility": "Rover mobility testing, terrain mapping, obstacle detection, and recognition of glacial, periglacial, and rocky landforms.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 48,
+            "explanation": "The McMurdo Dry Valleys extend from near sea level to mountain crests exceeding 2,000 m. Lunar topography has a much larger global elevation range, measured relative to a lunar reference surface. Terrestrial and lunar elevation values cannot be compared directly without a common normalization method.",
+            "utility": "Testing topographic navigation and altitude-dependent field planning."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 68,
+            "explanation": "The supplied research describes relatively flat valley floors with slopes of approximately 1–5° and steep surrounding rock walls exceeding 40°. Lunar maria also contain gently sloping terrain, while crater walls and highland features can be steep.",
+            "utility": "Evaluating rover traction, stability, and slope-recognition systems."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 78,
+            "explanation": "Antarctic desert pavements contain angular rocks, glacially transported boulders, and fractured ground. Lunar terrain also contains rocky obstacles, although lunar surface roughness depends on impact history and must be evaluated at comparable spatial scales.",
+            "utility": "Testing suspension systems, obstacle avoidance, and terrain-classification algorithms."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 62,
+            "explanation": "The region contains broad glacial troughs, steep mountain walls, and ancient moraine systems. The Moon has valleys, mountains, and depressions, but these are predominantly associated with impacts, volcanism, and tectonic deformation rather than glacial excavation.",
+            "utility": "Training robotic systems to interpret complex relief and elevation changes."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 8,
+            "explanation": "The terrestrial research identifies no prominent recent impact-crater landscape in the region. Small depressions associated with wind deflation or frozen-ground processes do not reproduce the formation mechanisms of lunar impact craters.",
+            "utility": "Distinguishing non-impact depressions from impact-related geological features."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 74,
+            "explanation": "Glacial erratics, angular blocks, rocky pavements, and ground fractures present obstacles comparable in operational terms to some lunar surface hazards.",
+            "utility": "Testing robotic obstacle detection, route selection, and autonomous navigation."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 46.0,
+        "classification": "Low",
+        "description": "The McMurdo Dry Valleys experience very cold conditions and strong seasonal illumination changes. However, air, soil, and rock-surface temperatures differ and must not be treated as interchangeable measurements. Localized summer warming can produce thawed surface layers and seasonal meltwater.",
+        "utility": "Cold-environment instrument testing, seasonal thermal monitoring, optical navigation, and investigation of frozen-ground conditions.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 54,
+            "explanation": "The McMurdo Dry Valleys experience very cold environmental conditions, but air temperature and ground-surface temperature are different measurements. Thermal conditions vary with elevation, season, substrate, and solar exposure. Localized rock and soil surfaces may warm substantially during the austral summer. Lunar surface temperatures vary from extremely cold polar shadows to intensely heated sunlit terrain.",
+            "utility": "Investigating terrestrial cold-environment thermal responses and testing instruments under documented temperature conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 45,
+            "explanation": "Temperature extremes depend on the observation site, season, elevation, and measurement type. Regional winter conditions are exceptionally cold, but local summer air, soil, and rock temperatures may differ significantly. Lunar permanently shadowed regions can be far colder, while illuminated lunar surfaces can become much warmer.",
+            "utility": "Evaluating equipment response to cold conditions and identifying limitations of terrestrial thermal analog testing."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 48,
+            "explanation": "The Dry Valleys experience strong seasonal thermal changes. The Moon experiences a much longer day-night cycle and, outside some polar settings, much larger surface temperature variations.",
+            "utility": "Testing preliminary thermal monitoring and equipment responses to temperature changes."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 83,
+            "explanation": "The research describes prolonged Antarctic summer daylight and winter darkness. These conditions offer operational comparisons with some lunar polar illumination challenges, although lunar illumination patterns depend strongly on local terrain and the Moon's axial geometry.",
+            "utility": "Evaluating low-angle solar imaging, illumination-dependent navigation, and polar field planning."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Conditions / Exosphere",
+            "score": 0,
+            "explanation": "Antarctica retains Earth's dense atmosphere, even under cold and dry conditions. The Moon has an extremely tenuous exosphere and essentially no atmospheric heat transfer or conventional wind.",
+            "utility": "Determining which tests require vacuum chambers rather than open-air terrestrial fieldwork."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 35.0,
+        "classification": "Low",
+        "description": "Dry, rocky terrain provides some useful mechanical surface comparisons, but the region's sedimentary, metamorphic, granitic, and glacial geology differs substantially from lunar rock assemblages.",
+        "utility": "Rock identification, geological classification, and sampling-system evaluation.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 30,
+            "explanation": "The McMurdo Dry Valleys contain Beacon sandstones, Ferrar dolerites, granitic rocks, and metamorphic basement. The Moon contains extensive anorthositic highlands, mare basalts, and impact breccias. Ferrar dolerites provide a limited mafic-rock comparison, but the overall assemblages differ.",
+            "utility": "Testing rock-classification instruments and identifying the limits of terrestrial lithological analogs."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 38,
+            "explanation": "Some mafic minerals in Ferrar dolerites overlap with mineral groups found in lunar basalts. However, the region also contains quartz-rich sedimentary and granitic rocks and water-related salts that are not representative of typical lunar surface materials.",
+            "utility": "Evaluating mineral-identification systems and spectral discrimination."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 35,
+            "explanation": "Antarctic rocks contain common silicate-forming elements, but their chemical abundances and alteration products differ from lunar mare basalts and highland anorthosites.",
+            "utility": "Testing geochemical classification and distinguishing different rock families."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 55,
+            "explanation": "The Dry Valleys contain dry sediments, angular clasts, moraines, and rocky desert pavements. Lunar regolith is produced mainly by impact fragmentation and space weathering, resulting in different grain textures and mechanical behavior.",
+            "utility": "Testing granular sampling, excavation, and robotic interaction with loose surface materials."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 34,
+            "explanation": "Antarctic weathering includes salt crystallization, thermal contraction, and limited water-related alteration. Lunar weathering is dominated by micrometeorite impacts, solar-wind implantation, and irradiation.",
+            "utility": "Developing methods to distinguish terrestrial alteration from lunar space-weathering signatures."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 18,
+            "explanation": "The Dry Valleys are dominated by glacial valleys, moraines, sedimentary sequences, and mountain structures. Lunar formations are primarily associated with impact basins, volcanic plains, and ancient tectonic structures.",
+            "utility": "Training geological mapping systems to distinguish different landform origins."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 61.0,
+        "classification": "Moderate",
+        "description": "The McMurdo Dry Valleys contain glaciers, buried ice, ice-covered lakes, and different forms of permafrost. Seasonal meltwater streams and locally thawed soil layers also occur. The distribution of ice and liquid water varies spatially and seasonally.",
+        "utility": "Buried-ice detection, frozen-ground analysis, cold-desert hydrology, robotic sampling, and investigations of planetary cryogeological processes.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 12,
+            "explanation": "The region contains lakes and occasional meltwater processes, often beneath persistent lake ice. The exposed lunar surface does not support stable liquid water.",
+            "utility": "Establishing the limits of terrestrial hydrological comparisons."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 77,
+            "explanation": "The Dry Valleys contain glaciers and permanently ice-covered lakes. Lunar polar surface ice occurs in much colder, frequently permanently shadowed settings and may be mixed with regolith.",
+            "utility": "Testing ice-recognition instruments and sampling procedures."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 88,
+            "explanation": "Ancient glacial ice can remain buried beneath dry sediment and moraine deposits. Lunar polar ice may also be concealed beneath surface material, although its origin, temperature, and physical distribution differ.",
+            "utility": "Evaluating ground-penetrating sensing and buried-ice detection."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 85,
+            "explanation": "The Dry Valleys contain extensive frozen ground. Lunar polar regolith can remain at temperatures low enough to preserve ice for extremely long periods, but it lacks ordinary terrestrial freeze-thaw processes.",
+            "utility": "Testing drilling, sampling, and robotic mobility in frozen substrates."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 62,
+            "explanation": "Hydrogen is present in Antarctic ice, lake water, and frozen sediments. Lunar hydrogen may occur in water ice, hydroxyl-bearing materials, or implanted particles. Hydrogen detection does not necessarily identify its chemical form.",
+            "utility": "Testing hydrogen-sensitive instruments and interpreting ice-related measurements."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 42,
+            "explanation": "The region contains salts and geological materials of scientific interest. Lunar resource studies focus on oxygen-bearing minerals, metals, and polar volatiles. Antarctic materials are protected by environmental and treaty restrictions.",
+            "utility": "Nonextractive mineral characterization and preliminary resource-sensing studies."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 29.0,
+        "classification": "Low",
+        "description": "Strong downslope wind events, fine sediments, and wind-eroded rocks provide useful analogs for selected aeolian processes. However, Antarctic wind conditions and dust events must not be described as physically equivalent to those on the Moon.",
+        "utility": "Wind-related erosion studies, dust monitoring, particle exposure testing, and geological analysis of sediment transport.",
+        "variables": [
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 0,
+            "explanation": "The McMurdo Dry Valleys experience strong downslope wind events, including katabatic and foehn-related conditions. Episodes exceeding 20 m/s have been documented, but such events must not be presented as representative mean wind speeds for the entire region. The Moon lacks a dense atmosphere capable of comparable wind.",
+            "utility": "Investigating wind-related sediment movement, erosion, and environmental instrument performance during documented terrestrial wind events."
+          },
+          {
+            "id": "abrasive_dust",
+            "name": "Abrasive Dust",
+            "score": 62,
+            "explanation": "Dry Antarctic sediments can contain fine mineral particles capable of abrading equipment. Lunar dust differs in its formation, grain morphology, electrostatic properties, and exposure history.",
+            "utility": "Testing seals, joints, optical surfaces, and mechanical components."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion",
+            "score": null,
+            "explanation": "Wind erosion shapes Antarctic ventifacts and sediments. Conventional atmospheric wind erosion does not occur on the present Moon.",
+            "utility": "Preventing inappropriate geological equivalence between terrestrial and lunar erosion."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": null,
+            "explanation": "Antarctic dust events are driven by atmospheric winds, whereas lunar dust movement involves different processes.",
+            "utility": "Distinguishing terrestrial dust-storm testing from lunar particle-environment simulation."
+          },
+          {
+            "id": "sediments_and_dunes",
+            "name": "Sediments and Granular Deposits",
+            "score": 55,
+            "explanation": "Dry moraine sediments, fine mineral deposits, and rocky pavements provide granular test surfaces. Lunar regolith differs in origin, grain properties, and cohesion.",
+            "utility": "Evaluating excavation, granular sampling, and rover-soil interaction."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": null,
+            "explanation": "Antarctic marine and mineral aerosols exist within Earth's atmosphere. There is no directly equivalent dense atmospheric aerosol system on the Moon.",
+            "utility": "Identifying environmental testing that cannot be transferred directly to lunar conditions."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 47.0,
+        "classification": "Low",
+        "description": "The McMurdo Dry Valleys contain frozen-ground structures, fractures, geological layering, and localized buried ice. Permafrost may be ice-cemented or dry-frozen, depending on local environmental conditions.",
+        "utility": "Ground-penetrating surveys, fracture recognition, buried-ice identification, subsurface geological mapping, and robotic sampling.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves",
+            "score": 20,
+            "explanation": "The supplied research describes very limited natural cavities, including possible salt-related openings and fractures. These differ from the volcanic cavities potentially present on the Moon.",
+            "utility": "Testing basic cavity detection in limited geological settings."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 0,
+            "explanation": "The research identifies no lava-tube systems within the selected Dry Valleys geological environment. Lunar lava tubes are associated with ancient basaltic volcanism.",
+            "utility": "Identifying the need for another terrestrial analog when testing lava-tube exploration."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Cavities and Fractures",
+            "score": 65,
+            "explanation": "Thermal-contraction cracking and fractures in frozen ground provide structural obstacles. Lunar terrain also contains fractures and collapse-related features, although their origins differ.",
+            "utility": "Testing fracture detection and robotic hazard recognition."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 72,
+            "explanation": "The Dry Valleys contain sedimentary and metamorphic rock sequences overlain by frozen soils and glacial deposits. Lunar subsurface materials include impact-related regolith and volcanic or crustal layers.",
+            "utility": "Evaluating subsurface imaging and stratigraphic interpretation."
+          },
+          {
+            "id": "regolith_thickness",
+            "name": "Material Thickness",
+            "score": 60,
+            "explanation": "The supplied research describes variable soil and sediment thicknesses ranging from approximately one meter to several tens of meters. Lunar regolith thickness varies with terrain and geological history.",
+            "utility": "Testing methods for estimating the thickness of overlying material."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": null,
+        "classification": "Not Applicable",
+        "description": "Selected McMurdo environments support microbial communities adapted to extreme cold and desiccation, including organisms inhabiting protected pore spaces in rocks. These communities provide terrestrial models for astrobiology and biosignature research, without establishing the presence of life on the Moon.",
+        "utility": "Microbial survival studies, biosignature recognition, sampling methods, biological instrument testing, and planetary-protection research.",
+        "variables": [
+          {
+            "id": "direct_biological_similarity",
+            "name": "Direct Biological Similarity",
+            "score": null,
+            "explanation": "No confirmed indigenous lunar life has been identified.",
+            "utility": "Defining the limits of biological analog comparisons."
+          },
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": null,
+            "explanation": "The Dry Valleys contain microbial communities adapted to extreme terrestrial environments, but these cannot be compared with confirmed lunar organisms.",
+            "utility": "Testing terrestrial biological instruments and contamination monitoring."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": null,
+            "explanation": "Some protected microenvironments in Antarctica support life. The exposed lunar environment lacks comparable natural biological conditions.",
+            "utility": "Evaluating life-support research and contamination-control procedures."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Biosignatures",
+            "score": null,
+            "explanation": "Antarctic microbial traces cannot be compared with confirmed indigenous lunar biosignatures.",
+            "utility": "Developing methods to identify biological contamination in geological samples."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": null,
+            "explanation": "Antarctic microorganisms possess adaptations to extreme cold and desiccation, but there is no confirmed lunar biology for direct comparison.",
+            "utility": "Studying terrestrial microbial resilience in controlled experiments."
+          }
+        ]
+      }
+    ]
+  },
+  "mars": {
+    "id": "TER-04-MARS",
+    "planet": "mars",
+    "overallScore": 82.4,
+    "classification": "High",
+    "summary": "The McMurdo Dry Valleys contain cold and arid landscapes, varied permafrost environments, buried ground ice, wind-eroded rocks, seasonal meltwater systems, and protected microbial habitats. These features provide useful terrestrial analogs for selected Martian polar, periglacial, sedimentary, and astrobiological investigations.",
+    "applications": [
+      "Subsurface ice detection: Testing instruments designed to locate buried ice beneath dry sediments.",
+      "Permafrost exploration: Investigating frozen-ground properties and robotic sampling.",
+      "Astrobiology: Studying cryptoendolithic microorganisms and potential biosignature preservation.",
+      "Aeolian erosion: Examining ventifact formation and wind-driven sediment transport.",
+      "Polar rover navigation: Testing robotic mobility across rocky and frozen terrain.",
+      "Cryogeological reconstruction: Interpreting ancient glacial deposits and ice-related landforms.",
+      "Geochemical analysis: Studying salt accumulation and mineral preservation in hyperarid environments."
+    ],
+    "objective": "This assessment evaluates the McMurdo Dry Valleys as a terrestrial analog for selected Martian polar, periglacial, hyperarid, and potentially habitable environments. The investigation emphasizes subsurface ice, continuous permafrost, salt-rich soils, physical weathering, aeolian erosion, geological preservation, and microbial survival in extreme environments.",
+    "characterization": [
+      "The McMurdo Dry Valleys are among the coldest and driest ice-free regions of Antarctica.",
+      "The supplied research describes annual cold conditions of approximately -20°C to -30°C, occasional summer temperatures above freezing, and extreme winter temperatures approaching -50°C.",
+      "The region contains continuous permafrost, ancient buried glacial ice, permanently ice-covered lakes, hyperarid desert pavements, moraine deposits, salt accumulations, and extensive wind-eroded rock surfaces.",
+      "Strong katabatic winds transport fine mineral particles and shape ventifacts, while thermal contraction and salt crystallization contribute to physical weathering.",
+      "The region also supports cryptoendolithic microbial communities, which inhabit protected pore spaces within sandstone and other suitable rocks.",
+      "These features provide valuable comparisons with selected Martian periglacial landscapes, subsurface ice deposits, aeolian environments, and hypothetical ancient or protected microbial habitats.",
+      "However, the Dry Valleys retain Earth's dense atmosphere, abundant atmospheric oxygen, terrestrial gravity, and accessible biological ecosystems. Their environmental conditions are therefore not equivalent to those of present-day Mars."
+    ],
+    "limitations": [
+      "The Dry Valleys do not reproduce Martian gravity, low atmospheric pressure, carbon dioxide-dominated atmosphere, radiation exposure, or the full Martian thermal range.",
+      "Although both environments can be extremely dry and cold, Antarctica retains an active terrestrial hydrological system and biological communities.",
+      "The region also lacks representative volcanic lava tubes and extensive impact-crater fields.",
+      "Its strongest analog applications concern permafrost, buried ice, physical weathering, and astrobiology rather than complete Martian environmental simulation.",
+      "Fieldwork in Antarctica is subject to environmental protections, research permits, and applicable Antarctic Treaty requirements."
+    ],
+    "conclusion": [
+      "The McMurdo Dry Valleys receive a provisional Martian similarity score of 82.4%, classified as High.",
+      "The strongest assessed categories are Biology and Habitability (92.0%), Water, Ice and Resources (91.0%), and Atmosphere, Dust and Surface Dynamics (87.0%).",
+      "The region is particularly valuable for testing ice-detection technologies, studying permafrost and ancient ice deposits, examining aeolian erosion, and investigating microbial survival in extreme environments.",
+      "Its importance as a Martian analog lies in the similarity of selected geological and environmental processes, not in a complete reproduction of present-day Martian conditions."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "McMurdo Dry Valleys Long-Term Ecological Research: https://mcm.lternet.edu/",
+          "United States Antarctic Program: https://www.usap.gov/",
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "USGS: https://www.usgs.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/"
+        ]
+      },
+      {
+        "label": "Martian sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "Mars Orbital Data Explorer: https://ode.rsl.wustl.edu/mars",
+          "NASA Mars Science: https://science.nasa.gov/mars/",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Reference missions and instruments",
+        "items": [
+          "Mars Global Surveyor (MOLA, TES)",
+          "Mars Reconnaissance Orbiter (HiRISE, CTX, CRISM, SHARAD, MARCI, MCS)",
+          "Mars Odyssey (THEMIS, GRS)",
+          "Mars Express (OMEGA, MARSIS)",
+          "Curiosity (CheMin, SAM, REMS)",
+          "InSight",
+          "Perseverance (MEDA, PIXL, SHERLOC)",
+          "Regional climate of the McMurdo Dry Valleys: https://doi.org/10.1029/2019JD032180",
+          "Long-term stream hydrology and meteorology: https://doi.org/10.1002/hyp.14623",
+          "Cryptoendolithic microbial communities: https://pmc.ncbi.nlm.nih.gov/articles/PMC165166/",
+          "The references identify relevant scientific repositories and institutional resources. They do not establish that every individual dataset has been downloaded or analyzed."
+        ]
+      }
+    ],
+    "methodology": [
+      "This assessment compares the terrestrial characteristics provided in the McMurdo Dry Valleys research with Martian geological and environmental reference information.",
+      "The similarity percentages are provisional qualitative judgments designed for the prototype website. They are not official NASA measurements or the output of a validated quantitative model.",
+      "The classification scale is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A is distinct from zero and must not be treated as a zero-valued observation.",
+      "The overall score is a separate provisional assessment, not a verified weighted average of category scores.",
+      "Scientific validation would require defined field sites, comparable physical measurements, consistent spatial scales, documented normalization, and explicit weighting.",
+      "Several terrestrial source entries refer to general research portals or academic search engines rather than specific publications. Those entries require replacement with traceable datasets or individual scientific references before the assessment can be considered reproducible.",
+      "Similarity percentages are preliminary AI-assisted assessments derived from compiled scientific descriptions. They are not independently validated quantitative measures of planetary similarity or certified indicators of mission suitability."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 76.0,
+        "classification": "High",
+        "description": "The McMurdo Dry Valleys contain broad glacial valleys, steep rocky slopes, moraine deposits, exposed sediments, and patterned ground. These landforms provide selected operational comparisons with planetary terrain, although their geological origins may differ.",
+        "utility": "Rover mobility testing, terrain mapping, obstacle detection, and recognition of glacial, periglacial, and rocky landforms.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 48,
+            "explanation": "The region extends from near sea level to mountain crests above 2,000 m. Martian topography spans a much larger planetary relief range, including volcanic mountains and impact basins. Elevations are referenced to different planetary datums.",
+            "utility": "Testing elevation-based navigation and geological field planning."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 80,
+            "explanation": "The supplied research describes relatively flat valley floors with slopes of approximately 1–5° and steep surrounding rock walls exceeding 40°. Mars contains gently sloping plains, steep crater walls, and canyon slopes.",
+            "utility": "Testing rover stability, traction, and slope classification."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 86,
+            "explanation": "Antarctic desert pavements contain angular rocks, glacial erratics, and fractured ground. Martian surfaces also contain rocky obstacles and irregular terrain, although the mechanisms producing their roughness may differ.",
+            "utility": "Evaluating rover mobility, suspension systems, and autonomous obstacle avoidance."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 81,
+            "explanation": "Broad glacial troughs, steep valley walls, and ancient moraines provide examples of cold-region relief. Mars contains valleys and landforms associated with ancient ice-related processes, impacts, volcanism, and erosion.",
+            "utility": "Training terrain-recognition systems and interpreting planetary topography."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 22,
+            "explanation": "The Dry Valleys are not characterized by extensive impact-crater fields. Small depressions formed by deflation or frozen-ground processes may resemble crater-like shapes but have different origins.",
+            "utility": "Testing geological algorithms that distinguish impact features from other depressions."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 88,
+            "explanation": "Glacial boulders, angular rocks, ventifacts, and ground fractures create physical hazards similar to some Martian rocky terrains.",
+            "utility": "Testing obstacle detection, autonomous navigation, and route selection."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 79.0,
+        "classification": "High",
+        "description": "The McMurdo Dry Valleys experience very cold conditions and strong seasonal illumination changes. However, air, soil, and rock-surface temperatures differ and must not be treated as interchangeable measurements. Localized summer warming can produce thawed surface layers and seasonal meltwater.",
+        "utility": "Cold-environment instrument testing, seasonal thermal monitoring, optical navigation, and investigation of frozen-ground conditions.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 84,
+            "explanation": "The McMurdo Dry Valleys experience very cold environmental conditions, but air temperature and ground-surface temperature are different measurements. Thermal conditions vary with elevation, season, substrate, and solar exposure. Localized rock and soil surfaces may warm substantially during the austral summer. Martian surface temperatures can fall much lower and vary significantly by season, latitude, and time of day.",
+            "utility": "Investigating terrestrial cold-environment thermal responses and testing instruments under documented temperature conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 78,
+            "explanation": "Temperature extremes depend on the observation site, season, elevation, and measurement type. Regional winter conditions are exceptionally cold, but local summer air, soil, and rock temperatures may differ significantly. Mars experiences a broader thermal range, with very cold polar conditions and substantial daily variation.",
+            "utility": "Evaluating equipment response to cold conditions and identifying limitations of terrestrial thermal analog testing."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 81,
+            "explanation": "Antarctic polar environments experience pronounced seasonal temperature changes associated with prolonged daylight and darkness. Mars also experiences seasonal thermal variation, although its thin atmosphere and orbital conditions produce different temperature behavior.",
+            "utility": "Testing long-duration environmental monitoring and thermal-response systems."
+          },
+          {
+            "id": "seasonality",
+            "name": "Seasonality",
+            "score": 84,
+            "explanation": "Antarctic seasons strongly influence daylight, temperature, frozen ground, and ice conditions. Mars also experiences significant seasons, including changes in polar carbon dioxide frost and atmospheric pressure.",
+            "utility": "Designing seasonal observation strategies and long-duration field experiments."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 84,
+            "explanation": "The Dry Valleys experience prolonged summer daylight and winter darkness, with low solar angles. Martian polar regions also undergo extreme seasonal illumination changes, although the orbital and atmospheric conditions differ.",
+            "utility": "Testing optical navigation, low-angle imaging, and solar-energy monitoring."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 12,
+            "explanation": "Antarctica retains Earth's relatively dense atmosphere, while the mean Martian surface pressure is approximately 600 Pa. Antarctic atmospheric pressure cannot reproduce the low-pressure Martian environment.",
+            "utility": "Identifying the need for controlled low-pressure environmental chambers."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 76.0,
+        "classification": "High",
+        "description": "Dry sediments, salt accumulations, physical weathering, and long-term geological preservation provide valuable comparisons with selected Martian surface environments, despite substantial differences in underlying rock types.",
+        "utility": "Geochemical analysis, salt detection, sediment characterization, and preservation studies.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 59,
+            "explanation": "The Dry Valleys contain Beacon sandstones, Ferrar dolerites, granitic rocks, and metamorphic basement. Mars contains widespread basaltic rocks as well as sedimentary formations. Ferrar dolerites and sedimentary rocks offer partial comparisons, but the overall lithologies differ.",
+            "utility": "Testing geological classification and rock-identification instruments."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 73,
+            "explanation": "Antarctic rocks contain silicate minerals and soluble salts. Mars also contains silicate minerals, clay-bearing deposits, and salts, although their mineral proportions and geological histories differ.",
+            "utility": "Testing mineral spectroscopy and salt identification."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 79,
+            "explanation": "The Dry Valleys accumulate soluble salts under extremely dry conditions. Mars also contains salt-bearing materials and oxidized surface chemistry, including sulfates and oxychlorine compounds in certain regions. Direct chemical equivalence requires mineral-specific measurements.",
+            "utility": "Testing elemental analysis and chemical detection of salts."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 89,
+            "explanation": "The region contains dry sediments, frozen regolith-like material, rocky pavements, and ancient moraine deposits. Mars contains loose surface materials, dust, and rock fragments, with some regions preserving ice-rich or sedimentary surfaces.",
+            "utility": "Evaluating sampling instruments, rover-soil interactions, and granular-material classification."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 91,
+            "explanation": "Antarctic weathering is dominated by physical processes, including salt crystallization and thermal cracking, with limited liquid-water alteration in the driest environments. Some Martian terrains also preserve evidence of prolonged aridity and physical weathering.",
+            "utility": "Studying mineral preservation, salt-related weathering, and geological alteration signatures."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 78,
+            "explanation": "The Dry Valleys contain ancient glacial valleys, moraines, ice-covered lake basins, and layered geological sequences. Mars preserves evidence of ancient water- and ice-related processes, although its landforms have different histories and scales.",
+            "utility": "Interpreting cold-region sedimentary structures and reconstructing geological history."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 91.0,
+        "classification": "Very High",
+        "description": "The McMurdo Dry Valleys contain glaciers, buried ice, ice-covered lakes, and different forms of permafrost. Seasonal meltwater streams and locally thawed soil layers also occur. The distribution of ice and liquid water varies spatially and seasonally.",
+        "utility": "Buried-ice detection, frozen-ground analysis, cold-desert hydrology, robotic sampling, and investigations of planetary cryogeological processes.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 63,
+            "explanation": "The Dry Valleys contain lakes that remain covered by ice and may experience localized seasonal meltwater. Present-day Mars generally lacks stable exposed liquid water, but preserves evidence of past aqueous activity.",
+            "utility": "Investigating ice-covered water systems and understanding the limitations of present-day hydrological analogs."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 95,
+            "explanation": "Antarctic glaciers and permanently ice-covered lakes provide accessible environments for ice-related field research. Mars contains polar ice deposits and exposed or near-surface ice in selected regions, although their temperatures, compositions, and formation histories differ.",
+            "utility": "Testing ice-recognition instruments and robotic operations near frozen deposits."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 97,
+            "explanation": "Ancient glacial ice remains buried beneath dry sediments and moraine deposits in parts of the Dry Valleys. Mars also contains buried ice-rich deposits, including midlatitude and polar subsurface ice.",
+            "utility": "Testing ground-penetrating radar, buried-ice detection, and subsurface sampling."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 98,
+            "explanation": "The Dry Valleys contain extensive continuous permafrost. Mars has widespread cold ground conditions favorable to the preservation of subsurface ice, although its temperature, pressure, and ice distribution differ.",
+            "utility": "Studying frozen-ground structure, sampling resistance, and ice-related geological processes."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 94,
+            "explanation": "Antarctic ice and frozen sediments contain hydrogen-bearing water molecules. Martian neutron and gamma-ray observations can identify hydrogen enrichment associated with water ice or hydrated minerals, but do not always establish the precise chemical form.",
+            "utility": "Testing hydrogen-detection instruments and interpreting ice-related remote-sensing data."
+          },
+          {
+            "id": "evidence_of_past_water",
+            "name": "Evidence of Past Water",
+            "score": 94,
+            "explanation": "Ancient moraines, glacial valleys, ice-covered lakes, and sedimentary deposits preserve evidence of long-term ice and water-related processes. Mars also preserves geological evidence of ancient rivers, lakes, glaciers, and ice-rich deposits.",
+            "utility": "Testing methods for reconstructing ancient hydrological and cryogenic environments."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 77,
+            "explanation": "The Dry Valleys contain salts and geological materials of scientific interest. Martian exploration considers water ice and selected mineral deposits as potential resources. Antarctic environmental protections prohibit treating the region as a resource-extraction test site without appropriate authorization.",
+            "utility": "Nonextractive resource identification, mineral mapping, and ice-resource reconnaissance."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 87.0,
+        "classification": "High",
+        "description": "Strong downslope wind events, fine sediments, and wind-eroded rocks provide useful analogs for selected aeolian processes. However, Antarctic wind conditions and dust events must not be described as physically equivalent to those on Mars.",
+        "utility": "Wind-related erosion studies, dust monitoring, particle exposure testing, and geological analysis of sediment transport.",
+        "variables": [
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 12,
+            "explanation": "Antarctic atmospheric pressure is vastly greater than the mean Martian surface pressure. The cold and dry Antarctic atmosphere is not equivalent to the thin Martian atmosphere.",
+            "utility": "Establishing which atmospheric tests require low-pressure facilities."
+          },
+          {
+            "id": "atmospheric_composition",
+            "name": "Atmospheric Composition",
+            "score": 8,
+            "explanation": "Antarctica has Earth's nitrogen- and oxygen-rich atmosphere. Mars has a carbon dioxide-dominated atmosphere with different trace gases and aerosol conditions.",
+            "utility": "Defining limitations of open-air atmospheric instrument testing."
+          },
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 91,
+            "explanation": "The McMurdo Dry Valleys experience strong downslope wind events, including katabatic and foehn-related conditions. Episodes exceeding 20 m/s have been documented, but such events must not be presented as representative mean wind speeds for the entire region. Martian winds also transport dust and sand, although the lower atmospheric density produces different forces on particles and equipment.",
+            "utility": "Investigating wind-related sediment movement, erosion, and environmental instrument performance during documented terrestrial wind events."
+          },
+          {
+            "id": "dust",
+            "name": "Dust",
+            "score": 91,
+            "explanation": "Fine mineral particles can be lifted from exposed Antarctic sediments by strong winds. Mars also contains extensive fine dust, although Martian particle chemistry and atmospheric transport differ.",
+            "utility": "Testing dust sensors, optical systems, and protective equipment."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": 85,
+            "explanation": "The Dry Valleys experience localized wind-driven dust events. Mars experiences dust storms at multiple spatial scales, including planet-encircling events. Their atmospheric physics and geographic extent differ.",
+            "utility": "Evaluating dust monitoring, sensor visibility, and equipment exposure."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion and Sediments",
+            "score": 96,
+            "explanation": "Katabatic winds shape ventifacts and redistribute fine sediments. Mars contains extensive wind-eroded rocks, dunes, and sediment deposits. Both environments demonstrate how moving particles can modify exposed geological surfaces.",
+            "utility": "Studying ventifact formation, sediment transport, and wind-driven erosion."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": 74,
+            "explanation": "Antarctic air contains suspended mineral particles and marine aerosols. Mars contains mineral dust and other atmospheric aerosols, but their composition and behavior differ.",
+            "utility": "Testing particle-monitoring instruments and studying aerosol-related interference."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 76.0,
+        "classification": "High",
+        "description": "The McMurdo Dry Valleys contain frozen-ground structures, fractures, geological layering, and localized buried ice. Permafrost may be ice-cemented or dry-frozen, depending on local environmental conditions.",
+        "utility": "Ground-penetrating surveys, fracture recognition, buried-ice identification, subsurface geological mapping, and robotic sampling.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves and Cavities",
+            "score": 28,
+            "explanation": "The supplied research describes limited natural cavities, including possible salt-related openings and thermal fractures. These do not reproduce the full diversity of potential Martian volcanic cavities.",
+            "utility": "Testing limited cavity-detection and structural imaging techniques."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 0,
+            "explanation": "The selected Dry Valleys environment does not contain the lava-tube systems required for a direct Martian lava-tube comparison.",
+            "utility": "Identifying the need for a separate volcanic analog site."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Fractures and Faults",
+            "score": 90,
+            "explanation": "Thermal contraction produces polygonal cracking in frozen ground, while older geological structures include fractures and faults. Mars also contains polygonal ground and tectonic fractures.",
+            "utility": "Testing fracture detection and identifying potential ground hazards."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 91,
+            "explanation": "The Dry Valleys contain frozen soils, buried ice, sedimentary layers, and underlying rock sequences. Mars contains layered sedimentary and volcanic materials and ice-rich subsurface deposits.",
+            "utility": "Testing ground-penetrating radar and subsurface geological interpretation."
+          },
+          {
+            "id": "regolith_thickness",
+            "name": "Material Thickness",
+            "score": 83,
+            "explanation": "The supplied terrestrial research describes sediment and soil layers ranging from approximately one meter to several tens of meters. Martian subsurface deposits vary greatly in thickness and require site-specific comparison.",
+            "utility": "Evaluating subsurface layer-thickness estimation and stratigraphic models."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": 92.0,
+        "classification": "Very High",
+        "description": "Selected McMurdo environments support microbial communities adapted to extreme cold and desiccation, including organisms inhabiting protected pore spaces in rocks. These communities provide terrestrial models for astrobiology and biosignature research, without establishing the presence of life on Mars.",
+        "utility": "Microbial survival studies, biosignature recognition, sampling methods, biological instrument testing, and planetary-protection research.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": 95,
+            "explanation": "Selected McMurdo Dry Valleys environments contain cryptoendolithic microbial communities that inhabit protected pore spaces within sandstone and other suitable rocks. These communities include cold- and desiccation-adapted organisms and provide terrestrial models for investigating survival under challenging environmental conditions. Mars has no confirmed indigenous life, but protected subsurface microenvironments are relevant to hypotheses about potential past or present habitability.",
+            "utility": "Testing microbial detection instruments, studying protected microhabitats, and investigating terrestrial survival strategies relevant to astrobiology."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": 89,
+            "explanation": "The Dry Valleys combine persistent cold, severe desiccation, limited nutrients, and high ultraviolet exposure. These stresses overlap with some challenges associated with Martian environments, although Antarctic habitats remain considerably more favorable to terrestrial life.",
+            "utility": "Studying environmental limits for microbial survival and potential habitability indicators."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Potential Biosignatures",
+            "score": 93,
+            "explanation": "Microbial communities can leave pigments, organic molecules, and other biological traces within rocks and frozen sediments. These provide test materials for instruments intended to identify potential biosignatures in Martian geological samples.",
+            "utility": "Evaluating biosignature detection and distinguishing biological from nonbiological signals."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": 91,
+            "explanation": "Antarctic microorganisms may survive through slow metabolism, desiccation tolerance, and exploitation of protected rock microenvironments. These adaptations provide terrestrial models for exploring possible biological survival strategies under extreme conditions.",
+            "utility": "Studying microbial adaptation, preservation, and environmental tolerance."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Base de datos (Supabase) y scripts de ingesta de datos de la NASA",
+  "scripts": {
+    "db:seed": "node scripts/generate-seed.mjs",
+    "test:db": "node tests/db.test.mjs",
+    "db:bundle": "node scripts/bundle-sql.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0"
+  }
+}

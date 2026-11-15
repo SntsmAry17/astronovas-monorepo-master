@@ -1,0 +1,881 @@
+{
+  "id": "TER-05",
+  "slug": "haughton",
+  "name": "Haughton Impact Crater",
+  "country": "Canada",
+  "regions": "Devon Island, Nunavut",
+  "lat": 75.38,
+  "lng": -89.67,
+  "elevation": "Approximately 200–400 m",
+  "environmentType": "Polar impact crater, hyperarid Arctic desert and periglacial terrain",
+  "features": [
+    "Polar impact crater",
+    "Hyperarid Arctic desert",
+    "Periglacial terrain",
+    "Impact-breccia deposits",
+    "Fractured carbonate bedrock",
+    "Continuous permafrost"
+  ],
+  "description": "Haughton Impact Crater is a complex impact structure on Devon Island in the Canadian High Arctic. Its apparent present-day diameter is approximately 23 km, and its formation age is estimated at 31.04 ± 0.37 million years. The crater contains impact breccias, fractured and displaced rocks, a central structural uplift, and evidence of impact-related hydrothermal alteration. Subsequent erosion and periglacial processes have modified its original morphology. Its surrounding polar desert environment includes frozen ground, patterned surfaces, seasonal snow, and localized summer meltwater.",
+  "relevance": "Impact-crater geology, rover mobility, impact breccia analysis, geological mapping, subsurface fracture investigations, frozen-ground studies, impact-related hydrothermal processes, and astrobiological research.",
+  "geoNote": "The coordinates and elevation are approximate geographical references and do not represent a single measurement site.",
+  "moon": {
+    "id": "TER-05-MOON",
+    "planet": "moon",
+    "overallScore": 58,
+    "classification": "Moderate",
+    "summary": "Haughton Crater provides direct geological comparisons with lunar impact structures through its crater morphology, impact breccias, fractured bedrock, and complex subsurface deformation. Its rocky terrain and impact-generated obstacles also support lunar surface exploration studies. However, the terrestrial crater has experienced extensive erosion, weathering, and periglacial modification that differ from lunar surface evolution.",
+    "applications": [
+      "Impact-crater mapping",
+      "Impact-breccia identification",
+      "Geological sampling",
+      "Robotic navigation",
+      "Crater-wall reconnaissance",
+      "Subsurface fracture detection"
+    ],
+    "objective": "This assessment examines the suitability of Haughton Impact Crater as a terrestrial analog for lunar impact structures, crater exploration, fractured geological materials, and selected polar field operations. The investigation emphasizes impact-generated landforms, geological deformation, surface hazards, crater stratigraphy, and subsurface structures.",
+    "characterization": [
+      "Haughton is a complex impact crater formed by a high-velocity extraterrestrial impact into predominantly Paleozoic carbonate rocks on Devon Island.",
+      "The crater has an apparent present-day diameter of approximately 23 km. Its geological features include a central structural uplift, impact breccias, highly fractured rocks, displaced geological blocks, and a partially eroded crater depression.",
+      "The surrounding environment is a cold Arctic desert characterized by continuous permafrost, polygonal ground, seasonal snow, sparse vegetation, and localized summer meltwater.",
+      "The terrestrial research reports elevations of approximately 200–400 m and an annual mean temperature near -15°C.",
+      "The Haughton impact structure formed approximately 31.04 ± 0.37 million years ago, according to a 2021 geochronological investigation combining 40Ar/39Ar and U-Pb evidence. Older published age estimates differed considerably, but the newer results provide a more precise formation age."
+    ],
+    "limitations": [
+      "Haughton does not reproduce lunar gravity, near-vacuum conditions, space radiation, or extreme lunar surface temperatures.",
+      "Its carbonate-rich target rocks differ substantially from common lunar crustal materials.",
+      "The crater has undergone erosion, weathering, and periglacial modification, whereas lunar craters evolve under very different surface conditions.",
+      "Its ice-bearing ground is useful for selected polar investigations but is not a direct physical equivalent of lunar permanently shadowed regolith.",
+      "The absence of lava tubes also limits its suitability for lunar volcanic-cavity exploration."
+    ],
+    "conclusion": [
+      "Haughton Impact Crater receives a provisional lunar similarity estimate of 58.0%, classified as Moderate.",
+      "Its strongest categories are Topography and Geomorphology (88.0%) and Subsurface and Natural Structures (77.0%).",
+      "The region's greatest scientific value is its authentic impact-generated geology, which makes it particularly suitable for studying crater structures, breccias, fractures, and exploration hazards.",
+      "It should be considered a specialized impact-crater analog rather than a comprehensive simulation of the lunar environment."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "Natural Resources Canada: https://natural-resources.canada.ca/",
+          "Geological Survey of Canada: https://natural-resources.canada.ca/",
+          "Lunar and Planetary Institute: https://www.lpi.usra.edu/",
+          "Earth Impact Database: http://www.passc.net/EarthImpactDatabase/",
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/"
+        ]
+      },
+      {
+        "label": "Lunar sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "NASA Moon Science: https://science.nasa.gov/moon/",
+          "LROC Data Portal: https://wms.lroc.asu.edu/lroc",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Reference datasets and publications",
+        "items": [
+          "Relevant lunar datasets and instruments: LOLA elevation and slope products, LROC NAC and WAC imagery, Diviner thermal observations, Moon Mineralogy Mapper data, and lunar impact-crater catalogs",
+          "Haughton formation age (40Ar/39Ar and U-Pb geochronology): https://doi.org/10.1016/j.gca.2021.04.008",
+          "Haughton crater characteristics and apparent diameter: https://impact.uwo.ca/impact-craters/map/?crater_id=59",
+          "Haughton impact-related hydrothermal system: https://doi.org/10.1029/2023JE008267",
+          "Haughton crater-fill impact deposits: https://www.sciencedirect.com/science/article/abs/pii/S0012821X01005581"
+        ]
+      }
+    ],
+    "methodology": [
+      "This assessment compares the terrestrial Haughton research with the supplied lunar environmental and geological reference dataset.",
+      "Similarity percentages are provisional qualitative estimates for a hackathon demonstration. They are not official NASA similarity measurements or outputs of a validated scoring model.",
+      "Similarity percentages are preliminary AI-assisted assessments derived from compiled scientific descriptions. They are not independently validated quantitative measurements or certified indicators of mission suitability.",
+      "Classification scale: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A values are distinct from zero.",
+      "The overall similarity estimate is independent of the displayed category scores and must not be presented as a calculated weighted average.",
+      "Scientific validation requires site-specific measurements, comparable spatial scales, normalized physical variables, traceable scientific references, and a documented weighting algorithm.",
+      "Several terrestrial claims, including crater age, permafrost depth, wind speeds, and impact-deposit thicknesses, require verification against specific scientific studies."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 88,
+        "classification": "High",
+        "description": "Haughton contains a heavily modified complex impact structure with an apparent present-day diameter of approximately 23 km. Its central uplift, impact-related fractures, breccia deposits, and eroded landforms provide useful comparisons with selected lunar and Martian impact structures.",
+        "utility": "Impact-crater geological mapping, terrain reconstruction, rover navigation, and recognition of impact-related landforms.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 48,
+            "explanation": "Haughton lies approximately 200–400 m above sea level on Devon Island's Arctic plateau. Lunar elevations span a much larger planetary range, approximately -9.1 to +10.8 km relative to the lunar reference sphere in the supplied lunar dataset. These values use different reference surfaces and cannot be compared directly without normalization.",
+            "utility": "Evaluating elevation-based navigation and local topographic reconstruction."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 75,
+            "explanation": "The crater has moderately eroded walls and relatively gentle slopes within parts of its interior. Lunar complex craters may have substantially steeper inner walls, terraces, and central peaks. Erosion has reduced the resemblance between Haughton's present slopes and those of fresh lunar craters.",
+            "utility": "Testing rover traction, route planning, and crater-wall reconnaissance."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 88,
+            "explanation": "Haughton's impact breccias, fractured blocks, and irregular rocky deposits produce substantial local roughness. Lunar crater floors, rims, and ejecta deposits also contain fragmented materials and rough terrain, although the detailed surface textures depend on impact age and subsequent space weathering.",
+            "utility": "Evaluating rover suspension, obstacle avoidance, and terrain classification."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 90,
+            "explanation": "Haughton contains a complex impact depression and central structural uplift. Lunar complex craters also develop central uplifts and other structures during impact modification. Their present relief differs because Haughton has undergone terrestrial erosion.",
+            "utility": "Identifying impact-generated relief and reconstructing crater morphology."
+          },
+          {
+            "id": "craters",
+            "name": "Impact Craters",
+            "score": 98,
+            "explanation": "Haughton is a genuine hypervelocity impact structure. The Moon contains numerous simple and complex impact craters, including examples of central uplifts and extensive impact brecciation. The formation mechanism is directly comparable, although the target lithology, gravity, atmosphere, and subsequent erosion differ.",
+            "utility": "Studying impact geology, crater evolution, and geological sampling strategies."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 90,
+            "explanation": "Large angular impact blocks, carbonate fragments, fractured bedrock, and polygonal frozen ground create hazards for surface exploration. Lunar crater terrains also contain ejecta blocks, fractured rocks, and irregular ground.",
+            "utility": "Testing autonomous navigation and robotic obstacle detection."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 43,
+        "classification": "Low",
+        "description": "Haughton's cold polar climate and extreme seasonal illumination provide limited operational comparisons with lunar polar exploration. The terrestrial atmosphere and thermal conditions differ substantially from the lunar environment.",
+        "utility": "Cold-weather equipment evaluation and polar field-operation planning.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 43,
+            "explanation": "The terrestrial research reports an annual mean temperature near -15°C. This is a climatic temperature estimate, not necessarily a direct land-surface temperature measurement. Lunar surface temperatures vary enormously, from extremely cold permanently shadowed regions to strongly heated sunlit terrain.",
+            "utility": "Preliminary testing of instruments under cold terrestrial conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 39,
+            "explanation": "Extreme winter temperatures may occur in the Canadian High Arctic, but specific values must be associated with an observation site, measurement type, and period. Regional temperature extremes must not be presented as constant conditions within Haughton Crater.",
+            "utility": "Identifying cold-environment equipment limitations and designing appropriate field monitoring procedures."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 38,
+            "explanation": "Haughton's climate is strongly seasonal, with prolonged Arctic winters and short summers. The lunar day-night cycle lasts approximately 29.5 Earth days, and lunar surface temperature variations depend strongly on latitude and illumination.",
+            "utility": "Testing thermal monitoring systems while identifying differences in thermal cycling."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 78,
+            "explanation": "Devon Island experiences prolonged summer daylight and winter darkness. Lunar polar terrain can also experience extended illumination or shadow, although its illumination geometry differs because the Moon has a much smaller axial tilt.",
+            "utility": "Testing low-angle illumination imaging and polar mission-planning methods."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Conditions / Exosphere",
+            "score": 0,
+            "explanation": "Haughton is exposed to Earth's nitrogen- and oxygen-rich atmosphere. The Moon has an extremely tenuous exosphere, with no comparable atmospheric pressure or aerodynamic wind.",
+            "utility": "Establishing the need for controlled vacuum testing."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 67,
+        "classification": "Moderate",
+        "description": "Haughton contains authentic impact-generated breccias, shock features, and fractured bedrock. These processes resemble lunar impact geology, but the original carbonate-rich rocks differ greatly from typical lunar basaltic and anorthositic materials.",
+        "utility": "Impact-petrology analysis, mineral identification, and geological mapping.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 63,
+            "explanation": "Haughton's pre-impact target sequence includes Paleozoic sedimentary rocks, predominantly limestones and dolostones, overlying older crystalline basement rocks. Impact processes created breccias, shock-modified materials, and impact melt-bearing deposits.",
+            "utility": "Investigating impact modification of different target rocks, mineral identification, and geological classification."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 47,
+            "explanation": "Haughton contains calcite, dolomite, quartz, feldspars, and alteration minerals. Lunar materials are dominated by plagioclase, pyroxene, olivine, and related minerals. Shock features can be studied in both settings, but mineralogical equivalence is limited.",
+            "utility": "Testing mineral spectroscopy and shock-feature identification."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 39,
+            "explanation": "Haughton's carbonate rocks are enriched in calcium- and magnesium-bearing carbonate minerals. Lunar highlands and maria have different oxide compositions, and extensive carbonate sedimentary deposits are not characteristic of the Moon.",
+            "utility": "Testing geochemical discrimination between impact processes and target-rock chemistry."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 78,
+            "explanation": "Haughton contains impact-generated rock fragments, breccia blocks, and loose sediments. Lunar regolith also contains impact-fragmented material, but lunar grains may include agglutinates, impact glass, and space-weathered particles absent from ordinary terrestrial sediments.",
+            "utility": "Evaluating excavation, sampling, and rock-fragment classification."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 55,
+            "explanation": "Haughton's rocks preserve evidence of impact shock, fracturing, and localized impact-generated hydrothermal alteration. Subsequent Arctic weathering and periglacial processes have further modified exposed geological materials.",
+            "utility": "Distinguishing shock metamorphism, hydrothermal alteration, and later terrestrial weathering during geological analysis."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 96,
+            "explanation": "Haughton's complex impact structure, central uplift, fractured rocks, and breccia deposits have strong structural counterparts in lunar complex craters. Differences arise from subsequent erosion and the properties of the impacted target rocks.",
+            "utility": "Reconstructing impact-crater formation and interpreting crater stratigraphy."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 48,
+        "classification": "Low",
+        "description": "Continuous permafrost, buried ice, and seasonal snow provide partial operational comparisons with lunar polar ice investigations. However, terrestrial ice forms and evolves under different physical conditions.",
+        "utility": "Frozen-ground sampling and ice-detection instrumentation.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 8,
+            "explanation": "Haughton may contain seasonal meltwater ponds and streams. Stable exposed liquid water is not supported on the lunar surface.",
+            "utility": "Identifying the limits of terrestrial hydrological comparisons."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 51,
+            "explanation": "Devon Island contains seasonal snow and nearby ice-covered terrain. Lunar polar ice is associated primarily with extremely cold traps, including permanently shadowed regions.",
+            "utility": "Preliminary ice-identification and polar sampling tests."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 72,
+            "explanation": "The terrestrial research describes buried ice lenses and ice-rich frozen ground. Lunar polar subsurface ice may also occur beneath regolith, but its distribution, formation, and stability differ.",
+            "utility": "Testing subsurface ice detection and frozen-material sampling."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 67,
+            "explanation": "Haughton has continuous terrestrial permafrost. Lunar polar ground can remain permanently cold, but does not experience the same active-layer freeze-thaw cycle.",
+            "utility": "Evaluating drilling and robotic movement in frozen ground."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 54,
+            "explanation": "Hydrogen is present in water ice and water-bearing materials at Haughton. Lunar hydrogen can occur in ice, hydroxyl-bearing materials, and solar-wind-implanted particles.",
+            "utility": "Testing hydrogen-sensitive instruments while distinguishing chemical forms."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 36,
+            "explanation": "Haughton's fractured carbonate rocks and geological deposits are useful research materials. Lunar resource investigations focus on oxygen-bearing silicates, metals, and polar volatiles.",
+            "utility": "Testing nonextractive mineral characterization and resource-identification methods."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 25,
+        "classification": "Low",
+        "description": "Fine sediments and angular rock fragments provide limited mechanical comparisons, while Arctic wind processes do not reproduce lunar dust transport.",
+        "utility": "Particle handling, abrasion testing, and geological sediment classification.",
+        "variables": [
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 0,
+            "explanation": "Haughton experiences Arctic winds, while the Moon lacks a sufficiently dense atmosphere to support conventional wind.",
+            "utility": "Identifying processes that require lunar-specific simulation rather than terrestrial field testing."
+          },
+          {
+            "id": "abrasive_dust",
+            "name": "Abrasive Dust",
+            "score": 56,
+            "explanation": "Wind can mobilize fine mineral particles from dry crater sediments. Lunar dust is also abrasive but differs in grain origin, electrical behavior, and exposure history.",
+            "utility": "Testing dust-resistant equipment and particle-sensitive instruments."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": null,
+            "explanation": "Terrestrial dust events require atmospheric transport. Lunar dust disturbances arise through different mechanisms, including impacts and spacecraft operations.",
+            "utility": "Preventing inappropriate comparison of unrelated particle-transport processes."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion",
+            "score": null,
+            "explanation": "Wind-driven abrasion modifies Haughton's exposed rocks. Lunar surface modification is dominated by impact gardening and space weathering rather than wind erosion.",
+            "utility": "Distinguishing impact-related surface alteration from atmospheric erosion."
+          },
+          {
+            "id": "sediments_and_dunes",
+            "name": "Sediments and Granular Deposits",
+            "score": 55,
+            "explanation": "Haughton contains impact debris, periglacial sediments, and locally wind-transported fine materials. Lunar granular deposits are dominated by impact fragmentation and volcanic processes.",
+            "utility": "Testing sampling mechanisms and granular-material classification."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": null,
+            "explanation": "Haughton contains atmospheric mineral and marine aerosols. The Moon does not possess a comparable atmospheric aerosol system.",
+            "utility": "Identifying atmospheric testing limitations."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 77,
+        "classification": "High",
+        "description": "Haughton's impact-generated megabreccia, fractured bedrock, and displaced geological blocks provide strong analogs for the structural complexity beneath lunar impact craters.",
+        "utility": "Subsurface imaging, fracture mapping, and impact-stratigraphy interpretation.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves",
+            "score": 30,
+            "explanation": "The supplied terrestrial research describes fractures and possible thermokarst-related cavities. These should not be interpreted as evidence of extensive mapped cave systems. Lunar cavities may occur through volcanic or collapse processes.",
+            "utility": "Testing limited cavity-detection methods."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 0,
+            "explanation": "No lava-tube system is documented in the selected Haughton impact environment. Lunar lava tubes are associated with ancient volcanic activity.",
+            "utility": "Identifying when a volcanic terrestrial analog is required instead."
+          },
+          {
+            "id": "cavities_and_fractures",
+            "name": "Cavities and Fractures",
+            "score": 94,
+            "explanation": "Impact deformation produced extensive fractures, faults, and brecciated rock. Lunar impact structures also contain intensely fractured material and displaced blocks.",
+            "utility": "Testing fracture detection and geological hazard assessment."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 92,
+            "explanation": "Haughton contains a complex impact-modified subsurface, including megabreccia and displaced carbonate strata. Lunar impact structures also produce fractured and redistributed subsurface materials.",
+            "utility": "Evaluating ground-penetrating imaging and impact-structure reconstruction."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 81,
+            "explanation": "Geological studies have documented crater-fill impact deposits at Haughton with a maximum present thickness of approximately 125 m. This measurement refers to the studied crater-fill impactite unit and must not be confused with the total thickness of the pre-impact sedimentary sequence or deeper crustal materials.",
+            "utility": "Interpreting impact-deposit stratigraphy, geological layering, and subsurface geophysical observations."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": null,
+        "classification": "Not Applicable",
+        "description": "Haughton supports terrestrial microorganisms, but no confirmed indigenous lunar life exists for direct biological comparison.",
+        "utility": "Contamination control and biological instrument validation.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": null,
+            "explanation": "Arctic microorganisms cannot be compared with confirmed lunar organisms because none have been identified.",
+            "utility": "Testing biological instruments and contamination-monitoring procedures."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": null,
+            "explanation": "Haughton contains terrestrial environments that can support microbial activity. The exposed lunar environment lacks comparable confirmed natural habitats.",
+            "utility": "Supporting planetary protection and controlled biological experiments."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Biosignatures",
+            "score": null,
+            "explanation": "Biological traces at Haughton have no confirmed indigenous lunar biosignature counterpart.",
+            "utility": "Distinguishing terrestrial biological contamination from geological signals."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": null,
+            "explanation": "Cold-adapted terrestrial organisms have no confirmed lunar biological equivalents.",
+            "utility": "Studying terrestrial microbial survival without implying lunar habitability."
+          }
+        ]
+      }
+    ]
+  },
+  "mars": {
+    "id": "TER-05-MARS",
+    "planet": "mars",
+    "overallScore": 80.6,
+    "classification": "High",
+    "summary": "Haughton combines authentic impact-generated geology with Arctic polar-desert conditions. Its impact breccias, fractured rocks, frozen ground, and evidence of ancient impact-related hydrothermal alteration provide useful analogs for selected Martian geological and astrobiological investigations.",
+    "applications": [
+      "Martian impact-crater exploration",
+      "Geological sampling",
+      "Frozen-ground investigation",
+      "Subsurface mapping",
+      "Impact-related hydrothermal research",
+      "Biosignature detection studies"
+    ],
+    "objective": "This assessment evaluates Haughton Impact Crater as a terrestrial analog for Martian impact structures, polar desert environments, frozen ground, impact-modified geology, and selected astrobiological investigations. The assessment focuses on impact-crater morphology, surface obstacles, subsurface deformation, permafrost, cold-region geological alteration, and the preservation of potential biological indicators.",
+    "characterization": [
+      "Haughton is a complex impact structure situated on Devon Island in the Canadian High Arctic.",
+      "The crater formed when a high-velocity extraterrestrial object struck predominantly Paleozoic carbonate rocks, producing a large depression, impact breccias, fractured bedrock, and a central structural uplift.",
+      "Its apparent present-day diameter is approximately 23 km. The structure has subsequently experienced erosion and periglacial modification.",
+      "The surrounding polar desert contains continuous permafrost, patterned ground, sparse vegetation, seasonal snow, localized meltwater, and dry rocky surfaces.",
+      "The supplied terrestrial research describes an annual mean temperature near -15°C, short summer temperatures reaching approximately +5°C to +10°C, and extreme winter temperatures approaching -40°C to -50°C.",
+      "The region supports cold-adapted microorganisms, including microbial communities associated with rocks and seasonal aquatic environments.",
+      "These features provide valuable comparisons with selected Martian impact craters, cold desert landscapes, subsurface ice-bearing environments, and potential past habitable settings."
+    ],
+    "limitations": [
+      "Haughton does not reproduce Martian gravity, low atmospheric pressure, carbon dioxide-dominated atmosphere, or space-radiation environment.",
+      "Its carbonate-rich bedrock is not representative of the dominant basaltic geology of Mars.",
+      "Terrestrial liquid water, atmospheric oxygen, and microbial ecosystems create major differences from present-day Martian surface conditions.",
+      "The crater has also experienced extensive terrestrial erosion and periglacial modification, making its present morphology different from that of a fresh Martian impact crater.",
+      "The region is most useful for selected impact-geology, permafrost, rover-mobility, and astrobiology investigations rather than complete Martian environmental simulation."
+    ],
+    "conclusion": [
+      "Haughton Impact Crater receives a provisional Martian similarity estimate of 80.6%, classified as High.",
+      "The strongest categories are Topography and Geomorphology (91.0%), Water, Ice and Resources (86.0%), and Subsurface and Natural Structures (85.0%).",
+      "The site's principal scientific advantage is its combination of authentic impact-generated geology and cold Arctic desert conditions.",
+      "It is particularly valuable for testing exploration strategies within impact craters and investigating frozen subsurface environments.",
+      "Its analog value is process-specific and does not imply complete equivalence with Mars."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "Natural Resources Canada: https://natural-resources.canada.ca/",
+          "Geological Survey of Canada: https://natural-resources.canada.ca/",
+          "Lunar and Planetary Institute: https://www.lpi.usra.edu/",
+          "Earth Impact Database: http://www.passc.net/EarthImpactDatabase/",
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "Environment and Climate Change Canada: https://weather.gc.ca/"
+        ]
+      },
+      {
+        "label": "Martian sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "Mars Orbital Data Explorer: https://ode.rsl.wustl.edu/mars",
+          "NASA Mars Science: https://science.nasa.gov/mars/",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Reference missions and publications",
+        "items": [
+          "Relevant missions and instruments: Mars Global Surveyor (MOLA), Mars Reconnaissance Orbiter (HiRISE, CTX, CRISM, SHARAD), Mars Odyssey (THEMIS and neutron spectroscopy), Curiosity, Phoenix, and Perseverance",
+          "Haughton formation age (40Ar/39Ar and U-Pb geochronology): https://doi.org/10.1016/j.gca.2021.04.008",
+          "Haughton crater characteristics and apparent diameter: https://impact.uwo.ca/impact-craters/map/?crater_id=59",
+          "Haughton impact-related hydrothermal system: https://doi.org/10.1029/2023JE008267",
+          "Haughton crater-fill impact deposits: https://www.sciencedirect.com/science/article/abs/pii/S0012821X01005581",
+          "Endolithic microorganisms at Haughton: https://doi.org/10.1089/ast.2013.1100",
+          "Biological markers preserved in Haughton impact breccias: https://doi.org/10.1089/ast.2008.0270"
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment compares the supplied terrestrial Haughton research with the supplied Martian environmental and geological reference dataset.",
+      "The similarity percentages are provisional qualitative estimates intended for a hackathon demonstration. They are not official NASA measurements or outputs of a validated numerical similarity model.",
+      "Similarity percentages are preliminary AI-assisted assessments derived from compiled scientific descriptions. They are not independently validated quantitative measurements or certified indicators of mission suitability.",
+      "Classification scale: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A is distinct from zero.",
+      "The overall score is a separate provisional assessment and must not be described as a calculated weighted average.",
+      "Scientific validation requires comparable measurements, defined geographic sampling areas, consistent spatial scales, traceable datasets, and a reproducible normalization and weighting methodology.",
+      "The supplied terrestrial research includes several broad institutional references rather than specific publications. Crater age, wind speeds, permafrost depth, buried-ice distribution, and impact-deposit thickness should be verified against site-specific scientific studies before final publication."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 91,
+        "classification": "Very High",
+        "description": "Haughton contains a heavily modified complex impact structure with an apparent present-day diameter of approximately 23 km. Its central uplift, impact-related fractures, breccia deposits, and eroded landforms provide useful comparisons with selected lunar and Martian impact structures.",
+        "utility": "Impact-crater geological mapping, terrain reconstruction, rover navigation, and recognition of impact-related landforms.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 51,
+            "explanation": "Haughton lies approximately 200–400 m above sea level. Martian elevations are referenced to the areoid, and planetary relief spans a much greater range. Elevation must be compared using locally normalized terrain models rather than raw absolute values.",
+            "utility": "Testing elevation-based terrain interpretation and mission-route planning."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 82,
+            "explanation": "Haughton contains moderately eroded crater walls, gentle interior slopes, and locally steeper fractured terrain. Martian impact craters exhibit similarly varied slopes, including steep walls, terraces, and relatively flat crater floors.",
+            "utility": "Testing rover stability and slope-dependent navigation."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 90,
+            "explanation": "Impact breccias, angular blocks, and fractured bedrock produce highly irregular surfaces. Martian impact-crater floors and ejecta deposits also contain rocky obstacles and variable roughness.",
+            "utility": "Evaluating rover suspension, obstacle avoidance, and terrain-classification systems."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 94,
+            "explanation": "Haughton's central uplift and surrounding impact depression are characteristic of complex impact structures. Comparable relief occurs in Martian complex craters, although the exact dimensions and preservation states differ.",
+            "utility": "Reconstructing impact morphology and identifying structural features from topographic data."
+          },
+          {
+            "id": "craters",
+            "name": "Impact Craters",
+            "score": 98,
+            "explanation": "Haughton formed through hypervelocity impact, the same fundamental process responsible for Martian impact craters. Differences arise from gravity, atmosphere, target material, erosion, and geological age.",
+            "utility": "Testing crater-recognition algorithms and studying impact-generated geology."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 93,
+            "explanation": "Haughton contains large angular blocks, fractured carbonate rocks, breccia deposits, and patterned frozen ground. These resemble operational hazards found in some Martian rocky crater environments.",
+            "utility": "Testing autonomous navigation and geological sampling near obstacles."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 77,
+        "classification": "High",
+        "description": "Cold Arctic desert conditions, pronounced seasonality, and polar illumination provide useful partial analogs for Martian high-latitude exploration.",
+        "utility": "Thermal instrument testing, polar mission planning, and long-duration environmental monitoring.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 77,
+            "explanation": "The supplied terrestrial research reports a mean annual temperature near -15°C. This climatic figure is not directly equivalent to a measured surface temperature. Mars exhibits much colder surface conditions in many locations, with strong daily and seasonal variation.",
+            "utility": "Testing instruments under cold terrestrial field conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 79,
+            "explanation": "Haughton's short summer maxima and severe winter minima overlap with part of the Martian thermal range. Mars can experience much lower temperatures, especially in polar regions.",
+            "utility": "Evaluating cold-weather equipment and identifying additional thermal qualification requirements."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 78,
+            "explanation": "Haughton experiences substantial seasonal thermal variation. Mars also undergoes seasonal changes, but its thin atmosphere produces different heat-transfer and diurnal temperature behavior.",
+            "utility": "Testing thermal monitoring and seasonal field instrumentation."
+          },
+          {
+            "id": "seasonality",
+            "name": "Seasonality",
+            "score": 85,
+            "explanation": "Devon Island experiences long Arctic winters and brief summers. Mars has significant seasons because of its axial tilt, including seasonal changes in polar frost and atmospheric pressure.",
+            "utility": "Planning seasonal observation campaigns and polar exploration schedules."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 83,
+            "explanation": "Devon Island experiences midnight sun during summer and prolonged darkness during winter. Martian high latitudes also undergo substantial seasonal illumination changes.",
+            "utility": "Testing low-angle optical imaging, navigation, and solar-power monitoring."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 12,
+            "explanation": "Haughton retains Earth's relatively dense atmosphere, while the mean Martian surface pressure is approximately 600 Pa. These conditions are not physically equivalent.",
+            "utility": "Establishing the need for low-pressure chambers during Mars-specific equipment qualification."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 72,
+        "classification": "Moderate",
+        "description": "Haughton's impact breccias, shock features, fractured rocks, and cold-region alteration provide valuable comparisons with selected Martian impact and geological processes.",
+        "utility": "Impact-petrology research, mineral identification, geological mapping, and sample analysis.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 60,
+            "explanation": "Haughton's pre-impact target sequence includes Paleozoic sedimentary rocks, predominantly limestones and dolostones, overlying older crystalline basement rocks. Impact processes created breccias, shock-modified materials, and impact melt-bearing deposits.",
+            "utility": "Investigating impact modification of different target rocks, mineral identification, and geological classification."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 65,
+            "explanation": "Haughton contains calcite, dolomite, quartz, feldspar, and alteration minerals. Mars contains silicates, clays, sulfates, and other minerals associated with different geological environments. The mineralogical overlap is partial and site-dependent.",
+            "utility": "Evaluating mineral spectroscopy and identifying alteration signatures."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 59,
+            "explanation": "Haughton's carbonate-rich rocks contain substantial calcium and magnesium carbonates. Carbonate minerals have also been identified in some Martian settings, but Mars is not dominated by carbonate bedrock.",
+            "utility": "Investigating carbonate detection and impact-related geochemical changes."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 83,
+            "explanation": "Impact breccias, fragmented rocks, dry sediments, and periglacial deposits create varied surface materials. Mars contains similarly heterogeneous rocky and granular terrains, particularly within impact craters.",
+            "utility": "Testing sampling instruments and geological surface classification."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 78,
+            "explanation": "Haughton's rocks preserve evidence of impact shock, fracturing, and localized impact-generated hydrothermal alteration. Subsequent Arctic weathering and periglacial processes have further modified exposed geological materials.",
+            "utility": "Distinguishing shock metamorphism, hydrothermal alteration, and later terrestrial weathering during geological analysis."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 95,
+            "explanation": "Haughton's complex impact structure, central uplift, breccias, and fractured strata have strong counterparts in Martian complex craters. Later terrestrial erosion changes their present-day expression.",
+            "utility": "Reconstructing impact structures and interpreting crater-related geological sequences."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 86,
+        "classification": "High",
+        "description": "Continuous permafrost, buried ice, seasonal snow, and localized meltwater provide valuable comparisons with selected Martian polar and ice-bearing terrains.",
+        "utility": "Ice detection, frozen-ground sampling, cryogeological mapping, and reconstruction of water-related processes.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 38,
+            "explanation": "Haughton can contain temporary summer ponds and meltwater streams. Present-day Mars generally does not support stable exposed liquid water under its low atmospheric pressure.",
+            "utility": "Investigating water-related geological processes while distinguishing modern terrestrial hydrology from Martian conditions."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 79,
+            "explanation": "Devon Island contains seasonal snow and nearby ice-covered terrain. Mars contains polar ice deposits and seasonal frost, including carbon dioxide frost.",
+            "utility": "Testing surface-ice recognition and polar environmental monitoring."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 94,
+            "explanation": "The supplied research describes buried ice lenses and frozen-ground ice. Mars contains ice-rich subsurface deposits in selected midlatitude and polar regions.",
+            "utility": "Testing ground-penetrating radar and buried-ice detection."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 96,
+            "explanation": "Haughton has continuous terrestrial permafrost. Much of the Martian subsurface remains permanently cold, and ice may persist beneath protective surface materials. Terrestrial freeze-thaw cycles, however, are not equivalent to Martian ice stability.",
+            "utility": "Testing frozen-ground sampling, subsurface imaging, and cryogeological interpretation."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 88,
+            "explanation": "Water ice and water-bearing materials contain hydrogen at Haughton. Martian orbital neutron instruments identify hydrogen enrichment associated with ice or hydrated minerals, but hydrogen detection alone does not prove the presence of ice.",
+            "utility": "Testing hydrogen-sensitive instruments and interpreting subsurface volatile measurements."
+          },
+          {
+            "id": "evidence_past_water",
+            "name": "Evidence of Past Water",
+            "score": 82,
+            "explanation": "Haughton's landscape preserves water-related alteration, seasonal meltwater effects, and periglacial features. Mars preserves evidence of ancient water-related processes in selected crater and sedimentary environments.",
+            "utility": "Reconstructing geological histories involving ice and water."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 68,
+            "explanation": "Haughton's carbonate rocks and impact materials are useful for geological research. Martian resource studies emphasize water ice and selected mineral deposits. Resource accessibility and extraction feasibility were not evaluated.",
+            "utility": "Testing nonextractive mineral identification and subsurface resource reconnaissance."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 70,
+        "classification": "Moderate",
+        "description": "Arctic winds, fine mineral dust, and wind-driven erosion resemble selected Martian surface processes. However, atmospheric pressure and composition differ fundamentally.",
+        "utility": "Dust monitoring, sediment-transport studies, and abrasion testing.",
+        "variables": [
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 12,
+            "explanation": "Haughton has Earth's relatively dense atmosphere. Mars has a thin atmosphere with a mean surface pressure near 600 Pa.",
+            "utility": "Identifying atmospheric tests that require controlled simulation."
+          },
+          {
+            "id": "atmospheric_composition",
+            "name": "Atmospheric Composition",
+            "score": 8,
+            "explanation": "Earth's atmosphere is dominated by nitrogen and oxygen. The Martian atmosphere is dominated by carbon dioxide.",
+            "utility": "Defining limitations for open-air testing of Martian atmospheric instruments."
+          },
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 78,
+            "explanation": "Wind conditions at Haughton vary according to season, local terrain, and Arctic weather systems. A single numerical wind-speed range must not be treated as a validated regional average without identified meteorological observations.",
+            "utility": "Studying terrestrial surface erosion, particle transport, and environmental instrument performance."
+          },
+          {
+            "id": "dust",
+            "name": "Dust",
+            "score": 79,
+            "explanation": "Fine mineral particles can be mobilized from dry Arctic soils. Mars also contains widespread mineral dust, but its composition, particle properties, and transport conditions differ.",
+            "utility": "Evaluating dust detection, optical interference, and equipment protection."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": 62,
+            "explanation": "Haughton experiences localized blowing snow and potentially wind-driven mineral dust. Mars experiences dust storms on much larger scales, including planet-encircling events.",
+            "utility": "Testing visibility sensors and equipment exposure to airborne particles."
+          },
+          {
+            "id": "aeolian_erosion_and_sediments",
+            "name": "Aeolian Erosion and Sediments",
+            "score": 86,
+            "explanation": "Wind-driven particles abrade exposed rocks and redistribute sediments around Haughton. Martian winds also modify rock surfaces and transport sediments.",
+            "utility": "Studying erosion signatures, sediment transport, and wind-modified terrain."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": 58,
+            "explanation": "Arctic air can contain marine and mineral aerosols. Martian aerosols are dominated by different particle populations, including suspended mineral dust.",
+            "utility": "Testing particle-monitoring instruments and aerosol detection."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 85,
+        "classification": "High",
+        "description": "Haughton's impact-generated fractures, megabreccia, displaced rock blocks, and frozen subsurface materials provide valuable comparisons with Martian impact-crater structures.",
+        "utility": "Subsurface radar, fracture detection, geological reconstruction, and ice-bearing ground reconnaissance.",
+        "variables": [
+          {
+            "id": "caves_and_cavities",
+            "name": "Caves and Cavities",
+            "score": 52,
+            "explanation": "The supplied research describes extensive fractures and possible thermokarst-related cavities. These are not evidence of a fully mapped cave network. Martian subsurface cavities may originate through volcanic or collapse processes.",
+            "utility": "Testing cavity detection and geological interpretation."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 0,
+            "explanation": "No lava-tube systems are documented in the selected Haughton impact environment. Martian lava tubes are associated with volcanic terrains.",
+            "utility": "Identifying the need for volcanic analog sites when investigating lava tubes."
+          },
+          {
+            "id": "fractures_and_faults",
+            "name": "Fractures and Faults",
+            "score": 97,
+            "explanation": "Haughton contains extensive radial and concentric fractures associated with impact deformation. Martian impact craters also contain fractured and faulted rock.",
+            "utility": "Testing structural mapping, fracture recognition, and hazard assessment."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 96,
+            "explanation": "Haughton contains complex impact megabreccia, displaced geological blocks, fractured carbonate strata, and permafrost. Martian impact structures can also contain fractured bedrock, breccias, and impact-modified subsurface layers.",
+            "utility": "Testing radar interpretation and impact-structure reconstruction."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 88,
+            "explanation": "Geological studies have documented crater-fill impact deposits at Haughton with a maximum present thickness of approximately 125 m. This measurement refers to the studied crater-fill impactite unit and must not be confused with the total thickness of the pre-impact sedimentary sequence or deeper crustal materials.",
+            "utility": "Interpreting impact-deposit stratigraphy, geological layering, and subsurface geophysical observations."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": 83,
+        "classification": "High",
+        "description": "Studies at Haughton have documented terrestrial microorganisms in protected rock habitats and the preservation of biological markers in selected impact-related materials. These findings support astrobiological research but do not demonstrate biological activity on Mars.",
+        "utility": "Biosignature preservation studies, microbial habitat investigations, geological sampling, and astrobiological instrument testing.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": 86,
+            "explanation": "Terrestrial microbial communities have been documented within selected shocked rocks and mineral habitats at Haughton. Impact-related fractures can provide protected microhabitats that support investigations of endolithic microbial survival.",
+            "utility": "Studying protected microbial habitats, examining impact-related rock fractures, and evaluating astrobiological sampling techniques."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": 82,
+            "explanation": "Haughton combines low temperatures, aridity, frozen ground, and brief seasonal opportunities for biological activity. These conditions provide partial analogs for investigating potential ancient or protected Martian habitats.",
+            "utility": "Studying environmental limits for microbial activity and habitability assessment."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Potential Biosignatures",
+            "score": 86,
+            "explanation": "Microbial communities and biological films may leave organic or mineral-associated traces. These can be used as terrestrial test materials for instruments intended to investigate possible Martian biosignatures.",
+            "utility": "Testing biosignature detection and distinguishing biological signals from geological backgrounds."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": 80,
+            "explanation": "Arctic microorganisms exhibit adaptations to cold, desiccation, ultraviolet exposure, and short periods of favorable conditions. These provide models for studying possible survival strategies under extreme environments.",
+            "utility": "Investigating microbial adaptation, biological preservation, and planetary protection."
+          }
+        ]
+      }
+    ]
+  }
+}

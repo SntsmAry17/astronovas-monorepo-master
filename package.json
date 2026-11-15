@@ -1,0 +1,17 @@
+{
+  "name": "astronovas",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "start": "npm run start -w frontend",
+    "lint": "npm run lint -w frontend",
+    "db:seed": "npm run db:seed -w backend",
+    "test:db": "npm run test:db -w backend",
+    "db:bundle": "npm run db:bundle -w backend"
+  }
+}

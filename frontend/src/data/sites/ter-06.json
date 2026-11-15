@@ -1,0 +1,878 @@
+{
+  "id": "TER-06",
+  "slug": "qaidam",
+  "name": "Qaidam Basin",
+  "country": "China",
+  "regions": "Qinghai Province",
+  "lat": 37.5,
+  "lng": 95.0,
+  "elevation": "Approximately 2,600–3,200 m in selected basin-floor environments",
+  "environmentType": "Hyperarid intermontane basin",
+  "features": [
+    "Dry lakebeds",
+    "Saline playas",
+    "Evaporite deposits",
+    "Aeolian yardang fields",
+    "Alluvial fans",
+    "Fine-grained sedimentary plains"
+  ],
+  "description": "The Qaidam Basin is a large arid intermontane sedimentary basin on the northeastern Tibetan Plateau. Its environments include saline playas, ancient lake deposits, wind-eroded yardang fields, dunes, sedimentary plains, and locally developed cavernous weathering structures. The basin is geographically extensive. Environmental measurements from individual weather stations, playa surfaces, mountain margins, and yardang fields must not be interpreted as uniform conditions across the entire basin.",
+  "relevance": "Martian yardang geomorphology, aeolian erosion, evaporite and clay mineralogy, ancient lake environments, sedimentary stratigraphy, biosignature preservation, and robotic exploration of arid terrain.",
+  "geoNote": "The displayed coordinates represent the basin region and do not identify a specific sampling or meteorological station.",
+  "moon": {
+    "id": "TER-06-MOON",
+    "planet": "moon",
+    "overallScore": 30.2,
+    "classification": "Low",
+    "summary": "Qaidam's low-gradient plains, granular deposits, salt crusts, and local surface obstacles provide limited operational comparisons with selected lunar terrains. However, its sedimentary, evaporitic, and wind-eroded geological history differs fundamentally from typical lunar impact and volcanic processes.",
+    "applications": [
+      "Rover navigation",
+      "Obstacle detection",
+      "Granular-material handling",
+      "Terrain classification",
+      "Preliminary testing of surface exploration instruments"
+    ],
+    "objective": "This assessment examines the Qaidam Basin as a terrestrial analog for selected lunar surface exploration tasks, particularly rover navigation across flat plains, obstacle detection, granular-material handling, and remote geological classification. It also identifies the substantial geological and environmental differences that limit Qaidam's suitability as a lunar analog.",
+    "characterization": [
+      "The Qaidam Basin is an extensive intermontane sedimentary basin in northwestern China, characterized by high elevation, extreme aridity, ancient lake deposits, saline playas, evaporite minerals, and large wind-eroded yardang fields.",
+      "The supplied terrestrial research reports basin-floor elevations of approximately 2,600–3,200 m, central playa slopes of approximately 0°–3°, summer temperatures reaching around +30°C, and winter minima approaching -25°C to -30°C.",
+      "The basin contains halite, gypsum, other sulfates, clays, sandstones, siltstones, and fine-grained wind-transported sediments.",
+      "These features make Qaidam a strong terrestrial setting for sedimentological research, but many have no direct geological equivalent on the Moon."
+    ],
+    "limitations": [
+      "Qaidam does not reproduce lunar gravity, vacuum, radiation exposure, or extreme surface temperatures.",
+      "Its geological evolution is dominated by sedimentation, evaporation, and wind erosion rather than lunar impact gardening and volcanism.",
+      "Its salt-rich chemistry differs substantially from typical lunar regolith.",
+      "The absence of documented lava tubes and major local impact craters limits its suitability for lunar subsurface and crater exploration."
+    ],
+    "conclusion": [
+      "Qaidam receives a provisional lunar similarity estimate of 30.2%, classified as Low.",
+      "Its strongest lunar category is Topography and Geomorphology (55.0%), principally because of its low-gradient plains and operationally relevant surface obstacles.",
+      "The basin should be treated as a limited operational testing environment, not a representative lunar geological or environmental analog."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "NASA POWER: https://power.larc.nasa.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/"
+        ]
+      },
+      {
+        "label": "Lunar sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "NASA Moon Science: https://science.nasa.gov/moon/",
+          "LROC Data Portal: https://wms.lroc.asu.edu/lroc",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Reference datasets and publications",
+        "items": [
+          "Relevant lunar datasets: LOLA elevation and slope products, LROC NAC and WAC imagery, Diviner surface-temperature observations, Moon Mineralogy Mapper mineralogical data, and Lunar Prospector elemental maps",
+          "Qaidam yardang geology and meteorological observations: https://doi.org/10.1029/2018JE005719",
+          "Cavernous weathering structures in Qaidam yardangs: https://doi.org/10.1016/j.catena.2025.109504",
+          "Qinghai-Tibet permafrost mapping: https://doi.org/10.5194/essd-15-3905-2023"
+        ]
+      }
+    ],
+    "methodology": [
+      "This assessment compares the supplied Qaidam terrestrial research with the supplied lunar reference dataset.",
+      "The percentages are provisional qualitative estimates rather than measured physical similarity values.",
+      "Similarity percentages are preliminary AI-assisted assessments derived from compiled scientific descriptions. They are not independently validated quantitative measurements or certified indicators of mission suitability.",
+      "The overall estimate is independent of the category percentages and must not be represented as a calculated weighted average.",
+      "Classification scale: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A values must not be treated as zero.",
+      "A validated assessment would require site-specific sampling, normalized variables, comparable spatial scales, traceable datasets, and a documented weighting method."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 55,
+        "classification": "Moderate",
+        "description": "Qaidam's low-gradient plains and local rocky obstacles provide partial operational comparisons with lunar maria. However, its basin morphology and yardangs originated through terrestrial tectonic, sedimentary, and aeolian processes.",
+        "utility": "Rover route planning, terrain segmentation, and obstacle detection.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 48,
+            "explanation": "The reported elevation range of approximately 2,600–3,200 m characterizes selected basin-floor environments. The Qaidam region also includes higher surrounding mountain terrain. Lunar elevations range across approximately 20 km relative to a lunar reference sphere; elevation measurements require a defined geographical extent and normalized local relief.",
+            "utility": "Testing digital elevation model processing and relative-elevation mapping."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 84,
+            "explanation": "Central saline plains have reported slopes of approximately 0°–3%, expressed in the supplied research as 0°–3°; the intended unit should be checked. In angular terms, slopes of 0°–3° overlap with the Moon's relatively flat mare plains, often characterized by slopes of approximately 0°–5°.",
+            "utility": "Testing rover mobility, route selection, and slope estimation."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 60,
+            "explanation": "Qaidam's yardang ridges and salt crusts create variable roughness. Lunar terrain can also be rough, especially near impact ejecta, but lunar roughness arises from different geological processes and must be compared at consistent spatial scales.",
+            "utility": "Evaluating terrain-classification algorithms and wheel-surface interactions."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 44,
+            "explanation": "Qaidam is an intermontane depression bounded by major mountain ranges. Lunar basins and plains are generally impact-generated or volcanic rather than products of terrestrial-style tectonic basin evolution.",
+            "utility": "Training landform segmentation while testing the distinction between superficially similar relief forms."
+          },
+          {
+            "id": "craters",
+            "name": "Impact Craters",
+            "score": 5,
+            "explanation": "The selected Qaidam sedimentary and yardang environments are not characterized by prominent confirmed meteorite-impact craters in the supplied site documentation. The absence of identified craters in those study areas should not be interpreted as proof that impact structures are absent from the entire basin. Impact cratering is a dominant lunar geological process.",
+            "utility": "Distinguishing wind-eroded landforms from impact-generated geological structures and establishing that Qaidam is unsuitable for direct impact-crater morphology studies."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 69,
+            "explanation": "Yardang crests, salt crusts, sand dunes, and desiccated sediment blocks create navigation hazards. Lunar obstacles include angular impact blocks, regolith deposits, and collapse pits, which differ in origin and material behavior.",
+            "utility": "Testing obstacle detection, autonomous path planning, and rover navigation."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 32,
+        "classification": "Low",
+        "description": "Qaidam experiences a dry continental high-altitude climate with significant seasonal temperature variation. Reported thermal values depend on the meteorological station, observation period, and measurement type. Terrestrial atmospheric conditions remain fundamentally different from those on Mars and the Moon.",
+        "utility": "Environmental monitoring, thermal sensor testing, desert field operations, and analysis of temperature-related equipment limitations.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 35,
+            "explanation": "Published meteorological observations document substantial seasonal temperature variation at selected Qaidam stations. However, air temperature measurements must not be presented as standardized land-surface temperature observations. Lunar surface temperatures vary far more strongly because of the absence of a substantial atmosphere and the long lunar day.",
+            "utility": "Testing thermal monitoring instruments and distinguishing atmospheric measurements from surface thermal conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 27,
+            "explanation": "A published analysis of meteorological observations from the Mangya-Dalangtan area for 1980–2011 reports seasonal temperatures below -25°C in January and above 30°C in July, with an annual mean near 3.5°C. These are site-associated meteorological observations and must not be presented as uniform conditions throughout the entire Qaidam Basin; they remain far less extreme than the Moon's approximately +123°C maximum and -247°C minimum.",
+            "utility": "Studying seasonal thermal variation and planning environmental instrument tests in documented terrestrial conditions."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 42,
+            "explanation": "The basin experiences pronounced daily and seasonal thermal changes. Lunar surface thermal cycles can reach approximately 280–300 K in amplitude at some low-latitude locations, far exceeding ordinary terrestrial variation.",
+            "utility": "Testing temperature logging and preliminary thermal-cycling procedures."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 48,
+            "explanation": "Qaidam receives strong solar radiation under generally clear skies. Lunar illumination occurs without substantial atmospheric scattering, and its day-night cycle lasts approximately 29.5 Earth days.",
+            "utility": "Testing solar exposure monitoring and optical imaging under bright conditions."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Conditions / Exosphere",
+            "score": 0,
+            "explanation": "Qaidam has a terrestrial atmosphere, although its elevation reduces ambient pressure. The Moon has an extremely tenuous exosphere and no comparable atmospheric pressure.",
+            "utility": "Identifying the need for vacuum-chamber qualification."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 24,
+        "classification": "Very Low",
+        "description": "Qaidam is dominated by sedimentary and evaporitic materials, unlike the Moon's basaltic, anorthositic, and impact-generated geological materials.",
+        "utility": "Testing mineral identification and differentiating terrestrial sedimentary signals from lunar geological signatures.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 12,
+            "explanation": "Qaidam contains lacustrine sediments, sandstones, siltstones, and evaporites. Lunar bedrock is dominated by igneous and impact-related lithologies.",
+            "utility": "Testing lithological classification and detecting nonanalog rock types."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 18,
+            "explanation": "Qaidam contains quartz, feldspars, clay minerals, halite, gypsum, and other evaporites. Lunar materials are dominated by plagioclase, pyroxene, olivine, and impact glass.",
+            "utility": "Evaluating spectral mineral identification and classification errors."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 15,
+            "explanation": "Qaidam's salt-rich deposits contain abundant sodium, chlorine, magnesium, and sulfate-bearing phases. Lunar regolith chemistry is dominated by silicate and oxide minerals with different relative abundances.",
+            "utility": "Testing geochemical instruments and identifying chemically dissimilar materials."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 55,
+            "explanation": "Qaidam's loose silts, sands, and granular deposits may offer partial mechanical analogs for regolith handling. Lunar regolith differs in grain shape, cohesion, impact-glass content, and electrostatic behavior.",
+            "utility": "Preliminary excavation and granular-sampling tests."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 5,
+            "explanation": "Qaidam is strongly modified by wind abrasion, evaporation, and salt precipitation. Lunar space weathering is dominated by micrometeorite bombardment, solar-wind implantation, and radiation.",
+            "utility": "Distinguishing terrestrial weathering products from lunar space-weathering signatures."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 16,
+            "explanation": "Yardangs, lacustrine deposits, playas, and alluvial fans have no close process-level counterparts in the modern lunar landscape.",
+            "utility": "Testing geological feature recognition and rejecting inappropriate lunar analog classifications."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 23,
+        "classification": "Very Low",
+        "description": "Qaidam contains salt-rich groundwater and brine systems, residual saline waters, and evidence of ancient lakes. Seasonal ground freezing in the basin floor must be distinguished from mountain permafrost in surrounding higher-elevation environments.",
+        "utility": "Investigation of ancient aqueous environments, evaporite resources, frozen-ground conditions, and mineral-associated water signatures.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 5,
+            "explanation": "Qaidam contains dry lakebeds and extensive evaporite deposits, but also localized saline waters, brines, residual saline lakes, and intermittent watercourses associated with specific hydrological environments. Present conditions vary across the basin and must be distinguished from evidence of ancient lakes. Stable exposed liquid water is absent from the lunar surface.",
+            "utility": "Investigating evaporite formation, ancient lacustrine environments, water-related mineral signatures, and sedimentary geological processes while identifying terrestrial hydrological processes that cannot be transferred to lunar models."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 10,
+            "explanation": "The central basin is not characterized by persistent surface ice. Lunar polar ice can occur in permanently shadowed cold traps.",
+            "utility": "Excluding the central basin from primary lunar surface-ice analog testing."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": null,
+            "explanation": "Available regional permafrost mapping identifies predominantly seasonally frozen ground across the Qaidam Basin floor. This differs from persistent permafrost in higher mountain environments. The presence of substantial buried ice deposits requires site-specific evidence and cannot be inferred from seasonal ground freezing alone; the supplied research does not document subsurface ice in the central desert plains.",
+            "utility": "Distinguishing seasonal freezing from persistent ice-bearing ground and prioritizing field verification before attempting ice-related comparisons."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 15,
+            "explanation": "Regional permafrost mapping indicates that the Qaidam Basin floor is dominated by seasonally frozen ground, while more persistent permafrost occurs in surrounding high-elevation mountain environments. Conditions must be evaluated according to the selected site; discontinuous mountain permafrost should not be assigned to the central playa terrain without local evidence. Lunar polar regolith can remain permanently cold under fundamentally different conditions.",
+            "utility": "Studying frozen-ground distribution, environmental controls, and the limitations of terrestrial permafrost analogs."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 48,
+            "explanation": "Hydrated minerals, hydrated clays, and aqueous brines contain hydrogen-bearing components, but such observations do not independently demonstrate deposits of molecular hydrogen or buried water ice. Lunar hydrogen may occur in water ice, hydroxyl-bearing materials, or solar-wind-implanted hydrogen.",
+            "utility": "Identifying hydrated mineral signatures and distinguishing different forms of hydrogen-bearing materials."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 52,
+            "explanation": "Qaidam contains economically significant salt and evaporite deposits. Lunar resource priorities include oxygen-bearing silicates, metals, and polar volatiles rather than terrestrial-style evaporite deposits.",
+            "utility": "Testing resource mapping workflows and mineral identification."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 18,
+        "classification": "Very Low",
+        "description": "Qaidam's fine dust can support limited particle-handling studies, but its dominant wind-driven processes have no direct lunar counterpart.",
+        "utility": "Mechanical dust testing and differentiation of terrestrial and lunar sediment processes.",
+        "variables": [
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 0,
+            "explanation": "Qaidam experiences strong regional winds, while the Moon has no dense atmosphere capable of generating aerodynamic winds.",
+            "utility": "Establishing limits for lunar environmental simulation."
+          },
+          {
+            "id": "abrasive_dust",
+            "name": "Abrasive Dust",
+            "score": 50,
+            "explanation": "Fine Qaidam sediments can be abrasive, but lunar dust is produced primarily through impacts and can have distinctive angular, glass-rich, and electrostatic properties.",
+            "utility": "Preliminary dust-ingress and mechanical abrasion tests."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": null,
+            "explanation": "Atmospheric dust storms have no direct lunar equivalent. Lunar particle transport is associated with impacts, spacecraft disturbances, and potentially electrostatic processes.",
+            "utility": "Preventing physically invalid comparisons."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion",
+            "score": null,
+            "explanation": "Qaidam's yardangs are sculpted by wind abrasion and deflation. Lunar terrain is not shaped by atmospheric wind erosion.",
+            "utility": "Differentiating aeolian morphology from impact-generated lunar landforms."
+          },
+          {
+            "id": "sediments_and_dunes",
+            "name": "Sediments and Granular Deposits",
+            "score": 42,
+            "explanation": "Qaidam contains loess-like silts, sands, and lacustrine clays. Lunar granular deposits consist largely of impact-generated regolith and volcanic material.",
+            "utility": "Evaluating granular sampling systems while accounting for different sediment origins."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": null,
+            "explanation": "Qaidam's mineral aerosols require an atmosphere. The Moon does not have an equivalent atmospheric aerosol system.",
+            "utility": "Defining instrument-testing limitations."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 29,
+        "classification": "Low",
+        "description": "Qaidam contains sedimentary layering, evaporite deposits, fractures, and documented cavernous weathering features in selected yardangs. These weathering cavities should not be confused with volcanic lava tubes or extensive subsurface cave systems, and they differ from typical lunar subsurface structures.",
+        "utility": "Sedimentary structure analysis, cavity recognition, fracture mapping, and interpretation of subsurface and near-surface geological formations.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves",
+            "score": 0,
+            "explanation": "Recent geological research has documented cavernous weathering structures within selected yardangs in northeastern Qaidam. These include weathering cavities and complex skeletal-like rock features formed through interactions between erosion, sedimentary structure, and salt-related processes. They are not equivalent to extensive underground cave systems or volcanic lava tubes, and lunar collapse pits and possible subsurface cavities are associated with different geological processes.",
+            "utility": "Investigating cavernous weathering, geological cavity recognition, rock erosion processes, and interpretation of similar surface structures on the Moon and Mars."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 0,
+            "explanation": "The documented Qaidam yardang cavities are weathering features within sedimentary rocks, not volcanic lava tubes. Lava tubes are not established as a characteristic feature of the selected sedimentary and evaporitic study environments, and lunar lava tubes originate through ancient volcanic activity.",
+            "utility": "Distinguishing sedimentary weathering cavities from volcanic underground structures when selecting planetary analog environments."
+          },
+          {
+            "id": "cavities_and_fractures",
+            "name": "Cavities and Fractures",
+            "score": 45,
+            "explanation": "Desiccation cracks, sedimentary fractures, and salt-related surface structures occur in selected Qaidam environments. Their morphology and origin must be distinguished from tectonic fault systems or large underground cavities. Lunar fractures can form through impacts, tectonic stresses, and volcanic processes.",
+            "utility": "Recognizing desiccation features, testing fracture-detection algorithms, and reconstructing sedimentary and environmental processes."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 35,
+            "explanation": "Qaidam's subsurface contains alternating lacustrine, evaporitic, and alluvial layers. Lunar subsurface layers commonly reflect impact deposition and volcanic activity.",
+            "utility": "Testing stratigraphic interpretation while distinguishing different depositional processes."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 40,
+            "explanation": "The Qaidam Basin contains thick sedimentary successions that record a complex geological history. Basin-fill thickness must not be confused with the thickness of near-surface sediments, individual sedimentary layers, or materials accessible to shallow robotic sampling. Lunar regolith and impact deposits have different thickness distributions and formation histories.",
+            "utility": "Interpreting sedimentary stratigraphy and distinguishing regional geological thickness from local surface material properties."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": null,
+        "classification": "Not Applicable",
+        "description": "No confirmed indigenous lunar life exists for comparison with terrestrial microorganisms.",
+        "utility": "Biological contamination monitoring and instrument validation.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": null,
+            "explanation": "Qaidam contains terrestrial microorganisms, but there are no confirmed lunar organisms.",
+            "utility": "Testing biological contamination detection."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": null,
+            "explanation": "Qaidam's terrestrial microbial habitats do not establish equivalent lunar habitats.",
+            "utility": "Supporting controlled biological instrument tests."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Biosignatures",
+            "score": null,
+            "explanation": "Terrestrial biosignatures have no confirmed indigenous lunar counterpart.",
+            "utility": "Differentiating biological contamination from nonbiological signals."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": null,
+            "explanation": "Terrestrial microbial adaptations cannot be directly compared with unknown lunar biological systems.",
+            "utility": "Evaluating terrestrial biological responses without implying lunar life."
+          }
+        ]
+      }
+    ]
+  },
+  "mars": {
+    "id": "TER-06-MARS",
+    "planet": "mars",
+    "overallScore": 80.3,
+    "classification": "High",
+    "summary": "Selected Qaidam Basin environments provide valuable terrestrial analogs for Martian yardangs, sedimentary basins, evaporite deposits, and ancient lake environments. Wind erosion is the dominant process shaping many Qaidam yardangs, while water-related processes, salt weathering, and sediment properties also influence their evolution.",
+    "applications": [
+      "Martian yardang mapping",
+      "Aeolian erosion studies",
+      "Evaporite and clay mineral analysis",
+      "Paleolake reconstruction",
+      "Sedimentary sampling",
+      "Biosignature preservation research",
+      "Rover mobility testing"
+    ],
+    "objective": "This assessment evaluates the Qaidam Basin as a terrestrial analog for selected Martian sedimentary, evaporitic, aeolian, and hyperarid environments. It focuses on yardang formation, ancient lakebed deposits, mineral precipitation, wind erosion, sedimentary stratigraphy, and potential biosignature preservation in salt-rich geological materials.",
+    "characterization": [
+      "The Qaidam Basin is a large intermontane sedimentary basin situated on the northeastern Tibetan Plateau.",
+      "Its terrain includes extensive saline playas, dry lakebeds, wind-sculpted yardangs, dunes, alluvial fans, and thick sedimentary sequences.",
+      "The supplied terrestrial research reports elevations of approximately 2,600–3,200 m, generally low slopes across central playas, summer temperatures near +30°C, winter minima approaching -25°C to -30°C, and substantial daily and seasonal thermal variation.",
+      "The basin contains ancient lacustrine sediments, evaporites, halite, gypsum, other sulfate minerals, clays, and fine-grained wind-transported deposits.",
+      "Its hyperarid and hypersaline environments support specialized microorganisms that can be investigated as terrestrial models for biosignature preservation.",
+      "The basin is particularly useful for comparisons with selected Martian sedimentary plains, ancient lake basins, sulfate-rich deposits, and yardang fields."
+    ],
+    "limitations": [
+      "Qaidam does not reproduce Martian gravity, atmospheric pressure, atmospheric composition, or radiation exposure.",
+      "Its modern saline lakes and brines are not direct equivalents of present-day Martian surface water conditions.",
+      "The basin's high temperatures during some summer periods differ substantially from much of Mars.",
+      "Its central desert plains are not established analogs for Martian subsurface ice or polar permafrost.",
+      "Although Qaidam's yardangs resemble Martian wind-eroded landforms, erosion rates and wind forces cannot be assumed equivalent because atmospheric densities differ.",
+      "The basin is most useful for selected sedimentary, evaporitic, aeolian, and astrobiological research rather than complete Martian environmental simulation."
+    ],
+    "conclusion": [
+      "Qaidam receives a provisional Martian similarity estimate of 80.3%, classified as High.",
+      "Its strongest categories are Atmosphere, Dust and Surface Dynamics (91.0%), Geology and Mineralogy (88.0%), and Biology and Habitability (85.0%).",
+      "The basin's greatest scientific value lies in its combination of extensive yardang fields, ancient lake deposits, evaporite mineralogy, and extreme aridity.",
+      "It is a strong process-level analog for selected Martian sedimentary and aeolian landscapes, particularly for research involving ancient aqueous environments and potential biosignature preservation."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "NASA POWER: https://power.larc.nasa.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/"
+        ]
+      },
+      {
+        "label": "Martian sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "Mars Orbital Data Explorer: https://ode.rsl.wustl.edu/mars",
+          "NASA Mars Science: https://science.nasa.gov/mars/",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Reference missions and publications",
+        "items": [
+          "Relevant missions and instruments: Mars Global Surveyor (MOLA), Mars Reconnaissance Orbiter (HiRISE, CTX, CRISM, SHARAD), Mars Odyssey (THEMIS), Mars Express (OMEGA), Curiosity, and Perseverance",
+          "Relevant research topics: Martian yardangs, chloride-bearing deposits, sulfate mineralogy, paleolake sediments, and organic preservation in evaporites",
+          "Qaidam yardang geology, evolution and meteorological observations: https://doi.org/10.1029/2018JE005719",
+          "Qaidam yardang evolution and regional wind patterns: https://doi.org/10.1038/s43247-026-03202-x",
+          "Clay minerals and yardang slope orientation: https://doi.org/10.1029/2025JE009642",
+          "Cavernous weathering structures in Qaidam yardangs: https://doi.org/10.1016/j.catena.2025.109504",
+          "Microbial preservation in ancient Qaidam halite: https://doi.org/10.1089/ast.2015.1397",
+          "Qinghai-Tibet permafrost mapping: https://doi.org/10.5194/essd-15-3905-2023",
+          "Hydrochemistry and potential biosignatures: https://pubmed.ncbi.nlm.nih.gov/38788948/"
+        ]
+      }
+    ],
+    "methodology": [
+      "This assessment compares the supplied Qaidam terrestrial research with the supplied Martian reference dataset.",
+      "The similarity percentages are provisional qualitative estimates for the hackathon demonstration. They are not official NASA scores or measured correlations.",
+      "Similarity percentages are preliminary AI-assisted assessments derived from compiled scientific descriptions. They are not independently validated quantitative measurements or certified indicators of mission suitability.",
+      "Classification scale: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A values are distinct from zero.",
+      "The overall score is an independent provisional estimate and must not be described as a calculated weighted average of category scores.",
+      "A validated quantitative assessment would require site-specific data, comparable spatial resolutions, normalized variables, traceable scientific publications, and a reproducible weighting algorithm."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 84,
+        "classification": "High",
+        "description": "Qaidam contains low-gradient sedimentary plains, salt flats, yardang ridges, dunes, and mountain-bounded basin terrain. These landforms offer process-level comparisons with selected Martian sedimentary and aeolian landscapes, but their formation histories vary.",
+        "utility": "Rover navigation, geological mapping, yardang recognition, obstacle detection, and interpretation of wind-eroded landforms.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 48,
+            "explanation": "The reported elevation range of approximately 2,600–3,200 m characterizes selected basin-floor environments. The Qaidam region also includes higher surrounding mountain terrain. Martian elevations are measured relative to the areoid; direct comparison of absolute elevation values is not meaningful without normalization to local terrain.",
+            "utility": "Terrain mapping and interpretation of relative elevation differences in selected terrestrial field sites."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 88,
+            "explanation": "The supplied research describes central playa slopes of approximately 0°–3°, with steeper surrounding mountain margins. Selected Martian sedimentary plains and basin floors also have low gradients.",
+            "utility": "Rover route planning and slope-based terrain classification."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 90,
+            "explanation": "Yardang ridges, salt crusts, and eroded sediment blocks produce strong local variations in roughness. Martian yardang fields and wind-eroded sedimentary outcrops show comparable landform-scale roughness.",
+            "utility": "Testing autonomous obstacle recognition and terrain mapping."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 79,
+            "explanation": "Qaidam is an intermontane basin bounded by major mountain ranges. Mars contains numerous basins and sedimentary depressions, although their origins may involve impacts, volcanism, tectonics, or erosion.",
+            "utility": "Evaluating basin morphology and sedimentary terrain reconstruction."
+          },
+          {
+            "id": "craters",
+            "name": "Impact Craters",
+            "score": 5,
+            "explanation": "The selected Qaidam sedimentary and yardang environments are not characterized by prominent confirmed meteorite-impact craters in the supplied site documentation. The absence of identified craters in those study areas should not be interpreted as proof that impact structures are absent from the entire basin.",
+            "utility": "Distinguishing wind-eroded landforms from impact-generated structures and confirming that Qaidam is unsuitable for direct crater-morphology comparison."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 93,
+            "explanation": "Yardang crests, desiccated sediment blocks, salt crusts, and dunes create terrain hazards similar in operational terms to obstacles encountered in some Martian sedimentary environments.",
+            "utility": "Testing rover mobility, autonomous path planning, and obstacle avoidance."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 61,
+        "classification": "Moderate",
+        "description": "Qaidam experiences a dry continental high-altitude climate with significant seasonal temperature variation. Reported thermal values depend on the meteorological station, observation period, and measurement type. Terrestrial atmospheric conditions remain fundamentally different from those on Mars and the Moon.",
+        "utility": "Environmental monitoring, thermal sensor testing, desert field operations, and analysis of temperature-related equipment limitations.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 48,
+            "explanation": "Published meteorological observations document substantial seasonal temperature variation at selected Qaidam stations. However, air temperature measurements must not be presented as standardized land-surface temperature observations. Mars has a much lower global mean surface temperature and pronounced regional variation.",
+            "utility": "Testing thermal monitoring instruments and distinguishing atmospheric measurements from surface thermal conditions."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 59,
+            "explanation": "A published analysis of meteorological observations from the Mangya-Dalangtan area for 1980–2011 reports seasonal temperatures below -25°C in January and above 30°C in July, with an annual mean near 3.5°C. These are site-associated meteorological observations and must not be presented as uniform conditions throughout the entire Qaidam Basin.",
+            "utility": "Studying seasonal thermal variation and planning environmental instrument tests in documented terrestrial conditions."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 81,
+            "explanation": "Qaidam's low humidity and continental climate produce strong daily and seasonal thermal variations. Mars also exhibits substantial surface-temperature variation, although its thin atmosphere and soil thermal inertia alter the magnitude and timing.",
+            "utility": "Testing thermal sensors and temperature-dependent instrument performance."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 78,
+            "explanation": "Qaidam experiences high annual insolation and frequent clear skies. Mars receives less solar radiation because of its greater distance from the Sun, and atmospheric dust modifies illumination.",
+            "utility": "Evaluating solar-powered field instruments and optical sensors under bright desert conditions."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 18,
+            "explanation": "Qaidam's high elevation reduces atmospheric pressure relative to sea level, but its atmosphere remains much denser than the Martian atmosphere. A published study cites an annual mean pressure of approximately 709 mbar for the Mangya-Dalangtan observational area, not for the entire basin.",
+            "utility": "Evaluating environmental pressure differences and identifying the need for specialized Martian low-pressure testing facilities."
+          },
+          {
+            "id": "atmospheric_dryness",
+            "name": "Atmospheric Dryness",
+            "score": 82,
+            "explanation": "The basin's extreme aridity limits moisture availability and favors salt accumulation and surface desiccation. Mars is also extremely dry at the surface, although its atmospheric humidity and water-vapor behavior differ.",
+            "utility": "Testing instruments in low-moisture environments and studying desiccation-related processes."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 88,
+        "classification": "High",
+        "description": "Qaidam contains lacustrine sediments, evaporites, sedimentary rocks, and clay minerals shaped by ancient water-related processes and later arid conditions. Mineral distribution can vary between geological layers and opposing yardang slopes.",
+        "utility": "Mineral spectroscopy, sedimentary geology, evaporite identification, clay mineral analysis, and interpretation of ancient Martian environments.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 79,
+            "explanation": "Qaidam contains sandstones, siltstones, lacustrine sediments, and evaporitic rocks. Mars also contains sedimentary rocks, including deposits interpreted as products of ancient rivers, lakes, and wind-driven sedimentation.",
+            "utility": "Testing sedimentary-rock recognition and geological classification."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 91,
+            "explanation": "Qaidam contains quartz, feldspars, clays, halite, gypsum, and other evaporites. Mars has documented clay minerals, sulfates, chlorides, and other aqueous alteration products, although mineral assemblages vary by location. Investigations of selected Qaidam yardangs have documented mineralogical differences between windward and leeward slopes.",
+            "utility": "Testing mineral spectroscopy and identifying aqueous alteration signatures."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 87,
+            "explanation": "Qaidam's saline sediments are enriched in sodium, chlorine, magnesium, and sulfate-bearing compounds. Comparable chemical classes occur in selected Martian evaporitic and sedimentary environments, but their concentrations and formation pathways are not necessarily identical.",
+            "utility": "Evaluating elemental analysis and salt-rich deposit classification."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 92,
+            "explanation": "Fine silts, clay-rich sediments, loose sands, and salt crusts resemble the diversity of granular and indurated materials encountered in selected Martian sedimentary regions.",
+            "utility": "Testing sampling instruments, sediment classification, and rover-soil interactions."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 90,
+            "explanation": "Wind erosion is the dominant process shaping many Qaidam yardangs, but water-related activity, salt weathering, material properties, and mass wasting may also contribute to their development and modification. Mars preserves evidence of evaporitic mineral formation, sedimentary alteration, and extensive aeolian modification.",
+            "utility": "Reconstructing yardang evolution and distinguishing interactions between aeolian, chemical, and sedimentary processes."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 93,
+            "explanation": "Ancient lakebeds, playas, yardangs, and alluvial fans have geological counterparts in selected Martian terrains. The strongest comparisons concern landform processes rather than exact geographic dimensions.",
+            "utility": "Mapping paleolakes, interpreting sedimentary environments, and detecting yardang fields."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 78,
+        "classification": "High",
+        "description": "Qaidam contains salt-rich groundwater and brine systems, residual saline waters, and evidence of ancient lakes. Seasonal ground freezing in the basin floor must be distinguished from mountain permafrost in surrounding higher-elevation environments. Its value is primarily in reconstructing past water-related processes rather than simulating modern Martian ice deposits.",
+        "utility": "Investigation of ancient aqueous environments, evaporite resources, frozen-ground conditions, and mineral-associated water signatures.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 35,
+            "explanation": "Qaidam contains dry lakebeds and extensive evaporite deposits, but also localized saline waters, brines, residual saline lakes, and intermittent watercourses associated with specific hydrological environments. Present conditions vary across the basin and must be distinguished from evidence of ancient lakes. Present-day Mars generally cannot sustain stable exposed liquid water because of its low atmospheric pressure and cold conditions.",
+            "utility": "Investigating evaporite formation, ancient lacustrine environments, water-related mineral signatures, and sedimentary geological processes while distinguishing present-day environments."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 12,
+            "explanation": "Persistent ice is not characteristic of the central basin floor. Mars contains polar water ice and seasonal frost.",
+            "utility": "Identifying the basin's limitations for polar ice studies."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": null,
+            "explanation": "Available regional permafrost mapping identifies predominantly seasonally frozen ground across the Qaidam Basin floor. This differs from persistent permafrost in higher mountain environments. The presence of substantial buried ice deposits requires site-specific evidence and cannot be inferred from seasonal ground freezing alone; the supplied research does not document subsurface ice in the selected central basin plains.",
+            "utility": "Distinguishing seasonal freezing from persistent ice-bearing ground and improving the interpretation of planetary subsurface observations."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 28,
+            "explanation": "Regional permafrost mapping indicates that the Qaidam Basin floor is dominated by seasonally frozen ground, while more persistent permafrost occurs in surrounding high-elevation mountain environments. Conditions must be evaluated according to the selected site; Mars has widespread permanently cold subsurface conditions and locally abundant buried ice.",
+            "utility": "Studying frozen-ground distribution, environmental controls, and the limitations of terrestrial permafrost analogs."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 83,
+            "explanation": "Hydrated minerals, hydrated clays, and subsurface brines contain hydrogen-bearing components, but such observations do not independently demonstrate deposits of molecular hydrogen or buried water ice. Mars also contains hydrated minerals and water-related deposits.",
+            "utility": "Identifying hydrated mineral signatures and distinguishing different forms of hydrogen-bearing materials."
+          },
+          {
+            "id": "evidence_past_water",
+            "name": "Evidence of Past Water",
+            "score": 96,
+            "explanation": "Qaidam's ancient lacustrine sediments, evaporites, and desiccated lakebeds preserve a record of former water bodies. Mars also contains geological evidence of ancient lakes, sedimentation, and aqueous alteration.",
+            "utility": "Reconstructing paleolakes, identifying former shorelines, and interpreting sedimentary histories."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 92,
+            "explanation": "Qaidam contains substantial potash, magnesium salt, lithium-bearing brines, and other evaporite resources. Martian sulfate- and chloride-bearing deposits are scientifically relevant, but their industrial extractability has not been established by this comparison.",
+            "utility": "Testing mineral-resource mapping and geochemical characterization."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 91,
+        "classification": "Very High",
+        "description": "Wind erosion is a dominant process in the formation of Qaidam yardangs. However, salt weathering, sediment properties, water-related processes, and mass wasting also contribute to their development. Wind conditions vary substantially throughout the basin.",
+        "utility": "Aeolian erosion studies, sediment transport analysis, dust monitoring, landform classification, and evaluation of terrestrial analogs for Martian surface processes.",
+        "variables": [
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 18,
+            "explanation": "Qaidam has a terrestrial atmosphere at high elevation, while Mars has a much thinner atmosphere.",
+            "utility": "Identifying the need for controlled low-pressure testing."
+          },
+          {
+            "id": "atmospheric_composition",
+            "name": "Atmospheric Composition",
+            "score": 8,
+            "explanation": "Earth's atmosphere is nitrogen- and oxygen-rich, whereas Mars has a carbon dioxide-dominated atmosphere.",
+            "utility": "Separating landform comparisons from atmospheric-composition equivalence."
+          },
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 83,
+            "explanation": "Analysis of meteorological data from 1979–2024 indicates spatially variable annual mean near-surface wind speeds at 10 m height across Qaidam. Approximate means are 3 m/s in the northwestern basin, 2–3 m/s in central sectors, and 2 m/s in the southeastern basin. Stronger gusts and storm events may occur but must not be confused with long-term annual means.",
+            "utility": "Studying regional wind patterns, sediment transport, and the influence of topography on aeolian landform development."
+          },
+          {
+            "id": "dust",
+            "name": "Dust",
+            "score": 94,
+            "explanation": "Qaidam contains fine silts and clays that can become airborne over dry lakebeds. Mars also has abundant fine mineral dust capable of atmospheric transport.",
+            "utility": "Evaluating dust sensors, optical interference, and dust-resistant instrument design."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": 91,
+            "explanation": "Qaidam experiences wind-driven dust transport and dust events associated with exposed dry sediments. Their intensity, seasonal frequency, and geographical distribution vary. Dust-storm conditions must not be represented by a single regional wind-speed value. Mars experiences dust storms ranging from local to planet-encircling scales.",
+            "utility": "Dust monitoring, sediment transport research, and evaluation of particle-sensitive exploration instruments."
+          },
+          {
+            "id": "aeolian_erosion_and_yardangs",
+            "name": "Aeolian Erosion and Yardangs",
+            "score": 98,
+            "explanation": "Many Qaidam yardangs have been sculpted primarily by wind erosion. Their morphology is also influenced by sedimentary layering, salt-related processes, and past water-related activity. Some Qaidam yardangs show geometric similarities to landforms in the Martian Medusae Fossae Formation and Gale Crater.",
+            "utility": "Comparing terrestrial and Martian yardang morphology and investigating landform evolution under different environmental conditions."
+          },
+          {
+            "id": "sediments",
+            "name": "Sediments",
+            "score": 95,
+            "explanation": "Qaidam contains wind-transported silts, sands, dunes, and ancient lacustrine clays. Mars also contains dunes, sedimentary layers, and wind-modified deposits.",
+            "utility": "Testing sediment classification, stratigraphic interpretation, and sampling procedures."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": 85,
+            "explanation": "Qaidam's atmosphere can carry mineral aerosols from exposed sediment surfaces. Martian atmospheric dust is also important for visibility, solar energy, and atmospheric heating, although particle concentrations and transport mechanisms differ.",
+            "utility": "Testing aerosol detection and monitoring of airborne mineral particles."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 75,
+        "classification": "High",
+        "description": "Qaidam contains sedimentary layering, evaporite deposits, fractures, and documented cavernous weathering features in selected yardangs. These weathering cavities should not be confused with volcanic lava tubes or extensive subsurface cave systems.",
+        "utility": "Sedimentary structure analysis, cavity recognition, fracture mapping, and interpretation of subsurface and near-surface geological formations.",
+        "variables": [
+          {
+            "id": "caves_and_cavities",
+            "name": "Caves and Cavities",
+            "score": 0,
+            "explanation": "Recent geological research has documented cavernous weathering structures within selected yardangs in northeastern Qaidam. These include weathering cavities and complex skeletal-like rock features formed through interactions between erosion, sedimentary structure, and salt-related processes. They are not equivalent to extensive underground cave systems or volcanic lava tubes. Mars contains candidate subsurface cavities and collapse features, especially in volcanic regions.",
+            "utility": "Investigating cavernous weathering, geological cavity recognition, rock erosion processes, and interpretation of similar surface structures on Mars."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 0,
+            "explanation": "The documented Qaidam yardang cavities are weathering features within sedimentary rocks, not volcanic lava tubes. Lava tubes are not established as a characteristic feature of the selected sedimentary and evaporitic study environments; Martian lava-tube candidates are associated with volcanic terrains.",
+            "utility": "Distinguishing sedimentary weathering cavities from volcanic underground structures when selecting planetary analog environments."
+          },
+          {
+            "id": "fractures_and_desiccation_cracks",
+            "name": "Fractures and Desiccation Cracks",
+            "score": 84,
+            "explanation": "Desiccation cracks, sedimentary fractures, and salt-related surface structures occur in selected Qaidam environments. Their morphology and origin must be distinguished from tectonic fault systems or large underground cavities. Mars preserves polygonal cracks and other sedimentary features interpreted as products of desiccation or related processes in selected environments.",
+            "utility": "Recognizing desiccation features, identifying paleohydrological indicators, and reconstructing sedimentary and environmental processes."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 92,
+            "explanation": "Qaidam contains alternating lacustrine sediments, evaporites, and alluvial deposits. Selected Martian basins also preserve layered sedimentary sequences that record changing environmental conditions.",
+            "utility": "Testing subsurface imaging and interpreting sedimentary stratigraphy."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 94,
+            "explanation": "The Qaidam Basin contains thick sedimentary successions that record a complex geological history. Basin-fill thickness must not be confused with the thickness of near-surface sediments, individual sedimentary layers, or materials accessible to shallow robotic sampling. Mars also contains thick sedimentary accumulations in selected basins, although their depositional histories and internal structures differ.",
+            "utility": "Interpreting sedimentary stratigraphy, evaluating layer-thickness estimation, and distinguishing regional geological thickness from local surface material properties."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": 85,
+        "classification": "High",
+        "description": "Research in Qaidam has documented preserved microbial material within ancient halite fluid inclusions. These findings provide opportunities to study biosignature preservation and the influence of salinity on habitability, without demonstrating present-day biological activity throughout the basin.",
+        "utility": "Biosignature preservation studies, investigation of ancient saline environments, astrobiological sampling, and mineral-associated biological detection.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": 88,
+            "explanation": "Studies of ancient Qaidam halite have identified preserved prokaryotes and single-celled algae within fluid inclusions. These findings demonstrate the preservation of biological material in selected ancient evaporite environments but do not establish widespread present-day microbial activity across the entire basin.",
+            "utility": "Investigating microbial preservation, ancient saline habitats, and biological detection methods in evaporitic materials."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": 85,
+            "explanation": "Research on Qaidam evaporites suggests that increasing salinity and declining water activity reduced microbial habitability during progressive aridification. Habitability therefore depends on local environmental chemistry and conditions rather than salinity alone. Qaidam's extreme aridity, ultraviolet exposure, and salt concentrations constrain biological activity.",
+            "utility": "Studying environmental limits on microbial survival and evaluating ancient aqueous environments relevant to astrobiology."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Potential Biosignatures",
+            "score": 92,
+            "explanation": "Ancient halite fluid inclusions in Qaidam preserve microbial material, demonstrating the potential of selected evaporite environments to retain biological evidence. Such preservation mechanisms can inform Martian biosignature searches, but they do not establish the existence of life on Mars.",
+            "utility": "Developing biosignature preservation models, sample-selection strategies, and mineral-associated biological detection techniques."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": 84,
+            "explanation": "Microbial preservation in Qaidam evaporites reflects the importance of brine chemistry, water availability, and mineral encapsulation. Specific physiological adaptations must be attributed to organisms that have been directly studied rather than assumed for all preserved microorganisms.",
+            "utility": "Studying the limits of microbial survival and distinguishing biological adaptation from passive preservation of biological material."
+          }
+        ]
+      }
+    ]
+  }
+}

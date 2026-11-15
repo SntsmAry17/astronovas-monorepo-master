@@ -1,0 +1,888 @@
+{
+  "id": "TER-07",
+  "slug": "danakil",
+  "name": "Danakil Depression / Dallol",
+  "country": "Ethiopia",
+  "regions": "Afar",
+  "lat": 14.24,
+  "lng": 40.30,
+  "elevation": "Down to -120 m",
+  "environmentType": "Active tectonic depression with hydrothermal and volcanic environments",
+  "features": [
+    "Active tectonic depression",
+    "Hydrothermal salt fields",
+    "Acidic brine pools",
+    "Evaporite plains",
+    "Basaltic volcanic terrain",
+    "Fault systems",
+    "Volcanic fissures"
+  ],
+  "description": "The Danakil Depression is an active tectonic region within the Afar Rift in northeastern Ethiopia. It contains low-elevation evaporite basins, salt-rich surfaces, tectonic fractures, hydrothermal environments, and volcanic landscapes. Dallol is a localized hydrothermal and evaporitic system characterized by saline fluids, mineral precipitation, and extremely unusual chemical conditions. Erta Ale is a separate volcanic complex within the broader Danakil region. Its basaltic volcanic features must not be attributed directly to the Dallol hydrothermal field. These distinct environments provide opportunities for studying selected planetary geological processes, mineral alteration, and the environmental limits of habitability.",
+  "relevance": "Hydrothermal mineralogy, evaporite formation, tectonic deformation, volcanic geology, extreme-environment chemistry, biosignature interpretation, and planetary habitability-limit research.",
+  "geoNote": "The representative coordinates identify the Dallol area. Geological observations from other parts of the Danakil Depression, including Erta Ale, must be associated with their respective locations.",
+  "moon": {
+    "id": "TER-07-MOON",
+    "planet": "moon",
+    "overallScore": 43.0,
+    "classification": "Low",
+    "summary": "Selected volcanic and fractured terrains within the broader Danakil region provide partial geological comparisons with lunar volcanic and tectonic features. Dallol's hydrothermal salt deposits are substantially different from typical lunar materials and surface conditions.",
+    "applications": [
+      "Basaltic rock identification and volcanic terrain mapping",
+      "Rover mobility testing across fractured and rocky surfaces",
+      "Geological sampling of basaltic volcanic materials",
+      "Fracture and fault recognition using remote-sensing data",
+      "Subsurface imaging and investigation of possible volcanic cavities",
+      "Evaluation of thermal instruments under high-temperature terrestrial conditions",
+      "Testing geological classification systems that distinguish volcanic materials from hydrothermal alteration products"
+    ],
+    "objective": "This assessment evaluates the Danakil Depression as a terrestrial analog for selected lunar volcanic landscapes, fractured geological terrains, and subsurface exploration environments. The investigation focuses on basaltic rocks, surface roughness, tectonic fractures, volcanic formations, and selected operational hazards. The assessment also identifies major differences in thermal conditions, atmospheric pressure, water availability, and geological alteration that prevent Danakil from functioning as a comprehensive lunar environmental analog.",
+    "characterization": [
+      "The Danakil Depression lies within the active Afar Rift system in northeastern Ethiopia. It includes low-elevation salt basins, evaporite deposits, fault-controlled depressions, and volcanic and hydrothermal terrain.",
+      "Dallol is characterized by hydrothermal mineral precipitation, acidic and hypersaline fluids, salt formations, and chemically altered surfaces.",
+      "The broader Danakil region also contains the Erta Ale volcanic system, where basaltic volcanism provides a distinct geological environment.",
+      "The supplied terrestrial research describes very high air and ground temperatures, intense solar exposure, abundant evaporite minerals, active tectonic fracturing, and hydrothermal fluids.",
+      "These conditions provide selected geological analog opportunities, particularly in volcanic terrain, but differ substantially from the lunar surface.",
+      "Geographic limitation: Dallol's hydrothermal structures and Erta Ale's basaltic volcanic features occur in different locations. They must be evaluated as separate subregions in any detailed spatial analysis."
+    ],
+    "limitations": [
+      "Danakil does not reproduce lunar vacuum, gravity, radiation exposure, or prolonged illumination cycles.",
+      "Its hydrothermal fluids, evaporite deposits, and acidic alteration processes differ greatly from typical lunar surface geology.",
+      "The Dallol hydrothermal area and Erta Ale volcanic system must not be treated as a single homogeneous sampling site.",
+      "Specific claims about lava tubes and subsurface cavities require geological verification.",
+      "The site is more appropriate for selected volcanic and structural studies than for lunar environmental or polar resource simulation."
+    ],
+    "conclusion": [
+      "Danakil receives a provisional lunar similarity estimate of 43.0%, classified as Low.",
+      "Its strongest categories are Subsurface and Natural Structures (70.0%) and Geology and Mineralogy (63.0%).",
+      "The region's principal lunar analog value comes from basaltic volcanism, fractured geological terrain, and selected subsurface structures.",
+      "Danakil should be considered a specialized volcanic and structural analog rather than a comprehensive lunar surface simulation."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "NASA POWER: https://power.larc.nasa.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/",
+          "USGS EarthExplorer: https://earthexplorer.usgs.gov/"
+        ]
+      },
+      {
+        "label": "Lunar sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "NASA Moon Science: https://science.nasa.gov/moon/",
+          "LROC Data Portal: https://wms.lroc.asu.edu/lroc",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Relevant datasets and instruments",
+        "items": [
+          "Relevant lunar datasets and instruments: LOLA elevation data, LROC imagery, Diviner thermal observations, Moon Mineralogy Mapper mineralogical products, and lunar volcanic terrain maps",
+          "Dallol geological and hydrothermal characterization: https://doi.org/10.1089/ast.2018.1926",
+          "Danakil geology and subsurface structure: https://doi.org/10.1029/2017TC004798",
+          "Dallol hydrothermal fluid geochemistry: https://doi.org/10.1021/acsearthspacechem.8b00141",
+          "Habitability limits in Dallol brines: https://doi.org/10.1038/s41559-019-1005-0",
+          "Formation and structure of the Dallol system: https://doi.org/10.3389/feart.2019.00351",
+          "The listed sources identify relevant repositories and research resources. They do not establish independent verification of every terrestrial measurement."
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment compares the supplied Danakil terrestrial research with general lunar geological and environmental characteristics.",
+      "The similarity percentages are provisional qualitative estimates intended for a hackathon prototype. They are not official NASA similarity measurements or outputs of a validated scoring algorithm.",
+      "The scale used is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A values are distinct from zero.",
+      "The overall similarity score is an independent provisional assessment, not a calculated weighted average of the displayed category scores.",
+      "Scientific validation would require site-specific measurements, normalized physical variables, traceable datasets, comparable spatial resolutions, and a reproducible scoring method.",
+      "The supplied terrestrial claims about extreme temperatures, gas concentrations, cave systems, and lava tubes require verification against location-specific scientific studies.",
+      "Similarity percentages are preliminary AI-assisted assessments based on compiled scientific descriptions. They are not independently validated quantitative measurements or certified indicators of mission suitability."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 57.0,
+        "classification": "Moderate",
+        "description": "The Danakil Depression contains low-elevation salt plains, hydrothermal mineral formations, tectonic fractures, and volcanic terrain in different subregions. Dallol's hydrothermal depressions and Erta Ale's volcanic craters differ from meteorite-impact structures.",
+        "utility": "Terrain classification, tectonic and volcanic mapping, obstacle recognition, and distinguishing hydrothermal or volcanic depressions from impact craters.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 35,
+            "explanation": "Parts of Danakil lie approximately 120 m below terrestrial sea level. Lunar elevation is measured relative to a lunar reference sphere, making direct comparison of absolute elevation values inappropriate. Local relief is more useful than absolute elevation for assessing exploration difficulty.",
+            "utility": "Testing digital elevation models, relative-height analysis, and terrain visualization."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 72,
+            "explanation": "Danakil combines relatively flat salt plains with steep volcanic slopes and fault escarpments. Lunar volcanic regions can also contain flat lava plains and localized steep terrain. However, the origins and mechanical properties of these surfaces differ.",
+            "utility": "Evaluating rover traction, slope-dependent route planning, and terrain accessibility."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 74,
+            "explanation": "Basaltic blocks, volcanic scoria, fissures, and irregular rock surfaces produce substantial local roughness. Lunar mare terrain can contain rocky ejecta, fractured surfaces, and volcanic formations, although salt chimneys are not representative lunar obstacles.",
+            "utility": "Testing robotic suspension, obstacle detection, and rough-terrain classification."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 64,
+            "explanation": "Danakil's relief reflects active continental rifting, volcanic construction, and sedimentary subsidence. The Moon contains volcanic edifices, tectonic scarps, and basins, but the dominant processes and tectonic setting are different.",
+            "utility": "Comparing volcanic and tectonic landforms using topographic datasets."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 32,
+            "explanation": "Dallol's hydrothermal depressions and Erta Ale's volcanic craters differ from the impact craters that dominate lunar landscapes. Some lunar volcanic features, including collapse depressions, may have superficially similar forms.",
+            "utility": "Training geological image-analysis systems to distinguish volcanic depressions from impact craters."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 65,
+            "explanation": "Basaltic blocks, fractures, unstable salt formations, and irregular terrain create obstacles for surface exploration. Lunar obstacles include impact blocks, regolith deposits, and fractured bedrock. Similar navigation challenges do not imply equivalent material behavior.",
+            "utility": "Testing autonomous navigation, obstacle recognition, and route planning."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 20.0,
+        "classification": "Very Low",
+        "description": "Danakil experiences extremely hot regional conditions, while Dallol contains localized hydrothermal fluids with much higher temperatures. Air temperature, land-surface temperature, and hydrothermal fluid temperature must be treated as separate measurements.",
+        "utility": "Thermal monitoring, sensor testing, investigation of geothermal conditions, and evaluation of terrestrial environmental limitations.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 32,
+            "explanation": "Dallol contains highly heated hydrothermal fluids, but their temperatures must not be used as representative regional air or land-surface temperatures. Published field observations document individual hydrothermal pools with temperatures approximately between 32°C and 85°C, depending on location and cooling conditions.",
+            "utility": "Testing environmental temperature sensors and distinguishing regional thermal conditions from localized geothermal measurements."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 28,
+            "explanation": "The supplied research describes exceptionally high daytime temperatures and warm nights. The Moon experiences much greater thermal extremes, including very low temperatures during darkness and in permanently shadowed polar regions.",
+            "utility": "Testing high-temperature performance while identifying the need for additional cold and vacuum qualification."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 12,
+            "explanation": "Danakil follows Earth's daily heating cycle and experiences atmospheric heat exchange. The Moon's approximately 29.5-Earth-day illumination cycle produces fundamentally different surface-temperature behavior.",
+            "utility": "Comparing thermal response under terrestrial conditions and defining simulation limitations."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 48,
+            "explanation": "Danakil receives intense solar radiation under frequently clear skies. The Moon receives sunlight without substantial atmospheric scattering, and its illumination geometry and duration differ.",
+            "utility": "Testing solar monitoring instruments and optical systems under intense terrestrial sunlight."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Conditions / Exosphere",
+            "score": 0,
+            "explanation": "Danakil has a dense terrestrial atmosphere containing nitrogen, oxygen, and locally elevated volcanic or hydrothermal gases. The Moon has an extremely tenuous exosphere and no comparable atmospheric pressure.",
+            "utility": "Establishing the need for thermal-vacuum chambers and lunar-specific environmental testing."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 63.0,
+        "classification": "Moderate",
+        "description": "Basaltic volcanic materials in the broader Afar Rift offer useful comparisons with lunar mare volcanism. However, Dallol's evaporites and acid-altered deposits differ substantially from typical lunar geology.",
+        "utility": "Basalt recognition, volcanic geology, mineral spectroscopy, and sample analysis.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 82,
+            "explanation": "Basaltic rocks associated with Erta Ale and the Afar Rift provide a useful lithological comparison with lunar mare basalts. Lunar basalts differ in chemical composition, formation environment, and exposure history.",
+            "utility": "Testing basalt identification and geological sampling instruments."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 62,
+            "explanation": "Basaltic silicate minerals can overlap with lunar volcanic mineral assemblages. However, Dallol's halite, potash salts, sulfur minerals, and hydrothermal alteration products are not typical lunar surface materials.",
+            "utility": "Testing mineral spectroscopy and separating primary volcanic minerals from secondary terrestrial deposits."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 60,
+            "explanation": "Danakil's basaltic rocks share broad silicate chemistry with lunar volcanic rocks, while its sulfur-, chlorine-, and potassium-rich evaporite deposits create substantial chemical differences.",
+            "utility": "Evaluating elemental analysis and distinguishing basaltic materials from hydrothermal salts."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 65,
+            "explanation": "Volcanic fragments, basaltic blocks, and scoria provide partial mechanical and geological analogs. Hydrothermal muds and salt crusts do not reproduce the properties of impact-generated lunar regolith.",
+            "utility": "Testing surface sampling, rock classification, and material-handling equipment."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 22,
+            "explanation": "Dallol is characterized by hydrothermal fluid circulation, evaporite dissolution, oxidation, and mineral precipitation. Basaltic volcanic landscapes elsewhere in the Danakil region undergo different geological processes. These environmental distinctions are important when interpreting planetary mineral alteration.",
+            "utility": "Reconstructing hydrothermal alteration and distinguishing aqueous mineral processes from volcanic rock formation."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 78,
+            "explanation": "Basaltic volcanic fields, fissures, and lava-related structures in the broader Afar region offer comparisons with lunar volcanic terrains. Dallol's salt domes and hydrothermal pools are not equivalent to lunar volcanic structures.",
+            "utility": "Mapping volcanic formations and interpreting geological structures."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 23.0,
+        "classification": "Very Low",
+        "description": "Danakil contains liquid hydrothermal fluids and extensive evaporites, whereas lunar water resources are associated primarily with polar cold traps and hydrogen-bearing materials.",
+        "utility": "Resource characterization and identification of unsuitable lunar volatile analogs.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 5,
+            "explanation": "Dallol contains hypersaline hydrothermal fluids, whereas stable exposed liquid water does not exist on the lunar surface.",
+            "utility": "Identifying terrestrial processes that cannot be directly transferred to lunar environmental models."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 0,
+            "explanation": "Persistent surface ice is absent from the selected hot lowland environment. Lunar polar regions contain extremely cold locations where water ice may remain stable.",
+            "utility": "Excluding Danakil from primary lunar surface-ice analog testing."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 0,
+            "explanation": "The selected hot hydrothermal setting is not representative of buried frozen-ground environments. Lunar polar subsurface ice occurs under very different thermal conditions.",
+            "utility": "Identifying the need for cold-region analog sites when evaluating lunar ice exploration."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 0,
+            "explanation": "Danakil's lowland thermal conditions do not support the continuous frozen-ground environment associated with terrestrial permafrost. Permanently cold lunar polar regolith is physically different from terrestrial permafrost.",
+            "utility": "Preventing inappropriate comparisons with lunar frozen-ground environments."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 28,
+            "explanation": "Hydrogen is present in Danakil's water-bearing hydrothermal fluids and hydrated minerals. Lunar hydrogen may occur in water ice, hydroxyl-bearing materials, and solar-wind-implanted particles.",
+            "utility": "Testing hydrogen-sensitive detection instruments while distinguishing different chemical reservoirs."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 52,
+            "explanation": "Danakil contains extensive potash and other evaporite deposits, while lunar resource studies emphasize oxygen-bearing silicates, metals, and polar volatiles.",
+            "utility": "Evaluating mineral identification and resource-mapping workflows."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 12.0,
+        "classification": "Very Low",
+        "description": "Volcanic ash and mineral particles provide limited material-handling comparisons, but Danakil's atmospheric transport processes differ fundamentally from lunar surface dynamics.",
+        "utility": "Particle characterization and dust-related instrument testing.",
+        "variables": [
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 0,
+            "explanation": "Danakil experiences terrestrial atmospheric winds. The Moon lacks a sufficiently dense atmosphere to support conventional aerodynamic winds.",
+            "utility": "Establishing the limits of terrestrial wind testing for lunar exploration."
+          },
+          {
+            "id": "abrasive_dust",
+            "name": "Abrasive Dust",
+            "score": 24,
+            "explanation": "Volcanic ash and fine evaporite particles can create abrasive conditions, but lunar dust differs in composition, grain formation, surface chemistry, and electrostatic behavior.",
+            "utility": "Preliminary particle-ingress and abrasion testing."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": null,
+            "explanation": "Atmospheric dust storms have no direct lunar counterpart because the Moon lacks a substantial atmosphere.",
+            "utility": "Preventing inappropriate atmospheric-process comparisons."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion",
+            "score": null,
+            "explanation": "Danakil's wind-driven erosion depends on terrestrial atmospheric conditions. Lunar erosion and surface modification are dominated by impacts and space weathering.",
+            "utility": "Distinguishing atmospheric erosion from lunar geological processes."
+          },
+          {
+            "id": "sediments_and_dunes",
+            "name": "Sediments and Granular Deposits",
+            "score": 30,
+            "explanation": "Danakil contains evaporite particles, volcanic ash, and wind-transported sediments. Lunar granular deposits are dominated by impact-generated regolith and volcanic materials.",
+            "utility": "Testing granular-material handling while accounting for differences in particle origin."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": null,
+            "explanation": "Hydrothermal and volcanic aerosols are suspended in Earth's atmosphere. The Moon has no comparable atmospheric aerosol environment.",
+            "utility": "Defining limitations of atmospheric instrument tests."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 70.0,
+        "classification": "Moderate",
+        "description": "Danakil's fault systems, basaltic structures, and possible volcanic cavities provide partial comparisons with lunar fractured and volcanic subsurface environments.",
+        "utility": "Fracture mapping, subsurface imaging, and volcanic-cavity investigation.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves",
+            "score": 56,
+            "explanation": "The supplied research describes dissolution cavities and possible collapse structures in salt-bearing terrain. These differ from lunar volcanic cavities and require site-specific verification.",
+            "utility": "Testing cavity-detection methods and subsurface mapping."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 78,
+            "explanation": "The supplied research associates lava tubes with volcanic terrain around Erta Ale. Basaltic lava-tube formation can provide a process-level comparison with lunar volcanic conduits, but the presence and geometry of specific accessible tubes have not been verified here.",
+            "utility": "Investigating volcanic subsurface structures and testing cavity-imaging instruments."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Cavities and Fractures",
+            "score": 82,
+            "explanation": "Active rifting produces faults, fissures, and fractured rock. Lunar volcanic and tectonic terrains also contain fractures, although their tectonic environments and stress histories differ.",
+            "utility": "Testing fracture recognition, geological hazard mapping, and robotic reconnaissance."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 72,
+            "explanation": "Danakil contains evaporite sequences, basaltic layers, and intrusive structures. Lunar subsurface geology can include lava flows, fractured crust, and regolith layers, but does not reproduce the same evaporite-rich stratigraphy.",
+            "utility": "Testing ground-penetrating radar and geological-layer interpretation."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 62,
+            "explanation": "Danakil contains substantial basin-fill deposits and volcanic sequences. Lunar subsurface deposits also vary in thickness, but their origins and mechanical properties differ.",
+            "utility": "Evaluating layer-thickness estimation and subsurface imaging."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": null,
+        "classification": "Not Applicable",
+        "description": "No indigenous lunar life has been confirmed, so direct biological similarity cannot be established.",
+        "utility": "Contamination control and biological instrument validation.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": null,
+            "explanation": "Terrestrial microorganisms associated with selected Danakil environments have no confirmed lunar biological equivalents.",
+            "utility": "Testing biological contamination detection."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": null,
+            "explanation": "The existence of terrestrial hydrothermal environments does not establish naturally habitable lunar environments.",
+            "utility": "Supporting planetary protection and controlled biological experiments."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Biosignatures",
+            "score": null,
+            "explanation": "Terrestrial biological traces cannot be directly compared with confirmed indigenous lunar biosignatures because none have been identified.",
+            "utility": "Distinguishing terrestrial biological contamination from geological signals."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": null,
+            "explanation": "Terrestrial extremophile adaptations have no confirmed lunar biological counterpart.",
+            "utility": "Studying terrestrial microbial survival without implying lunar habitability."
+          }
+        ]
+      }
+    ]
+  },
+  "mars": {
+    "id": "TER-07-MARS",
+    "planet": "mars",
+    "overallScore": 61.0,
+    "classification": "Moderate",
+    "summary": "Dallol's hydrothermal and evaporitic environments provide process-level analogs for selected Martian mineral alteration, salt precipitation, and ancient water-related geological investigations. The broader Danakil region also contains basaltic volcanic and tectonic structures relevant to planetary geology. Dallol is particularly valuable for studying physicochemical limits to habitability and distinguishing biological signals from abiotic mineral structures.",
+    "applications": [
+      "Hydrothermal alteration: investigating mineral formation and chemical changes caused by water-rock interactions",
+      "Martian volcanic geology: studying basaltic volcanic rocks and tectonic structures",
+      "Evaporite mineralogy: testing detection of sulfate-, chloride-, and potassium-bearing minerals",
+      "Astrobiological investigations: studying the limits of habitability under combined environmental stresses",
+      "Biosignature interpretation: distinguishing biological traces from abiotic mineral structures",
+      "Subsurface reconnaissance: investigating fractures, geological layers, and possible volcanic cavities",
+      "Robotic exploration: testing navigation and geological sampling in fractured volcanic terrain"
+    ],
+    "objective": "This assessment evaluates the Danakil Depression as a terrestrial analog for selected Martian volcanic, hydrothermal, evaporitic, and tectonic environments. The investigation emphasizes basaltic volcanism, mineral alteration, acidic and hypersaline fluids, geological fractures, and the environmental limits of microbial habitability. The analysis distinguishes process-level geological similarities from direct physical environmental equivalence.",
+    "characterization": [
+      "The Danakil Depression forms part of the Afar Rift, an active tectonic region in northeastern Ethiopia.",
+      "Its landscape includes low-lying evaporite basins, fault systems, volcanic terrain, salt structures, and hydrothermal deposits.",
+      "Dallol contains acidic and hypersaline hydrothermal fluids and mineral precipitates. The broader Danakil region includes basaltic volcanic environments associated with Erta Ale.",
+      "The supplied terrestrial research describes extreme surface temperatures, intense solar radiation, salt-rich mineral deposits, sulfur-bearing gases, and active hydrothermal alteration.",
+      "The region is scientifically relevant because Mars contains widespread basaltic geology, evidence of past water-related mineral alteration, sulfate-rich deposits, and volcanic structures.",
+      "Danakil's extreme environments also provide opportunities to investigate the physical and chemical limits of habitability.",
+      "However, its hot terrestrial climate, dense atmosphere, and active liquid-water systems differ substantially from present-day Martian surface conditions."
+    ],
+    "limitations": [
+      "Danakil does not reproduce Martian gravity, atmospheric pressure, carbon dioxide-dominated atmosphere, or radiation environment.",
+      "Its extremely high temperatures differ from typical present-day Martian surface conditions.",
+      "Dallol's active liquid hydrothermal fluids cannot be treated as equivalent to stable present-day Martian surface water.",
+      "The Dallol hydrothermal area and Erta Ale volcanic system are geographically distinct.",
+      "Some highly acidic and hypersaline Dallol pools may be uninhabitable. Biological observations from neighboring environments cannot automatically be applied to these pools.",
+      "Specific lava-tube and cavity claims require site-specific scientific verification.",
+      "The site is most valuable for selected volcanic, hydrothermal, mineralogical, and habitability-limit investigations rather than complete Martian environmental simulation."
+    ],
+    "conclusion": [
+      "Danakil receives a provisional Martian similarity estimate of 61.0%, classified as Moderate.",
+      "Its strongest categories are Geology and Mineralogy (84.0%), Biology and Habitability (79.0%), and Subsurface and Natural Structures (76.0%).",
+      "The region's principal scientific advantage is its combination of basaltic volcanism, extreme hydrothermal alteration, evaporite mineral formation, and unusual environmental chemistry.",
+      "It is particularly valuable for investigating ancient Martian water-rock interactions, mineralogical signatures, and the boundaries of microbial habitability.",
+      "Its usefulness is process-specific and does not imply complete physical similarity with Mars."
+    ],
+    "sources": [
+      {
+        "label": "Terrestrial sources",
+        "items": [
+          "NASA Earthdata Search: https://search.earthdata.nasa.gov/",
+          "NASA Worldview: https://worldview.earthdata.nasa.gov/",
+          "NASA POWER: https://power.larc.nasa.gov/",
+          "Copernicus Data Space: https://dataspace.copernicus.eu/",
+          "USGS EarthExplorer: https://earthexplorer.usgs.gov/"
+        ]
+      },
+      {
+        "label": "Martian sources",
+        "items": [
+          "NASA Planetary Data System: https://pds.nasa.gov/",
+          "PDS Geosciences Node: https://pds-geosciences.wustl.edu/",
+          "Mars Orbital Data Explorer: https://ode.rsl.wustl.edu/mars",
+          "NASA Mars Science: https://science.nasa.gov/mars/",
+          "USGS Astrogeology: https://www.usgs.gov/centers/astrogeology-science-center"
+        ]
+      },
+      {
+        "label": "Relevant missions and instruments",
+        "items": [
+          "Mars Reconnaissance Orbiter (HiRISE, CTX, CRISM, SHARAD), Mars Odyssey (THEMIS), Mars Express (OMEGA), Curiosity, and Perseverance",
+          "Relevant research topics: Martian sulfate deposits, hydrothermal alteration, basaltic volcanism, subsurface structures, and astrobiological habitability",
+          "Dallol geological and hydrothermal characterization: https://doi.org/10.1089/ast.2018.1926",
+          "Danakil geology and subsurface structure: https://doi.org/10.1029/2017TC004798",
+          "Dallol hydrothermal fluid geochemistry: https://doi.org/10.1021/acsearthspacechem.8b00141",
+          "Habitability limits in Dallol brines: https://doi.org/10.1038/s41559-019-1005-0",
+          "Microbiology of the Dallol hydrothermal system and scientific debate: https://pmc.ncbi.nlm.nih.gov/articles/PMC10382021/",
+          "Formation and structure of the Dallol system: https://doi.org/10.3389/feart.2019.00351",
+          "The references identify relevant scientific resources but do not establish independent verification of all site-specific terrestrial claims."
+        ]
+      }
+    ],
+    "methodology": [
+      "The assessment compares the supplied Danakil terrestrial research with general Martian geological and environmental characteristics.",
+      "All percentages are provisional qualitative estimates for a hackathon prototype. They are not official NASA similarity scores or outputs of a validated numerical model.",
+      "The scale used is: Very High 90–100%; High 75–less than 90%; Moderate 50–less than 75%; Low 25–less than 50%; Very Low 0–less than 25%; Not Applicable N/A. N/A values are distinct from zero.",
+      "The overall similarity score is an independent provisional assessment rather than a calculated weighted average.",
+      "Scientific validation would require site-specific measurements, comparable spatial resolutions, normalized physical variables, traceable datasets, and a reproducible scoring methodology.",
+      "Special attention should be given to distinguishing Dallol hydrothermal measurements from observations made elsewhere in the Danakil Depression.",
+      "Similarity percentages are preliminary AI-assisted assessments based on compiled scientific descriptions. They are not independently validated quantitative measurements or certified indicators of mission suitability."
+    ],
+    "categories": [
+      {
+        "id": "topography",
+        "name": "Topography and Geomorphology",
+        "score": 68.0,
+        "classification": "Moderate",
+        "description": "The Danakil Depression contains low-elevation salt plains, hydrothermal mineral formations, tectonic fractures, and volcanic terrain in different subregions. Dallol's hydrothermal depressions and Erta Ale's volcanic craters differ from meteorite-impact structures.",
+        "utility": "Terrain classification, tectonic and volcanic mapping, obstacle recognition, and distinguishing hydrothermal or volcanic depressions from impact craters.",
+        "variables": [
+          {
+            "id": "elevation",
+            "name": "Elevation",
+            "score": 42,
+            "explanation": "Parts of the Danakil Depression lie approximately 120 m below sea level, but elevation varies throughout the region. Dallol's hydrothermal dome rises above the surrounding salt plain. The regional minimum elevation must not be interpreted as the elevation of every geological feature.",
+            "utility": "Topographic mapping, analysis of local relief, and interpretation of tectonic depression morphology."
+          },
+          {
+            "id": "slope",
+            "name": "Slope",
+            "score": 76,
+            "explanation": "The region combines relatively flat evaporite plains with steep volcanic slopes and fault escarpments. Mars contains volcanic plains, escarpments, and locally steep terrain with comparable slope patterns.",
+            "utility": "Testing slope-dependent rover navigation and route accessibility."
+          },
+          {
+            "id": "surface_roughness",
+            "name": "Surface Roughness",
+            "score": 75,
+            "explanation": "Basaltic blocks, scoria, fractures, and mineral formations produce variable terrain roughness. Martian volcanic landscapes also contain rough lava surfaces, fractured rocks, and irregular obstacles.",
+            "utility": "Evaluating autonomous obstacle detection and rough-terrain classification."
+          },
+          {
+            "id": "relief",
+            "name": "Relief",
+            "score": 80,
+            "explanation": "Danakil is an active tectonic depression with volcanic edifices and fault-related relief. Mars contains large volcanic provinces, extensional structures, and topographic depressions, although their tectonic histories differ.",
+            "utility": "Interpreting volcanic and tectonic landforms using orbital topographic data."
+          },
+          {
+            "id": "craters",
+            "name": "Craters",
+            "score": 48,
+            "explanation": "Dallol's hydrothermal explosion depressions and Erta Ale's volcanic craters share some morphological characteristics with Martian volcanic depressions. However, they are not equivalent to impact craters.",
+            "utility": "Distinguishing volcanic collapse features from impact structures in planetary imagery."
+          },
+          {
+            "id": "surface_obstacles",
+            "name": "Surface Obstacles",
+            "score": 77,
+            "explanation": "Basaltic blocks, fissures, unstable salt crusts, and rough volcanic terrain create navigation hazards. Martian volcanic surfaces may contain similar classes of rocky obstacles and fractures.",
+            "utility": "Rover path planning, hazard mapping, and terrain segmentation."
+          }
+        ]
+      },
+      {
+        "id": "thermal",
+        "name": "Thermal and Environmental Conditions",
+        "score": 26.0,
+        "classification": "Low",
+        "description": "Danakil experiences extremely hot regional conditions, while Dallol contains localized hydrothermal fluids with much higher temperatures. Air temperature, land-surface temperature, and hydrothermal fluid temperature must be treated as separate measurements.",
+        "utility": "Thermal monitoring, sensor testing, investigation of geothermal conditions, and evaluation of terrestrial environmental limitations.",
+        "variables": [
+          {
+            "id": "surface_temperature",
+            "name": "Surface Temperature",
+            "score": 12,
+            "explanation": "Danakil is among Earth's hottest terrestrial environments, and some hydrothermal surfaces become exceptionally hot. Mars is generally much colder, although localized daytime heating and past geothermal activity are relevant to certain investigations.",
+            "utility": "Testing thermal sensors and studying temperature-dependent instrument performance."
+          },
+          {
+            "id": "max_min_temperatures",
+            "name": "Maximum and Minimum Temperatures",
+            "score": 10,
+            "explanation": "The supplied research reports very high daytime temperatures and warm nighttime conditions. Mars experiences much lower average temperatures and can undergo extreme nighttime cooling.",
+            "utility": "Identifying environmental differences and defining thermal-chamber requirements."
+          },
+          {
+            "id": "thermal_variation",
+            "name": "Thermal Variation",
+            "score": 28,
+            "explanation": "Danakil's daily temperature variation is affected by terrestrial atmospheric heat exchange and local geothermal conditions. Martian temperature cycles are strongly influenced by low atmospheric pressure, dust, and surface thermal inertia.",
+            "utility": "Testing temperature-monitoring equipment while accounting for nonrepresentative thermal dynamics."
+          },
+          {
+            "id": "seasonality",
+            "name": "Seasonality",
+            "score": 25,
+            "explanation": "Danakil experiences terrestrial seasonal changes, but these do not reproduce the Martian seasonal cycle associated with its orbital period, axial tilt, and seasonal atmospheric behavior.",
+            "utility": "Evaluating environmental monitoring methods across different terrestrial conditions."
+          },
+          {
+            "id": "solar_illumination",
+            "name": "Solar Illumination",
+            "score": 35,
+            "explanation": "Danakil receives intense sunlight, while Mars receives less solar energy because of its greater distance from the Sun. Martian dust further modifies the solar radiation reaching the surface.",
+            "utility": "Testing solar exposure sensors and identifying differences in planetary illumination."
+          },
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 8,
+            "explanation": "Danakil's below-sea-level elevation corresponds to relatively high terrestrial atmospheric pressure, whereas typical Martian surface pressure is approximately 600 Pa.",
+            "utility": "Establishing the need for low-pressure simulation during Mars equipment qualification."
+          }
+        ]
+      },
+      {
+        "id": "geology",
+        "name": "Geology and Mineralogy",
+        "score": 84.0,
+        "classification": "High",
+        "description": "Dallol contains evaporite minerals and hydrothermal alteration products, while other Danakil environments contain basaltic volcanic rocks. These materials provide distinct geological comparisons with selected Martian and lunar settings.",
+        "utility": "Mineral spectroscopy, salt characterization, basalt identification, and analysis of hydrothermal geological processes.",
+        "variables": [
+          {
+            "id": "rock_type",
+            "name": "Rock Type",
+            "score": 88,
+            "explanation": "Basaltic volcanic rocks associated with the Afar Rift are relevant to Mars, where basaltic materials are widespread. However, Dallol's evaporite-rich hydrothermal deposits represent a distinct geological setting.",
+            "utility": "Testing basalt identification and geological classification instruments."
+          },
+          {
+            "id": "mineralogical_composition",
+            "name": "Mineralogical Composition",
+            "score": 85,
+            "explanation": "Danakil contains sulfur-bearing minerals, evaporites, iron oxides, and basalt-associated silicates. Mars contains basaltic minerals, sulfates, iron oxides, and evidence of aqueous mineral alteration in selected regions.",
+            "utility": "Testing mineral spectroscopy and recognizing alteration products."
+          },
+          {
+            "id": "chemical_composition",
+            "name": "Chemical Composition",
+            "score": 83,
+            "explanation": "Danakil's hydrothermal and evaporitic deposits can contain sulfur, chlorine, potassium, iron, and other elements associated with mineral precipitation. Comparable chemical classes occur in selected Martian geological environments, although exact abundances differ.",
+            "utility": "Evaluating elemental analysis and chemical characterization of altered rocks."
+          },
+          {
+            "id": "surface_material",
+            "name": "Surface Material",
+            "score": 81,
+            "explanation": "Danakil contains salt crusts, altered hydrothermal sediments, volcanic ash, and basaltic fragments. Mars contains volcanic rocks, fine-grained deposits, sulfate-rich materials, and chemically altered sedimentary surfaces.",
+            "utility": "Testing geological sampling and surface-material recognition."
+          },
+          {
+            "id": "geological_alteration",
+            "name": "Geological Alteration",
+            "score": 91,
+            "explanation": "Dallol experiences intense hydrothermal and acid-driven mineral alteration. Mars preserves evidence of ancient hydrothermal and aqueous alteration processes, although the activity, duration, and environmental conditions differ.",
+            "utility": "Reconstructing ancient water-rock interactions and interpreting alteration minerals."
+          },
+          {
+            "id": "geological_formations",
+            "name": "Geological Formations",
+            "score": 76,
+            "explanation": "Danakil's volcanic fissures, basaltic formations, salt deposits, and hydrothermal structures provide process-level comparisons with selected Martian volcanic and mineralized terrains. Active terrestrial rifting is not equivalent to Martian tectonic history.",
+            "utility": "Mapping volcanic and hydrothermal formations using remote sensing."
+          }
+        ]
+      },
+      {
+        "id": "water",
+        "name": "Water, Ice and Resources",
+        "score": 56.0,
+        "classification": "Moderate",
+        "description": "Danakil's acidic hypersaline fluids and evaporite deposits provide useful analogs for possible ancient Martian brine-related and hydrothermal processes. The region does not reproduce Martian polar ice or widespread frozen-ground environments.",
+        "utility": "Brine chemistry, evaporite mineralogy, and reconstruction of water-related geological processes.",
+        "variables": [
+          {
+            "id": "surface_water",
+            "name": "Surface Water",
+            "score": 62,
+            "explanation": "Dallol contains liquid hydrothermal fluids and hypersaline brines. Present-day Mars generally cannot maintain stable exposed liquid water, but ancient Martian environments may have supported water-rock interactions and saline fluids.",
+            "utility": "Investigating brine chemistry and mineral precipitation relevant to ancient Martian environments."
+          },
+          {
+            "id": "surface_ice",
+            "name": "Surface Ice",
+            "score": 0,
+            "explanation": "Persistent surface ice is absent from the selected hot Danakil lowlands. Mars contains polar ice and seasonal frost.",
+            "utility": "Excluding Danakil from primary Martian surface-ice analog studies."
+          },
+          {
+            "id": "subsurface_ice",
+            "name": "Subsurface Ice",
+            "score": 0,
+            "explanation": "The hot hydrothermal environment is not representative of frozen Martian subsurface deposits. Mars contains buried ice in selected midlatitude and polar regions.",
+            "utility": "Identifying when cold-region analog sites are required."
+          },
+          {
+            "id": "permafrost",
+            "name": "Permafrost",
+            "score": 0,
+            "explanation": "Danakil's lowland environment lacks permafrost. Mars contains extensive permanently cold subsurface terrain and locally ice-rich ground.",
+            "utility": "Preventing inappropriate comparison with Martian cryogeology."
+          },
+          {
+            "id": "hydrogen_bearing_materials",
+            "name": "Hydrogen-Bearing Materials",
+            "score": 65,
+            "explanation": "Water-bearing hydrothermal fluids and hydrated minerals contain hydrogen. Mars also contains hydrogen-bearing minerals and ice-related deposits, but the forms and stability conditions differ.",
+            "utility": "Testing hydrated-mineral detection and hydrogen-sensitive instruments."
+          },
+          {
+            "id": "evidence_of_past_water",
+            "name": "Evidence of Past Water",
+            "score": 88,
+            "explanation": "Danakil's evaporites and hydrothermal alteration products record interactions between fluids and geological materials. Mars contains sulfate-rich deposits and altered rocks that provide evidence of past aqueous processes.",
+            "utility": "Reconstructing water-related geological histories and identifying possible ancient hydrothermal environments."
+          },
+          {
+            "id": "mineral_resources",
+            "name": "Mineral Resources",
+            "score": 78,
+            "explanation": "Danakil contains extensive evaporite and potash deposits. Mars contains scientifically important mineral deposits, including sulfates and other alteration products, but resource extraction feasibility cannot be inferred from the terrestrial comparison.",
+            "utility": "Testing mineral-resource identification and geological prospecting techniques."
+          }
+        ]
+      },
+      {
+        "id": "atmosphere",
+        "name": "Atmosphere, Dust and Surface Dynamics",
+        "score": 37.0,
+        "classification": "Low",
+        "description": "Danakil's mineral particles, volcanic aerosols, and localized sediment transport provide partial comparisons with selected Martian dust and surface processes. Atmospheric pressure and composition differ fundamentally.",
+        "utility": "Dust monitoring, aerosol characterization, and sediment analysis.",
+        "variables": [
+          {
+            "id": "atmospheric_pressure",
+            "name": "Atmospheric Pressure",
+            "score": 8,
+            "explanation": "Danakil has a dense terrestrial atmosphere, while Mars has very low surface atmospheric pressure.",
+            "utility": "Identifying limitations of open-air atmospheric testing."
+          },
+          {
+            "id": "atmospheric_composition",
+            "name": "Atmospheric Composition",
+            "score": 12,
+            "explanation": "Earth's atmosphere is dominated by nitrogen and oxygen, while Mars has a carbon dioxide-dominated atmosphere. Local sulfur-bearing gases in Danakil do not make the overall atmospheric composition Martian.",
+            "utility": "Separating local gas-detection experiments from full atmospheric simulation."
+          },
+          {
+            "id": "wind",
+            "name": "Wind",
+            "score": 45,
+            "explanation": "Danakil experiences local atmospheric circulation and wind-driven particle movement. Mars also has winds, but its low atmospheric density changes the forces required to transport particles.",
+            "utility": "Testing wind monitoring and preliminary sediment-transport observations."
+          },
+          {
+            "id": "dust",
+            "name": "Dust",
+            "score": 55,
+            "explanation": "Fine mineral salts, volcanic ash, and other particles may be mobilized in Danakil. Mars contains widespread fine mineral dust with different composition and physical properties.",
+            "utility": "Testing particle sensors, dust-resistant equipment, and optical instruments."
+          },
+          {
+            "id": "dust_storms",
+            "name": "Dust Storms",
+            "score": 42,
+            "explanation": "Local airborne dust events can occur in arid terrestrial environments, but their intensity and scale differ from Martian dust storms, which may become regional or planet-encircling.",
+            "utility": "Testing dust monitoring and visibility instrumentation."
+          },
+          {
+            "id": "aeolian_erosion",
+            "name": "Aeolian Erosion and Sediments",
+            "score": 52,
+            "explanation": "Danakil contains wind-affected sedimentary surfaces and evaporite deposits. Mars also exhibits aeolian erosion and sediment transport, although the environmental conditions and material properties differ.",
+            "utility": "Investigating sediment redistribution and surface modification."
+          },
+          {
+            "id": "aerosols",
+            "name": "Aerosols",
+            "score": 35,
+            "explanation": "Danakil can contain sulfur-bearing gases and volcanic or mineral aerosols. Martian aerosols are dominated by suspended dust and other atmospheric particles under very different pressure and chemical conditions.",
+            "utility": "Testing aerosol detection and identifying limitations of terrestrial atmospheric analogs."
+          }
+        ]
+      },
+      {
+        "id": "subsurface",
+        "name": "Subsurface and Natural Structures",
+        "score": 76.0,
+        "classification": "High",
+        "description": "Danakil's tectonic fractures, volcanic structures, and layered geological deposits provide useful comparisons with selected Martian subsurface environments.",
+        "utility": "Subsurface radar, fracture mapping, and volcanic geological reconnaissance.",
+        "variables": [
+          {
+            "id": "caves",
+            "name": "Caves and Cavities",
+            "score": 64,
+            "explanation": "The supplied research describes salt-related cavities and possible volcanic voids in the broader region. Martian subsurface cavities may form through volcanic or collapse processes, but specific Danakil cavity systems require verification.",
+            "utility": "Testing cavity detection and subsurface geological interpretation."
+          },
+          {
+            "id": "lava_tubes",
+            "name": "Lava Tubes",
+            "score": 82,
+            "explanation": "The supplied research associates lava tubes with basaltic volcanic terrain around Erta Ale. Mars contains candidate lava-tube systems associated with volcanic provinces. The presence, location, and geometry of specific Danakil tubes must be confirmed before detailed comparison.",
+            "utility": "Investigating volcanic cavities and testing subsurface exploration instruments."
+          },
+          {
+            "id": "tectonic_fractures",
+            "name": "Fractures and Faults",
+            "score": 88,
+            "explanation": "Active tectonic extension produces extensive faults and fissures in Danakil. Mars contains extensional faults, fractures, and graben structures associated with volcanic and tectonic processes.",
+            "utility": "Mapping fractures, identifying geological hazards, and reconstructing tectonic deformation."
+          },
+          {
+            "id": "subsurface_structure",
+            "name": "Subsurface Structure",
+            "score": 80,
+            "explanation": "Danakil contains evaporite sequences, basaltic flows, intrusive rocks, and tectonically modified strata. Martian subsurface structures can include volcanic layers, fractured crust, and sedimentary deposits.",
+            "utility": "Testing subsurface imaging and geological-layer interpretation."
+          },
+          {
+            "id": "material_thickness",
+            "name": "Material Thickness",
+            "score": 66,
+            "explanation": "Danakil contains substantial basin-fill deposits and volcanic sequences. Martian geological deposits also vary in thickness, but their origins and mechanical properties differ.",
+            "utility": "Evaluating radar-based layer-thickness estimation and geological stratigraphy."
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "name": "Biology and Habitability",
+        "score": 79.0,
+        "classification": "High",
+        "description": "Dallol contains environments that approach or exceed known limits of microbial habitability. Studies report that some extreme brines lack detectable microbial life, while other less extreme environments in the surrounding region support microorganisms. Mineral structures can also resemble biological forms.",
+        "utility": "Research into limits of habitability, biosignature detection, distinguishing abiotic structures from biological evidence, and astrobiological instrument testing.",
+        "variables": [
+          {
+            "id": "extremophile_organisms",
+            "name": "Extremophile Organisms",
+            "score": 82,
+            "explanation": "Microorganisms occur in some environments surrounding the Dallol hydrothermal field. However, investigations of the most extreme hyperacidic and hypersaline pools have reported an absence of detectable indigenous microbial life. Earlier reports of microorganisms in extreme Dallol waters have been disputed, including concerns about contamination and abiotic structures.",
+            "utility": "Investigating the boundaries of microbial survival and testing methods that distinguish genuine biological evidence from contamination or mineral structures."
+          },
+          {
+            "id": "habitability_conditions",
+            "name": "Habitability Conditions",
+            "score": 90,
+            "explanation": "Dallol combines extreme acidity, high salinity, elevated temperatures, and unusual chemical conditions. These stresses provide a valuable experimental setting for determining when environments become incompatible with known life.",
+            "utility": "Establishing habitability thresholds and evaluating possible ancient Martian environments."
+          },
+          {
+            "id": "biosignatures",
+            "name": "Potential Biosignatures",
+            "score": 78,
+            "explanation": "Biological traces may occur in inhabited neighboring environments, while abiotic mineral structures in Dallol can resemble biological features. This distinction is especially important when interpreting possible Martian biosignatures.",
+            "utility": "Testing biosignature-detection methods and distinguishing biological signals from abiotic mineral formations."
+          },
+          {
+            "id": "biological_adaptations",
+            "name": "Biological Adaptations",
+            "score": 66,
+            "explanation": "Some microorganisms in the broader region possess adaptations to heat, salinity, or acidity. However, simultaneous exposure to extreme conditions may exceed the tolerance of known life, and not all environments contain living organisms.",
+            "utility": "Studying extremophile physiology, microbial survival limits, and contamination control."
+          }
+        ]
+      }
+    ]
+  }
+}
