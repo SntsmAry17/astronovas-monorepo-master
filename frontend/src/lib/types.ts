@@ -88,3 +88,37 @@ export interface TerSite {
   moon: Assessment;
   mars: Assessment;
 }
+
+/** Minimum a globe needs to draw and select a site. */
+export interface GlobeSite {
+  id: string;
+  slug: string;
+  name: string;
+  country: string;
+  lat: number;
+  lng: number;
+}
+
+export interface AssessmentSummary {
+  id: string;
+  overallScore: number;
+  categoryScores: Partial<Record<CategoryId, number | null>>;
+}
+
+/** Lightweight site sent to client components (no reports, no variable text). */
+export interface SiteSummary extends GlobeSite {
+  moon: AssessmentSummary;
+  mars: AssessmentSummary;
+}
+
+/** Variable scores only — everything the mission-fit ranking needs. */
+export interface MissionAssessment {
+  id: string;
+  limitations: string[];
+  categories: { id: CategoryId; variables: { id: string; name: string; score: number | null }[] }[];
+}
+
+export interface MissionSite extends GlobeSite {
+  moon: MissionAssessment;
+  mars: MissionAssessment;
+}

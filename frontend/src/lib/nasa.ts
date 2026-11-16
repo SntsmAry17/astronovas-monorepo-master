@@ -13,6 +13,8 @@ export interface PowerClimatology {
   uvIndex: number;
   /** Corrected precipitation, annualized from mm/day (mm/year). */
   precipitationMm: number;
+  /** Mean elevation of the NASA POWER grid cell (m), which can differ from the site's. */
+  cellElevationM: number | null;
   period: string;
 }
 
@@ -41,7 +43,9 @@ export async function fetchClimatology(lat: number, lng: number): Promise<PowerC
 
     const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
     if (!res.ok) throw new Error(`NASA POWER ${res.status}`);
-    const { parameter } = (await res.json()).properties;
+    const json = await res.json();
+    const { parameter } = json.properties;
+    const cellElev = json.geometry?.coordinates?.[2];
 
     const ann = (key: string): number => {
       const v = parameter[key]?.ANN;
@@ -54,6 +58,7 @@ export async function fetchClimatology(lat: number, lng: number): Promise<PowerC
       ws10m: Math.round(ann("WS10M") * 10) / 10,
       uvIndex: ann("ALLSKY_SFC_UV_INDEX"),
       precipitationMm: Math.round(ann("PRECTOTCORR") * 365 * 10) / 10,
+      cellElevationM: typeof cellElev === "number" ? Math.round(cellElev) : null,
       period: "2001–2025 climatology",
     };
     cacheLife("days");

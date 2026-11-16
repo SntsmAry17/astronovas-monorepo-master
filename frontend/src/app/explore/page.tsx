@@ -1,7 +1,14 @@
 import { Suspense } from "react";
 import ExploreApp from "@/components/ExploreApp";
-import { SITES } from "@/lib/sites";
+import { ExploreSkeleton } from "@/components/ui";
+import { SITE_SUMMARIES, getSite } from "@/lib/sites";
 import type { Planet } from "@/lib/types";
+
+export const metadata = {
+  title: "Explore Sites — AstroNovas TerraAnalog",
+  description:
+    "Explore eight terrestrial analog sites on an interactive globe and compare them with the Moon or Mars.",
+};
 
 interface SP {
   site?: string;
@@ -10,9 +17,7 @@ interface SP {
 
 export default function ExplorePage({ searchParams }: { searchParams: Promise<SP> }) {
   return (
-    <Suspense
-      fallback={<div className="grid h-screen place-items-center text-white/40">Loading…</div>}
-    >
+    <Suspense fallback={<ExploreSkeleton />}>
       <Loader searchParams={searchParams} />
     </Suspense>
   );
@@ -21,14 +26,15 @@ export default function ExplorePage({ searchParams }: { searchParams: Promise<SP
 async function Loader({ searchParams }: { searchParams: Promise<SP> }) {
   const sp = await searchParams;
   const planet: Planet = sp.planet === "mars" ? "mars" : "moon";
-  // Key forces a remount when the URL targets a different site/planet, so
-  // state always matches the link the user clicked (e.g. a globe marker).
+  const initial = sp.site ? getSite(sp.site) : undefined;
+  // The client keeps the URL in sync with its own state (history.replaceState), so no
+  // remount is needed; the selected site's full detail is resolved here, on the server.
   return (
     <ExploreApp
-      key={`${sp.site ?? "none"}-${planet}`}
-      sites={SITES}
-      initialSite={sp.site ?? null}
+      sites={SITE_SUMMARIES}
+      initialSite={initial?.slug ?? null}
       initialPlanet={planet}
+      initialDetail={initial ?? null}
     />
   );
 }
