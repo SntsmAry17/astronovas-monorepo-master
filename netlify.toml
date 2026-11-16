@@ -1,0 +1,7 @@
+# The Next.js app lives in the `frontend` workspace, so Netlify must build and publish from there.
+# Without `base`, the Next.js runtime looks for /.next at the repo root and the deploy fails with
+# "Your publish directory was not found".
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = ".next"
